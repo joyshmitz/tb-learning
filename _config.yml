@@ -1,1 +1,29 @@
+title: ThingsBoard Learning
+description: Навчальні матеріали по ThingsBoard
 theme: jekyll-theme-minimal
+baseurl: "/tb-learning"
+url: "https://joyshmitz.github.io"
+
+# Налаштування навігації
+show_downloads: false
+google_analytics:
+markdown: kramdown
+
+# Налаштування для правильної роботи з GitHub Pages
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Виключення файлів з обробки
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .github/
+  - README.md
+  - CONTRIBUTING.md
