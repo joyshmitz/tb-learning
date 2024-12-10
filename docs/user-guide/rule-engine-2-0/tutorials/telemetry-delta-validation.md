@@ -17,9 +17,9 @@ Please note that this is just a simple theoretical use case to demonstrate the c
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-  * [Create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+  * [Create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
 
 ## Adding the device
 
@@ -50,7 +50,7 @@ The following screenshots show how the above Rule Chains should look like:
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/temperature_delta_validation.json) for the **Temperature delta validation** rule chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/temperature_delta_validation.json) for the **Temperature delta validation** rule chain.
 
 Create Node G as shown on the image above in the root rule chain to forward telemetry to the imported rule chain.
 <br>
@@ -200,7 +200,7 @@ The following screenshot shows how the final **Root Rule Chain** should look lik
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/delta-validation/root-rule-chain.png)
 
-- Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/root_rule_chain_delta_calculation.json) for the rule chain indicated above and import it.
+- Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/root_rule_chain_delta_calculation.json) for the rule chain indicated above and import it.
 - Don't forget to mark the new rule chain as **root**.  
 
 <br>
@@ -208,7 +208,7 @@ The following screenshot shows how the final **Root Rule Chain** should look lik
 
 ## How to verify the Rule Chain and Post telemetry
 
-For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api). For this we will need to
+For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api). For this we will need to
 copy device access token from the device **Thermometer**. 
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/delta-validation/access-token.png)
@@ -256,13 +256,13 @@ Please refer to the links from the second to the fourth under the **See Also** s
 
 ## See Also
 
-- [Validate incoming telemetry](/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
+- [Validate incoming telemetry](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
 
-- [Create & Clear Alarms: alarm details:](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#modify-the-required-nodes) guide - to learn how to configure Alarm Details function in Alarm nodes.
+- [Create & Clear Alarms: alarm details:](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#modify-the-required-nodes) guide - to learn how to configure Alarm Details function in Alarm nodes.
 
-- [Create & Clear Alarms: configure dashboard](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#configure-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
+- [Create & Clear Alarms: configure dashboard](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#configure-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
 
-- [Send Email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
+- [Send Email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
 
 ## Next steps
 

@@ -2,7 +2,7 @@
 layout: docwithnav-paas-eu
 title: Custom translation
 description:
-redirect_from: "/docs/user-guide/custom-translation/"
+redirect_from: "/thingsboard-learning/docs/user-guide/custom-translation/"
 
 ---
 

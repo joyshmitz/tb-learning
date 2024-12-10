@@ -4,7 +4,7 @@ assignees:
 - stitenko 
 title: SNMP Device API Reference 
 description: Supported SNMP API Reference for IoT Devices
-redirect_from: "/docs/pe/reference/snmp-api"
+redirect_from: "/thingsboard-learning/docs/pe/reference/snmp-api"
 
 deviceProfileConfiguring1:
     0:

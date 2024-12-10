@@ -21,7 +21,7 @@ notitle: "true"
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/cloud/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/cloud/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/trendz-cloud.svg" title="Trendz Cloud" alt="Trendz Cloud">
@@ -30,7 +30,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/ubuntu/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/ubuntu/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/ubuntu.svg" title="Ubuntu" alt="Ubuntu">
@@ -39,7 +39,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/rhel/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/rhel/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/centos-redhat.svg" title="CentOS/RHEL" alt="CentOS/RHEL">
@@ -48,7 +48,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/windows/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/windows/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/windows.svg" title="Windows" alt="Windows">
@@ -57,7 +57,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/docker-windows/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/docker-windows/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-windows.svg" title="Docker (Windows)" alt="Docker (Windows)">
@@ -66,7 +66,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/docker/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/docker/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-linux-macos.svg" title="Docker (Linux or Mac OS)" alt="Docker (Linux or Mac OS)">
@@ -75,7 +75,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/trendz/install/kubernetes/">
+                                        <a href="/thingsboard-learning/docs/trendz/install/kubernetes/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/kubernetes.png" title="Kubernetes" alt="Kubernetes">

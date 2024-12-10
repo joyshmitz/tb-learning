@@ -116,7 +116,7 @@ notitle: "true"
                     <p class="text-area-label">Message*</p>
                 </label>
             </div>
-            <input type="hidden" name="_next" value="/docs/contact-us-thanks/">
+            <input type="hidden" name="_next" value="/thingsboard-learning/docs/contact-us-thanks/">
             <input type="text" name="_gotcha" style="display:none">
         </div>
         <div class="submit-button-container">

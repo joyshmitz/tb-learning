@@ -2,7 +2,7 @@
 layout: docwithnav
 title: ThingsBoard Architecture
 description: ThingsBoard IoT Platform architecture
-redirect_from: "/docs/user-guide/rule-engine-2-0/architecture/"
+redirect_from: "/thingsboard-learning/docs/user-guide/rule-engine-2-0/architecture/"
 
 ---
 
@@ -18,12 +18,12 @@ Each ThingsBoard node is identical and can handle request from both device and s
 
 #### Device Connectivity
 
-ThingsBoard supports [**MQTT**](/docs/reference/mqtt-api/), [**LwM2M**](/docs/reference/lwm2m-api/) , [**CoAP**](/docs/reference/coap-api/) and [**HTTP**](/docs/reference/http-api/) protocols for device connectivity.
+ThingsBoard supports [**MQTT**](/thingsboard-learning/docs/reference/mqtt-api/), [**LwM2M**](/thingsboard-learning/docs/reference/lwm2m-api/) , [**CoAP**](/thingsboard-learning/docs/reference/coap-api/) and [**HTTP**](/thingsboard-learning/docs/reference/http-api/) protocols for device connectivity.
 It is possible to plugin support of different protocols or customize existing implementations.
 
 #### Rule Engine
 
-ThingsBoard [Rule Engine](/docs/user-guide/rule-engine/) allows to process messages from devices and trigger configurable processing modules called Plugins.
+ThingsBoard [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) allows to process messages from devices and trigger configurable processing modules called Plugins.
 
 #### Core Services
 
@@ -42,7 +42,7 @@ Rules are able to invoke a certain subset of this APIs. For example, a rule can 
 Every ThingsBoard server provides REST API for registered users. 
 System Telemetry service allows to manage attributes and fetch timeseries data using websockets and REST API.
 System RPC service provides REST API to push custom commands to devices.
-Learn more about ThingsBoard REST APIs [here](/docs/reference/rest-api/)
+Learn more about ThingsBoard REST APIs [here](/thingsboard-learning/docs/reference/rest-api/)
 
 ## Actor model
 
@@ -98,8 +98,8 @@ DTLS for CoAP is not supported yet.
 ### Device authentication
 
 ThingsBoard is designed to support many types of device credentials.
-Current release provides support of token based credentials for all [protocols](/docs/reference/protocols/) 
-and support of X.509 certificate based credentials for MQTT protocol. See [MQTT over SSL](/docs/user-guide/mqtt-over-ssl/) guide for more details.
+Current release provides support of token based credentials for all [protocols](/thingsboard-learning/docs/reference/protocols/) 
+and support of X.509 certificate based credentials for MQTT protocol. See [MQTT over SSL](/thingsboard-learning/docs/user-guide/mqtt-over-ssl/) guide for more details.
 
 ## Third-party tools
 

@@ -14,7 +14,7 @@ The applications in these samples that are running on NodeMCU are written using 
 
 ## Samples
 
- - [Temperature upload over MQTT using NodeMCU and DHT22 sensor](/docs/samples/nodemcu/temperature/)
+ - [Temperature upload over MQTT using NodeMCU and DHT22 sensor](/thingsboard-learning/docs/samples/nodemcu/temperature/)
 
 ## Documentation
 

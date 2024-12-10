@@ -19,8 +19,8 @@ Please note that this is just a simple theoretical use case to demonstrate the c
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Model definition
 
@@ -42,7 +42,7 @@ and also the relation from device "Inside Thermometer" to device "Outside Thermo
 
 <br>
 
-**Note**: Please review the following [**documentation page**](/docs/user-guide/entities-and-relations/) to learn how to create assets and relations.
+**Note**: Please review the following [**documentation page**](/thingsboard-learning/docs/user-guide/entities-and-relations/) to learn how to create assets and relations.
 
 ## Message Flow
 
@@ -216,13 +216,13 @@ In this section, we explain the purpose of each node in this tutorial. There wil
 
 ## Configuring the Rule Chains
 
-Download and [**import**](/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached emulators rule chain [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/thermometer_emulators.json) as a new "Thermometer Emulators" rule chain, 
-root rule chain [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/root_rule_chain_function_from_two_devices.json) as a new  "Root rule chain" and "Delta Temperature" [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/delta_temperature.json).
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached emulators rule chain [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/thermometer_emulators.json) as a new "Thermometer Emulators" rule chain, 
+root rule chain [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/root_rule_chain_function_from_two_devices.json) as a new  "Root rule chain" and "Delta Temperature" [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/delta_temperature.json).
 Please note that some nodes have debug enabled.
 
 ## Validating the flow
 
-Download and [**import**](/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) attached dashboard [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/warehouse_dashboard.json) as a new "Warehouse dashboard".
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) attached dashboard [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/warehouse_dashboard.json) as a new "Warehouse dashboard".
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/data-function/dashboard.png) 
 

@@ -13,4 +13,4 @@ deviceImageFileName: wemos-d1-mini-esp8266.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/wemos-d1-mini-esp8266.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/wemos-d1-mini-esp8266.md %}

@@ -5,4 +5,4 @@ description: PgAdmin for Postgres
 
 ---
 
-{% include /docs/reference/performance/tools/postgres-pgadmin-monitoring.md %}
+{% include /thingsboard-learning/docs/reference/performance/tools/postgres-pgadmin-monitoring.md %}

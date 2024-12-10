@@ -12,4 +12,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/mixed-input-8-channel-analog-cellular-logger.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/mixed-input-8-channel-analog-cellular-logger.md %}

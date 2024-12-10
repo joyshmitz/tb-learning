@@ -6,7 +6,7 @@ description: Seamlessly Create Edge Devices and Provision Them to the Cloud
 create-device:
     0:
         image: /images/pe/edge/config/devices/0-go-to-devices-section.webp
-        title: 'Any user who has the <a href="/docs/pe/reference/lwm2m-api/#write-operation" target="_blank">"Write" operation</a> permission for <b>Devices</b> is able to create <b>Device entities</b> on the <b>Edge instance</b>. Go to the <b>Entities > Devices</b> section and click the <b>"Add new device"</b> button.'
+        title: 'Any user who has the <a href="/thingsboard-learning/docs/pe/reference/lwm2m-api/#write-operation" target="_blank">"Write" operation</a> permission for <b>Devices</b> is able to create <b>Device entities</b> on the <b>Edge instance</b>. Go to the <b>Entities > Devices</b> section and click the <b>"Add new device"</b> button.'
     1:
         image: /images/pe/edge/config/devices/1-add-new-device.webp
         title: 'In the pop-up window, fill in the required <b>Device details</b> fields, such as <b>"Name"</b> and <b>"Device profile"</b>. Confirm the action by clicking the <b>"Add"</b> button.'
@@ -20,7 +20,7 @@ create-device:
 assignment-from-cloud:
     0:
         image: /images/pe/edge/config/devices/0-assignment-from-cloud.webp
-        title: 'The variety of buttons on the <b>"Instances"</b> page will help you to manage different <a href="/docs/pe/user-guide/groups/" target="_blank">entity groups</a> and <a href="/docs/user-guide/entities-and-relations/" target="_blank">entities</a>, and assign them accordingly to the <b>Edge instance</b>. To assign a <b>Device Group</b>, click the <b>"Manage edge device groups"</b> button.'
+        title: 'The variety of buttons on the <b>"Instances"</b> page will help you to manage different <a href="/thingsboard-learning/docs/pe/user-guide/groups/" target="_blank">entity groups</a> and <a href="/thingsboard-learning/docs/user-guide/entities-and-relations/" target="_blank">entities</a>, and assign them accordingly to the <b>Edge instance</b>. To assign a <b>Device Group</b>, click the <b>"Manage edge device groups"</b> button.'
     1:
         image: /images/pe/edge/config/devices/1-device-group-from-cloud.webp
         title: 'On the <b>"Device groups"</b> page, click the <b>"+"</b> icon and then select the <b>Device group</b> from the drop-down list in the pop-up window. Confirm the action by clicking the <b>"Assign"</b> button.'

@@ -12,7 +12,7 @@ description: ThingsBoard IoT Platform sample for ESP8266 GPIO control over MQTT
 {% include templates/what-is-thingsboard.md %}
 
 This sample application will allow you to control GPIO of your ESP8266 device using ThingsBoard web UI. We will observe GPIO control using LEDs connected to the pins.
-The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/docs/user-guide/rpc/).
+The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/).
 
 The application that is running on ESP8266 is written using Arduino SDK which is quite simple and easy to understand.
 ESP8266 offers a complete and self-contained Wi-Fi networking solution.
@@ -138,8 +138,8 @@ Paste your device id to some place, this value will be used in further steps.
 
 ### Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/esp8266/resources/esp8266_gpio_dashboard_v2.json). 
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/esp8266/resources/esp8266_gpio_dashboard_v2.json). 
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Programming the ESP8266
 
@@ -205,7 +205,7 @@ Download and open **esp8266-gpio-control.ino** sketch.
 - thingsboardServer - ThingsBoard HOST/IP address that is accessible from within your wifi network. Specify "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
 
 {% capture tabspec %}arduino-sketch
-esp8266-gpio-control,esp8266-gpio-control.ino,c,resources/esp8266-gpio-control.ino,/docs/samples/esp8266/resources/esp8266-gpio-control.ino{% endcapture %}
+esp8266-gpio-control,esp8266-gpio-control.ino,c,resources/esp8266-gpio-control.ino,/thingsboard-learning/docs/samples/esp8266/resources/esp8266-gpio-control.ino{% endcapture %}
 {% include tabs.html %}
 
 Connect USB-TTL adapter to PC and select the corresponding port in Arduino IDE. Compile and Upload your sketch to the device using "Upload" button.
@@ -235,7 +235,7 @@ In case of live-demo server:
  - login: your live-demo username (email)
  - password: your live-demo password
  
-See **[live-demo](/docs/user-guide/live-demo/)** page for more details how to get your account.
+See **[live-demo](/thingsboard-learning/docs/user-guide/live-demo/)** page for more details how to get your account.
  
 Once logged in, open **Dashboards->ESP8266 GPIO Demo Dashboard** page. You should observe demo dashboard with GPIO control and status panel for your device.
 Now you can switch status of GPIOs using control panel. As a result, you will see LEDs status change on the device and on the status panel.
@@ -246,13 +246,13 @@ Below is the screenshot of the "ESP8266 GPIO Demo Dashboard".
  
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

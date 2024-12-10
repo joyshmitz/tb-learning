@@ -12,4 +12,4 @@ deviceImageFileName: esp-eye.png
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/esp-eye.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/esp-eye.md %}

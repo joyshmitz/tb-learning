@@ -4,7 +4,7 @@ assignees:
 - ikulikov
 title: Asset Profiles
 description: IoT asset profiles
-redirect_from: "/docs/user-guide/ui/asset-profiles"
+redirect_from: "/thingsboard-learning/docs/user-guide/ui/asset-profiles"
 
 ---
 

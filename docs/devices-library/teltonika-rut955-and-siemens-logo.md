@@ -12,4 +12,4 @@ deviceImageFileName: teltonika-rut955.jpeg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/teltonika-rut955-and-siemens-logo.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/teltonika-rut955-and-siemens-logo.md %}

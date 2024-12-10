@@ -12,4 +12,4 @@ deviceImageFileName: nodemcuv3.png
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/nodemcuv3.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/nodemcuv3.md %}

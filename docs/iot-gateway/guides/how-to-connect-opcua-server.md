@@ -13,7 +13,7 @@ description: Understand how to connect OPC-UA server
 ## Device information
 
 For the purpose of this guide, we will use Raspberry Pi with OPC-UA server.  
-We will use [OPC-UA connector](/docs/iot-gateway/config/opc-ua/) to collect data.  
+We will use [OPC-UA connector](/thingsboard-learning/docs/iot-gateway/config/opc-ua/) to collect data.  
 
 The info available at this moment:  
 
@@ -71,20 +71,20 @@ For example:
 {: .copy-code}
 
   
-About sections of OPC-UA configuration file you can [read more here](/docs/iot-gateway/config/opc-ua/).  
+About sections of OPC-UA configuration file you can [read more here](/thingsboard-learning/docs/iot-gateway/config/opc-ua/).  
 
 Let's analyze our settings:
 
-1. General configuration of connector. In this section we have defined main settings (e. g. connector name — OPC-UA Default Server, url — 192.168.1.113:4840/server/ etc.). You can read more about available parameters [here](/docs/iot-gateway/config/opc-ua/#section-server).  
-2. General device configuration. In this section we have defined main settings of our OPC-UA device (e. g. device object in OPC-UA server pattern - Device\\d*$, device name pattern within ThingsBoard — Device\\d*$ etc.). You can read more about available parameters [here](/docs/iot-gateway/config/opc-ua/#section-mapping).  
-3. Attributes configuration. In this section we have defined the settings for batteryLevel attribute within ThingsBoard. You can read more about available parameters [here](/docs/iot-gateway/config/opc-ua/#subsection-attributes).  
-4. Timeseries configuration. In this section we set up temperature and humidity parameters. You can read more about available parameters [here](/docs/iot-gateway/config/opc-ua/#subsection-timeseries).  
+1. General configuration of connector. In this section we have defined main settings (e. g. connector name — OPC-UA Default Server, url — 192.168.1.113:4840/server/ etc.). You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/opc-ua/#section-server).  
+2. General device configuration. In this section we have defined main settings of our OPC-UA device (e. g. device object in OPC-UA server pattern - Device\\d*$, device name pattern within ThingsBoard — Device\\d*$ etc.). You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/opc-ua/#section-mapping).  
+3. Attributes configuration. In this section we have defined the settings for batteryLevel attribute within ThingsBoard. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/opc-ua/#subsection-attributes).  
+4. Timeseries configuration. In this section we set up temperature and humidity parameters. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/opc-ua/#subsection-timeseries).  
 
 Save the configuration file as opcua.json in configuration folder (the directory, that contains the general configuration file - **tb_gateway.yaml**).  
 
 ## Step 3. Turn on the connector 
 
-To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/docs/iot-gateway/configuration/#connectors-configuration)**)
+To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/thingsboard-learning/docs/iot-gateway/configuration/#connectors-configuration)**)
 
 In "connectors" section we should uncomment following strings:
 
@@ -104,7 +104,7 @@ sudo systemctl restart thingsboard-gateway
 ```  
 {: .copy-code}
 
-If you have installed the gateway as a python module (using [pip package manager](/docs/iot-gateway/install/pip-installation/) or [from sources](/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
+If you have installed the gateway as a python module (using [pip package manager](/thingsboard-learning/docs/iot-gateway/install/pip-installation/) or [from sources](/thingsboard-learning/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
 **Notice**: You must place correct path to the main configuration file (**tb_gateway.yaml**) in the command/script.  
 
 ```bash

@@ -120,7 +120,7 @@ Afterward, execute the next command to apply the changes for the container:
 
 ### Upgrading
 
-Review the [release notes](/docs/mqtt-broker/releases/) and [upgrade instruction](/docs/mqtt-broker/install/upgrade-instructions/)
+Review the [release notes](/thingsboard-learning/docs/mqtt-broker/releases/) and [upgrade instruction](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/)
 for detailed information on the latest changes.
 
 #### Backup and restore (Optional)
@@ -156,7 +156,7 @@ After that execute the following commands:
 {: .copy-code}
 
 Where `FROM_VERSION` - from which version upgrade should be started. 
-See [Upgrade Instructions](/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
+See [Upgrade Instructions](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
 
 ### Generate certificate for HTTPS
 

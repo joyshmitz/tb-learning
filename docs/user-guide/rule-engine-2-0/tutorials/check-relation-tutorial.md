@@ -4,7 +4,7 @@ title: Check Relation between Entities
 description: Check relationship
 
 ---
-The purpose of this tutorial is to show how the [**Check Relation**](/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node can be used to check the relation between Entities.
+The purpose of this tutorial is to show how the [**Check Relation**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node can be used to check the relation between Entities.
 
 * TOC
 {:toc}
@@ -20,14 +20,14 @@ Let’s assume the following use case:
    - **Fire Alarm System** which provides a fire alarm, when the smoke is present.
 
 However, there are different ways for the realization of this case, for example, it can be implemented using the **Switch** node that routes incoming Message to one or multiple output chains.<br>
-For more information about how to use the **Switch** node, please check the link to **The article of Switch Node** in the  [**See Also**](/docs/user-guide/rule-engine-2-0/tutorials/check-relation-tutorial/#see-also) section.
+For more information about how to use the **Switch** node, please check the link to **The article of Switch Node** in the  [**See Also**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/check-relation-tutorial/#see-also) section.
 
 ## Prerequisites
 
 You need to read the following guides before you start this tutorial:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/).
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/).
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Adding the devices and creating the relation between them
 
@@ -52,21 +52,21 @@ You need to read the following guides before you start this tutorial:
 
 In this section, we explain the purpose of each node in this tutorial:
 
-- Node A: [**Check Relation**](/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node.
+- Node A: [**Check Relation**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node.
   - Checks the relation from the Device, **Fire Alarm System**, to the originator of the message **Smoke Detector** using the type and direction of relation. 
-- Node B: [**Change originator**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#change-originator) node.
+- Node B: [**Change originator**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#change-originator) node.
   - Change the originator from Devices **Smoke Detector** to the related Device **Fire Alarm System** and the submitted message will be processed as a message from Device **Fire Alarm System**.
-- Node C: [**Transformation Script**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node).
+- Node C: [**Transformation Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node).
   - Transform an original message into RPC request message. 
-- Node D: [**RPC call request**](/docs/user-guide/rule-engine-2-0/action-nodes/#rpc-call-request-node) node.
+- Node D: [**RPC call request**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#rpc-call-request-node) node.
   - Takes the message payload and sends it as a response to the **Fire Alarm System**.
-- Node E: [**Filter Script**](/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) node.
+- Node E: [**Filter Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) node.
   - Checks if data of incoming message is **smoke**.
-- Node F: [**Clear alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
+- Node F: [**Clear alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
   - Loads the latest Alarm with configured Alarm Type for Message Originator **Smoke Detector** and Clears the Alarm if it exists.  
-- Node G: [**Create alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
+- Node G: [**Create alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
   - Tries to load the latest Alarm with configured Alarm Type for Message Originator, namely **Smoke Detector**.  
-- Node H: [**Rule Chain**](/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
+- Node H: [**Rule Chain**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
   - Forwards incoming Message to specified Rule Chain **Related Fire Alarm System**. 
 
 <br>
@@ -87,13 +87,13 @@ In this tutorial, we modified our **Root Rule Chain** and also created Rule Chai
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/check-relation-tutorial.json) for the **Root Rule Chain**. Don't forget to mark this rule chain as **root**.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/check-relation-tutorial.json) for the **Root Rule Chain**. Don't forget to mark this rule chain as **root**.
 
 <br>
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/check relation/root-chain.png)
 
-Also, you need to create **Related Fire Alarm System** Rule Chain or you can download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/related_fire_alarm_system.json) for this Chain and import it.
+Also, you need to create **Related Fire Alarm System** Rule Chain or you can download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/related_fire_alarm_system.json) for this Chain and import it.
 <br>
 <br>
 
@@ -298,7 +298,7 @@ The following screenshot shows how the final **Root Rule Chain** should look lik
 
 - Use the following javascript code to emulate the **Fire Alarm System** device.
 
-  - [**FireAlarmEmulator.js**](/docs/user-guide/rule-engine-2-0/tutorials/resources/FireAlarmEmulator.js).
+  - [**FireAlarmEmulator.js**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/FireAlarmEmulator.js).
 
   - To run the script, you need to do the following steps:
 
@@ -306,7 +306,7 @@ The following screenshot shows how the final **Root Rule Chain** should look lik
   You can copy the access token from the Device page. <br> <br>
 
 
-- Use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api), for posting telemetry from the device **Smoke Detector**. <br>
+- Use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api), for posting telemetry from the device **Smoke Detector**. <br>
 
 {% highlight bash %}
 curl -v -X POST -d '{"smoke":"true"}' http://demo.thingsboard.io/api/v1/$ACCESS_TOKEN/telemetry --header "Content-Type:application/json"
@@ -330,15 +330,15 @@ Please refer to the third and fourth links under the **See Also** section to see
 
 ## See Also
 
-- [Switch Node](/docs/user-guide/rule-engine-2-0/filter-nodes/#switch-node) guide - for more information about how to use Switch Node in Thignsboard.
+- [Switch Node](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#switch-node) guide - for more information about how to use Switch Node in Thignsboard.
 
-- [Validate incoming telemetry](/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/#step-1-adding-temperature-validation-node) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
+- [Validate incoming telemetry](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/#step-1-adding-temperature-validation-node) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
 
-- [Create & Clear Alarms: configure dashboard](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#configure-device-and-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
+- [Create & Clear Alarms: configure dashboard](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#configure-device-and-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
 
-- [Send Email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
+- [Send Email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
 
-- [RPC capabilities](/docs/user-guide/rpc/#server-side-rpc-api) guide - for more information about how RPC works in Thignsboard, please refer to the RPC capabilities guide.
+- [RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/#server-side-rpc-api) guide - for more information about how RPC works in Thignsboard, please refer to the RPC capabilities guide.
 
 ## Next steps
 

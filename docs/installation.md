@@ -13,7 +13,7 @@ notitle: "true"
                 <h1>Choose ThingsBoard product</h1>
             </div>
             <div class="cards">
-                <a href="/docs/user-guide/install/installation-options/" class="card thingsboard-ce">
+                <a href="/thingsboard-learning/docs/user-guide/install/installation-options/" class="card thingsboard-ce">
                     <div class="card-title">
                         <span class="title-text">ThingsBoard<br>Community Edition</span>
                     </div>
@@ -22,7 +22,7 @@ notitle: "true"
                         Installation options
                     </div>
                 </a>
-                <a href="/docs/user-guide/install/pe/installation-options/" class="card thingsboard-pe">
+                <a href="/thingsboard-learning/docs/user-guide/install/pe/installation-options/" class="card thingsboard-pe">
                     <div class="card-title">
                         <span class="title-text">ThingsBoard<br>Professional Edition</span>
                     </div>
@@ -31,7 +31,7 @@ notitle: "true"
                         Installation options
                     </div>
                 </a>
-                <a href="/docs/iot-gateway/installation/" class="card thingsboard-gw">
+                <a href="/thingsboard-learning/docs/iot-gateway/installation/" class="card thingsboard-gw">
                     <div class="card-title">
                         <span class="title-text">IoT Gateway</span>
                     </div>
@@ -40,7 +40,7 @@ notitle: "true"
                         Installation options
                     </div>
                 </a>
-                <a href="/docs/trendz/install/installation-options/" class="card trendz">
+                <a href="/thingsboard-learning/docs/trendz/install/installation-options/" class="card trendz">
                     <div class="card-title">
                         <span class="title-text">Trendz Analytics</span>
                     </div>

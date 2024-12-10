@@ -45,8 +45,8 @@ thingsboard-gateway
 
 Explore guides related to the main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

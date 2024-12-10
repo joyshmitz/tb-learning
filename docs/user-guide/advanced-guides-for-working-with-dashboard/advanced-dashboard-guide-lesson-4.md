@@ -3,7 +3,7 @@ layout: docwithnav
 assignees:
 - stitenko
 title: Dashboard states, widget actions, and analogue and digital gauges
-redirect_to: "/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-4/"
+redirect_to: "/thingsboard-learning/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-4/"
 
 ---
 

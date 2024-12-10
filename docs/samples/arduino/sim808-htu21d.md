@@ -14,7 +14,7 @@ description: ThingsBoard IoT Platform sample for humidity and temperature data u
 
 This sample application performs collection of humidity and temperature values produced by [HTU21D sensor](https://www.sparkfun.com/products/13763) and further visualization on the real-time web dashboard.
 Collected data is pushed via HTTP to ThingsBoard server for storage and visualization.
-The purpose of this application is to demonstrate ThingsBoard [data collection API](/docs/user-guide/telemetry/) and [visualization capabilities](/docs/user-guide/visualization/).
+The purpose of this application is to demonstrate ThingsBoard [data collection API](/thingsboard-learning/docs/user-guide/telemetry/) and [visualization capabilities](/thingsboard-learning/docs/user-guide/visualization/).
 
 The HTU21D sensor is connected to [Arduino UNO](https://en.wikipedia.org/wiki/Arduino).
 Arduino UNO connects to the Internet using [SIM808 GSM shield](https://www.elecrow.com/wiki/index.php?title=SIM808_GPRS/GSM%2BGPS_Shield_v1.1).
@@ -89,8 +89,8 @@ Copy auto-generated access token from the "Access token" field. Please save this
 
 ## Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/arduino/resources/arduino_uno_with_sim808_shield_and_htu21d_sensor_dashboard.json).
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/arduino/resources/arduino_uno_with_sim808_shield_and_htu21d_sensor_dashboard.json).
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Creating Arduino firmware
 
@@ -149,7 +149,7 @@ Download and open **arduino_htu21d_sim808_http.ino** sketch.
 - `THINGSBOARD_PORT` - HTTP port to connect to. Change it if necessary.
 
 {% capture tabspec %}arduino-sketch
-arduino_uno_sim808_htu21d_http,arduino_uno_sim808_htu21d_http.ino,c,resources/arduino_uno_sim808_htu21d_http.ino,/docs/samples/arduino/resources/arduino_uno_sim808_htu21d_http.ino{% endcapture %}
+arduino_uno_sim808_htu21d_http,arduino_uno_sim808_htu21d_http.ino,c,resources/arduino_uno_sim808_htu21d_http.ino,/thingsboard-learning/docs/samples/arduino/resources/arduino_uno_sim808_htu21d_http.ino{% endcapture %}
 {% include tabs.html %}
 
 Connect your Arduino UNO device via USB cable and select "Arduino/Genuino Uno" port in Arduino IDE. Compile and Upload your sketch to the device using "Upload" button.

@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: What is ThingsBoard?
 description: ThingsBoard key features and advantages for the rapid development of IoT projects and applications.
-redirect_from: "/docs/user-guide/overview/"
+redirect_from: "/thingsboard-learning/docs/user-guide/overview/"
 ---
 
 {% include get-hosts-name.html %}

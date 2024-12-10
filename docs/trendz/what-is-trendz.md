@@ -16,5 +16,5 @@ With Trendz you can:
 
 #### Ready to get started?
 
-<p><a href="/docs/trendz/getting-started/" class="button">Hello World analytics</a></p>
+<p><a href="/thingsboard-learning/docs/trendz/getting-started/" class="button">Hello World analytics</a></p>
 

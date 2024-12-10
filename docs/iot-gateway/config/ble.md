@@ -9,7 +9,7 @@ description: BLE protocol support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you to get familiar with BLE connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this extension.
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this extension.
 We will describe connector configuration file below.
 
 **BLE connector need some system libraries, to install them please select version of package manager in your system below and run a command to install libraries:**
@@ -367,9 +367,9 @@ This part of configuration will look like:
 
 Explore guides related to main ThingsBoard features:
 
- - [Connect BLE sensor](/docs/iot-gateway/guides/how-to-connect-ble-sensor-using-gateway/) - how to connect BLE sensor using ThingsBoard IoT Gateway
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Connect BLE sensor](/thingsboard-learning/docs/iot-gateway/guides/how-to-connect-ble-sensor-using-gateway/) - how to connect BLE sensor using ThingsBoard IoT Gateway
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -13,4 +13,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/dsgw-210-iot-gateway-hub.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/dsgw-210-iot-gateway-hub.md %}

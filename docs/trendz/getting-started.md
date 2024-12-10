@@ -114,9 +114,9 @@ The goal of this tutorial is to demonstrate the basic usage of Trendz Analytics.
 ## Prerequisites
 
 You will need to have Trendz Analytics server up and running.
-The easiest way is to use [Trendz Cloud](/docs/trendz/install/cloud/) SaaS.
+The easiest way is to use [Trendz Cloud](/thingsboard-learning/docs/trendz/install/cloud/) SaaS.
 
-The alternative option is to install Trendz Analytics using [Installation Guide](/docs/trendz/install/installation-options/).
+The alternative option is to install Trendz Analytics using [Installation Guide](/thingsboard-learning/docs/trendz/install/installation-options/).
 
 ## Step 1. Discover topology
 Once Trendz Service is up and running you can sign-in to Trendz UI using following URL:

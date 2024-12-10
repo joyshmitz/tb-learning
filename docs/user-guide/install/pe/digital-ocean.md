@@ -17,7 +17,7 @@ Basically, you get the license directly from ThingsBoard, Inc, but purchase corr
 
 ### Step 4. Use regular installation instruction for Ubuntu
 
-Please navigate to the ThingsBoard PE [**installation instruction**](/docs/user-guide/install/pe/ubuntu/) 
+Please navigate to the ThingsBoard PE [**installation instruction**](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/) 
 for Ubuntu and complete the installation steps.
 
 **Note:** Use your droplet IP address instead of "localhost" to access the instance WEB UI.

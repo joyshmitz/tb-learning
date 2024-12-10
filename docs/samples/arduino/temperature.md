@@ -13,7 +13,7 @@ description: ThingsBoard IoT Platform sample for temperature data upload over MQ
 
 This sample application performs collection of temperature and humidity values produced by [DHT22 sensor](https://www.adafruit.com/product/385) and further visualization on the real-time web dashboard.
 Collected data is pushed via MQTT to ThingsBoard server for storage and visualization.
-The purpose of this application is to demonstrate ThingsBoard [data collection API](/docs/user-guide/telemetry/) and [visualization capabilities](/docs/user-guide/visualization/).
+The purpose of this application is to demonstrate ThingsBoard [data collection API](/thingsboard-learning/docs/user-guide/telemetry/) and [visualization capabilities](/thingsboard-learning/docs/user-guide/visualization/).
 
 The DHT22 sensor is connected to [Arduino UNO](https://en.wikipedia.org/wiki/Arduino).
 Arduino UNO connects to the WiFi network using [ESP8266](https://en.wikipedia.org/wiki/ESP8266).
@@ -108,8 +108,8 @@ Copy auto-generated access token from the "Access token" field. Please save this
 
 ### Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/arduino/resources/arduino_dht_temp_dashboard_v2.json).
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/arduino/resources/arduino_dht_temp_dashboard_v2.json).
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Programming the Arduino UNO device
 
@@ -157,7 +157,7 @@ Download and open **arduino-dht-esp8266-mqtt.ino** sketch.
 - thingsboardServer - ThingsBoard HOST/IP address that is accessible from within your wifi network. Specify "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
 
 {% capture tabspec %}arduino-sketch
-arduino-dht-esp8266-mqtt,arduino-dht-esp8266-mqtt.ino,c,resources/arduino-dht-esp8266-mqtt.ino,/docs/samples/arduino/resources/arduino-dht-esp8266-mqtt.ino{% endcapture %}
+arduino-dht-esp8266-mqtt,arduino-dht-esp8266-mqtt.ino,c,resources/arduino-dht-esp8266-mqtt.ino,/thingsboard-learning/docs/samples/arduino/resources/arduino-dht-esp8266-mqtt.ino{% endcapture %}
 {% include tabs.html %}
 
 Connect your Arduino UNO device via USB cable and select "Arduino/Genuino Uno" port in Arduino IDE. Compile and Upload your sketch to the device using "Upload" button.
@@ -187,13 +187,13 @@ As a result, you will see two time-series charts and two digital gauges displayi
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

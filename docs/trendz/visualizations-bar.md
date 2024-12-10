@@ -9,7 +9,7 @@ description: Bar Chart and Histogram
 * TOC
 {:toc}
 
-Details about basic Bar chart you can find in [Line Chart Configuration](/docs/trendz/visualizations-line/)
+Details about basic Bar chart you can find in [Line Chart Configuration](/thingsboard-learning/docs/trendz/visualizations-line/)
 Main concept for line and bar charts are the same. In this tutorial we will focus on differences.
 
 ## Video Tutorial

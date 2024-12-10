@@ -14,4 +14,4 @@ docsTag: paas-eu
 {:toc}
 
 {% include get-hosts-name.html docsTag=page.docsTag %}
-{% include /docs/devices-library/guides/upesy-esp32-wroom-dev-kit-v2.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/upesy-esp32-wroom-dev-kit-v2.md %}

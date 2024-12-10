@@ -4,5 +4,5 @@ assignees:
 - vparomskiy
 title: Roles
 description: ThingsBoard RBAC
-redirect_to: "/docs/user-guide/rbac#roles"
+redirect_to: "/thingsboard-learning/docs/user-guide/rbac#roles"
 ---

@@ -11,8 +11,8 @@ description: How to enable remote logging feature on ThingsBoard IoT Gateway
 This guide will help you to enable remote logging and read logs from ThingsBoard IoT Gateway on your ThingsBoard platform instance.  
 
 For purpose of this guide, we will use following things:
-1. Locally installed instance of ThingsBoard platform (How to install you can [read here](/docs/user-guide/install/installation-options/)).
-2. ThingsBoard IoT Gateway (How to install you can [read here](/docs/iot-gateway/installation/)).
+1. Locally installed instance of ThingsBoard platform (How to install you can [read here](/thingsboard-learning/docs/user-guide/install/installation-options/)).
+2. ThingsBoard IoT Gateway (How to install you can [read here](/thingsboard-learning/docs/iot-gateway/installation/)).
 
 ## Step 1. Remote logging activation and setting the logging level
 
@@ -68,8 +68,8 @@ To do this we use following steps:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -39,7 +39,7 @@ docker pull thingsboard/tb-snmp-transport:{{ site.release.ce_full_ver }}
 ## Step 2. Review the architecture page
 
 Starting ThingsBoard v2.2, it is possible to install ThingsBoard cluster using new microservices architecture and docker containers. 
-See [**microservices**](/docs/reference/msa/) architecture page for more details.
+See [**microservices**](/thingsboard-learning/docs/reference/msa/) architecture page for more details.
 
 ## Step 3. Clone ThingsBoard CE repository
 

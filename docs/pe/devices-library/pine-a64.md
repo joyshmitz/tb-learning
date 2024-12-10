@@ -14,4 +14,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/pine-a64.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/pine-a64.md %}

@@ -13,7 +13,7 @@ description: ThingsBoard IoT Platform sample for temperature data upload over MQ
 
 This sample application performs collection of temperature and humidity values produced by DHT11 sensor. 
 Collected data is pushed to ThingsBoard for storage and visualization.
-The purpose of this application is to demonstrate ThingsBoard [data collection API](/docs/user-guide/telemetry/) and [visualization capabilities](/docs/user-guide/visualization/).
+The purpose of this application is to demonstrate ThingsBoard [data collection API](/thingsboard-learning/docs/user-guide/telemetry/) and [visualization capabilities](/thingsboard-learning/docs/user-guide/visualization/).
 
 The DHT11 sensor is connected to [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU). NodeMCU push data to ThingsBoard server via [MQTT](https://en.wikipedia.org/wiki/MQTT) protocol.
 Data is visualized using built-in customizable dashboard. The application that is running on NodeMCU is written using Lua scripting language which is quite simple and easy to understand.
@@ -27,7 +27,7 @@ Once you complete this sample/tutorial, you will see your sensor data on the fol
 ## List of hardware and pinouts
 
  - [NodeMCU V3](https://www.aliexpress.com/item/1pcs-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-CP2102-with-pcb/32656401198.html?spm=2114.01010208.3.1.JnJev4&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10000007_10084_10083_10080_10082_10081_10060_10061_10062_10056_10055_10037_10054_10033_10059_10032_10099_10078_10079_10077_10073_10097_10100_10096_10070_423_10052_10050_424_10051,searchweb201603_2&btsid=22a4a35a-c3ac-4896-b8b4-8ce38945d312) - You 
- can find list of additional documentation in [NodeMCU overview](/docs/samples/nodemcu/)
+ can find list of additional documentation in [NodeMCU overview](/thingsboard-learning/docs/samples/nodemcu/)
  
  ![image](/images/samples/nodemcu/temperature/nodemcu-pinout.jpg)
  
@@ -116,17 +116,17 @@ Our application consists of three *.lua* files:
    - your wifi network password - password to the network.
    - thingsboard server IP - host of your thingsboard installation. Use "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
    - thingsboard mqtt port - 1883 is the default value.
-   - thingsboard access token - DHT11_DEMO_TOKEN is the default value that corresponds to pre-provisioned [demo account](/docs/samples/demo-account/#tenant-devices).
+   - thingsboard access token - DHT11_DEMO_TOKEN is the default value that corresponds to pre-provisioned [demo account](/thingsboard-learning/docs/samples/demo-account/#tenant-devices).
    
-   If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "DHT11 Demo Device".
+   If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/thingsboard-learning/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "DHT11 Demo Device".
  - dht11.lua - sending temperature and humidity every 10 seconds to thingsboard server via MQTT protocol.
  - init.lua - initalization file that contains 
 config.lua:
 
 {% capture tabspec %}lua-scripts
-Config,config.lua,lua,resources/config.lua,/docs/samples/nodemcu/resources/config.lua
-Dht11,dht11.lua,lua,resources/dht11.lua,/docs/samples/nodemcu/resources/dht11.lua
-Init,init.lua,lua,resources/init.lua,/docs/samples/nodemcu/resources/init.lua{% endcapture %}
+Config,config.lua,lua,resources/config.lua,/thingsboard-learning/docs/samples/nodemcu/resources/config.lua
+Dht11,dht11.lua,lua,resources/dht11.lua,/thingsboard-learning/docs/samples/nodemcu/resources/dht11.lua
+Init,init.lua,lua,resources/init.lua,/thingsboard-learning/docs/samples/nodemcu/resources/init.lua{% endcapture %}
 {% include tabs.html %}
 
 ### Flashing the firmware
@@ -177,7 +177,7 @@ $ sudo ./luatool.py --port /dev/ttyUSB0 -b 115200 --delete init.lua
 
 ## Data visualization
 
-In order to simplify this guide, we have included "Temperature & Humidity Demo Dashboard" to the [demo data](/docs/samples/demo-account/) that is available in each ThingsBoard installation.
+In order to simplify this guide, we have included "Temperature & Humidity Demo Dashboard" to the [demo data](/thingsboard-learning/docs/samples/demo-account/) that is available in each ThingsBoard installation.
 You still can modify this dashboard: tune, add, delete widgets, etc.
 You can access this dashboard by logging in as a tenant administrator. Use
 
@@ -190,13 +190,13 @@ Once logged in, open **Dashboards->Temperature & Humidity Demo Dashboard** page.
  
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
  

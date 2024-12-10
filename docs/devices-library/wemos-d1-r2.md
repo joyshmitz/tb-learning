@@ -12,4 +12,4 @@ deviceImageFileName: wemos-d1-r2.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/wemos-d1-r2.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/wemos-d1-r2.md %}

@@ -14,4 +14,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/hikey-970-development-board.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/hikey-970-development-board.md %}

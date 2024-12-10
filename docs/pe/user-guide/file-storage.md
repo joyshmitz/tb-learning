@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: File Storage
 description: File Storage Guide
-redirect_from: "/docs/user-guide/file-storage/"
+redirect_from: "/thingsboard-learning/docs/user-guide/file-storage/"
 ---
 
 {% assign docsPrefix = "pe/" %}

@@ -14,4 +14,4 @@ docsPrefix: paas/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/odyssey-stm32mp157c.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/odyssey-stm32mp157c.md %}

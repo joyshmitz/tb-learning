@@ -39,7 +39,7 @@ Once you complete this sample/tutorial, you will see your sensor data on a dashb
 
 ### Software
  - [RTU-X Configuration Interface](http://wiki.nettra.tech/en/downloads).
- - You will need to have ThingsBoard server up and running. Use either [Live Demo](https://thingsboard.io/docs/user-guide/install/installation-options/?ceInstallType=liveDemo) or [Installation Guide](https://thingsboard.io/docs/user-guide/install/ubuntu/) to install ThingsBoard.
+ - You will need to have ThingsBoard server up and running. Use either [Live Demo](https://thingsboard.io/thingsboard-learning/docs/user-guide/install/installation-options/?ceInstallType=liveDemo) or [Installation Guide](https://thingsboard.io/thingsboard-learning/docs/user-guide/install/ubuntu/) to install ThingsBoard.
 
 ## Connection diagram
 
@@ -51,7 +51,7 @@ The following picture summarizes the connections for this simple project:
 
 This step contains instructions that are necessary to connect your device to ThingsBoard.
 
-Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). See [Live Demo](https://thingsboard.io/docs/user-guide/install/installation-options/?ceInstallType=liveDemo) page for more details how to get your account.
+Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). See [Live Demo](https://thingsboard.io/thingsboard-learning/docs/user-guide/install/installation-options/?ceInstallType=liveDemo) page for more details how to get your account.
 
 ### Device
 
@@ -66,8 +66,8 @@ Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). S
 
 ### Dashboard
 
-Download the dashboard file (.json) using this [link](/docs/samples/nettrartu-x/resources/rtu_x_dashboard.json).
-Use import/export [instructions](https://thingsboard.io/docs/user-guide/dashboards/#import-dashboard) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file (.json) using this [link](/thingsboard-learning/docs/samples/nettrartu-x/resources/rtu_x_dashboard.json).
+Use import/export [instructions](https://thingsboard.io/thingsboard-learning/docs/user-guide/dashboards/#import-dashboard) to import the dashboard to your ThingsBoard instance.
 
 ## Connect RTU-X to PC
 
@@ -121,7 +121,7 @@ Once you have your RTU-X connected to the PC, we can proceed with its configurat
 
 ### Script
 
- - Download this [***script***](/docs/samples/nettrartu-x/resources/rtu_x_script.json).
+ - Download this [***script***](/thingsboard-learning/docs/samples/nettrartu-x/resources/rtu_x_script.json).
 
 ```c
 /*
@@ -167,11 +167,11 @@ As a result, you will see an analog gauge (similar to dashboard image in the int
 
 ## See also
 
-Browse other [samples](https://thingsboard.io/docs/samples/) or explore guides related to main ThingsBoard features:
+Browse other [samples](https://thingsboard.io/thingsboard-learning/docs/samples/) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](https://thingsboard.io/docs/user-guide/attributes/) - how to use device attributes.
- - [Data Visualization](https://thingsboard.io/docs/guides/#AnchorIDDataVisualization) - how to visualize collected data.
- - [Data Analytics](https://thingsboard.io/docs/guides/#AnchorIDDataAnalytics) - how to collect telemetry data.
- - [Rule Engine](https://thingsboard.io/docs/user-guide/rule-engine-2-0/re-getting-started/) - how to use rule engine to analyze data from devices.
- - [Using RPC capabilities](https://thingsboard.io/docs/user-guide/rule-engine-2-0/tutorials/rpc-request-tutorial/) - how to send commands to/from devices.
+ - [Device attributes](https://thingsboard.io/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Data Visualization](https://thingsboard.io/thingsboard-learning/docs/guides/#AnchorIDDataVisualization) - how to visualize collected data.
+ - [Data Analytics](https://thingsboard.io/thingsboard-learning/docs/guides/#AnchorIDDataAnalytics) - how to collect telemetry data.
+ - [Rule Engine](https://thingsboard.io/thingsboard-learning/docs/user-guide/rule-engine-2-0/re-getting-started/) - how to use rule engine to analyze data from devices.
+ - [Using RPC capabilities](https://thingsboard.io/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/rpc-request-tutorial/) - how to send commands to/from devices.
 

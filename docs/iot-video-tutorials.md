@@ -9,7 +9,7 @@ title: IoT Video Tutorials
 
 The ThingsBoard Youtube [channel](https://www.youtube.com/channel/UCDb9fsV-YR4JmnipAMGsVAQ/videos) provides useful video tutorials covering various features of the ThingsBoard platform.
 We recommend to subscribe to this channel in order to receive the latest updates. Some of the video tutorials are listed below.
-Non-video tutorials are available on the [Samples](/docs/samples/) page.
+Non-video tutorials are available on the [Samples](/thingsboard-learning/docs/samples/) page.
 
 <br>
 
@@ -146,7 +146,7 @@ This video tutorial, part 1, will show you how to create a new dashboard and vis
 You will learn how to:
 
 - create assets and devices and define their relationships. 
-- add the [server attributes](/docs/user-guide/attributes/#attribute-types) and create a new dashboard.
+- add the [server attributes](/thingsboard-learning/docs/user-guide/attributes/#attribute-types) and create a new dashboard.
 - visualize data from the asset attributes using "Entities Table" and "Map" widgets.
 
 <div id="video">  

@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: ThingsBoard Professional Edition cluster setup with Docker Compose guide
 description: ThingsBoard Professional Edition cluster setup with Docker Compose guide
-redirect_from: "/docs/user-guide/install/pe/docker-cassandra/"  
+redirect_from: "/thingsboard-learning/docs/user-guide/install/pe/docker-cassandra/"  
 
 ---
 
@@ -48,7 +48,7 @@ We assume you have already chosen your subscription plan or decided to purchase 
 If not, please navigate to [pricing](/pricing/) page to select the best license option for your case and get your license. 
 See [How-to get pay-as-you-go subscription](https://www.youtube.com/watch?v=dK-QDFGxWek){:target="_blank"} or [How-to get perpetual license](https://www.youtube.com/watch?v=GPe0lHolWek){:target="_blank"} for more details.
 
-**IMPORTANT NOTE:** if you decide to use an [advanced deployment type](/docs/user-guide/install/pe/cluster/docker-compose-setup/#step-6-configure-deployment-type), make sure you have purchased a license key for at least four instances of ThingsBoard PE. 
+**IMPORTANT NOTE:** if you decide to use an [advanced deployment type](/thingsboard-learning/docs/user-guide/install/pe/cluster/docker-compose-setup/#step-6-configure-deployment-type), make sure you have purchased a license key for at least four instances of ThingsBoard PE. 
 Otherwise, you need to modify the local copy of [docker-compose.yml](https://github.com/thingsboard/thingsboard-pe-docker-compose/blob/master/advanced/docker-compose.yml)) 
 to use the number of ThingsBoard instances that you've purchased.
 We will reference the license key you have obtained during this step as PUT_YOUR_LICENSE_SECRET_HERE later in this guide.
@@ -72,7 +72,7 @@ TB_LICENSE_SECRET=PUT_YOUR_LICENSE_SECRET_HERE
 ## Step 5. Configure deployment type
 
 Starting ThingsBoard v2.2, it is possible to install ThingsBoard cluster using new microservices architecture and docker containers. 
-See [**microservices**](/docs/reference/msa/) architecture page for more details.
+See [**microservices**](/thingsboard-learning/docs/reference/msa/) architecture page for more details.
 
 The docker compose scripts support three deployment modes. In order to set the deployment mode, change the value of `TB_SETUP` variable in `.env` file to one of the following:
 
@@ -82,7 +82,7 @@ The docker compose scripts support three deployment modes. In order to set the d
   MQTT, CoAP and HTTP transports are also launched in the same JVM to minimize memory footprint and server requirements.
 - `advanced`- ThingsBoard Core and Rule Engine are launched in separate containers and are replicated one JVM (requires 4 licenses).  
   
-All deployment modes support separate JS executors, Redis, and different [queues](/docs/user-guide/install/pe/cluster/docker-compose-setup/#step-8-choose-thingsboard-queue-service).
+All deployment modes support separate JS executors, Redis, and different [queues](/thingsboard-learning/docs/user-guide/install/pe/cluster/docker-compose-setup/#step-8-choose-thingsboard-queue-service).
 
 ## Step 6. Configure ThingsBoard database
 

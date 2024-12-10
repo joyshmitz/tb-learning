@@ -381,7 +381,7 @@ Access Token<small>Predefined access token</small>%,%accesstoken%,%templates/iot
 Basic MQTT<small>Basic MQTT Credentials</small>%,%basicmqtt%,%templates/iot-gateway/provisioning-basic-mqtt-config.md%br%
 X.509 Certificate<small></small>%,%x509%,%templates/iot-gateway/provisioning-x-509-config.md%br%{% endcapture %}
 
-There are 4 options of provisioning configuration (you can read more about provisioning in [the official documentation](/docs/user-guide/device-provisioning/)):
+There are 4 options of provisioning configuration (you can read more about provisioning in [the official documentation](/thingsboard-learning/docs/user-guide/device-provisioning/)):
 {% include content-toggle.liquid content-toggle-id="provisioningConfig" toggle-spec=provisioningtogglespec %}
 
 #### Storage configuration
@@ -446,4 +446,4 @@ Section connectors in your configuration file may differ from shown below, but t
 
 **Note:** You can use several similar connectors at same time, but you should provide different names and configuration files to them. 
 
-If you need different type of connector, you can implement it using [customization guide](/docs/iot-gateway/custom/) or email us: <info@thingsboard.io>.
+If you need different type of connector, you can implement it using [customization guide](/thingsboard-learning/docs/iot-gateway/custom/) or email us: <info@thingsboard.io>.

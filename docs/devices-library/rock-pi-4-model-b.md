@@ -14,4 +14,4 @@ deviceImageFileName: rock-pi-4-model-b.jpeg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/rock-pi-4-model-b.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/rock-pi-4-model-b.md %}

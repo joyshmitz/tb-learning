@@ -151,19 +151,19 @@ Hide specific filters when displayed in the ThingsBoard dashboard
 
 ##### Row-click entity
 An entity that will be passed on a click on a view element (table row, bar of chart, etc.) to the ThingsBoard alias. This is usually used to change filters of view in other widgets.
-[**More details you can find here**](/docs/trendz/widget-actions/#configure-onrowclick-action)
+[**More details you can find here**](/thingsboard-learning/docs/trendz/widget-actions/#configure-onrowclick-action)
 
 ## Colors
 
 ##### Annotations
-Color Zones on the chart for ranges along the Y axis. [**More details you can find here**](/docs/trendz/visualizations-line/#color-zones) 
+Color Zones on the chart for ranges along the Y axis. [**More details you can find here**](/thingsboard-learning/docs/trendz/visualizations-line/#color-zones) 
 
 ## Caching
 
 ##### Cache report
 If the query plan is not changed will be return cached View Report without loading data from ThingsBoard.
-[**More details you can find here**](/docs/trendz/cache-settings/)
+[**More details you can find here**](/thingsboard-learning/docs/trendz/cache-settings/)
 
 ##### Enable caching
 In cases when data can be grouped by fixed intervals, like Hour or Date, will be load already computed\aggregated field value from cache instead of reloading data from ThingsBoard.
-[**More details you can find here**](/docs/trendz/cache-settings/#metrics-long-term-cache)
+[**More details you can find here**](/thingsboard-learning/docs/trendz/cache-settings/#metrics-long-term-cache)

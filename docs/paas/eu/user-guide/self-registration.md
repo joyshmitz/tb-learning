@@ -72,7 +72,7 @@ First, navigate to "Device Groups"->"All" and create sample device with name "De
 This is necessary to pass certain validation while importing the dashboard.
 
 Now, let’s navigate to the Dashboard Groups and create a new Group called “Shared Dashboards”.
-Import a [simple dashboard](/docs/user-guide/resources/my_smart_devices_dashboard.json) that shows you a list of devices.
+Import a [simple dashboard](/thingsboard-learning/docs/user-guide/resources/my_smart_devices_dashboard.json) that shows you a list of devices.
 This dashboard provides the ability to add/edit/remove devices.
 BTW, we use new widget from Entity Admin Widgets Bundle.
 

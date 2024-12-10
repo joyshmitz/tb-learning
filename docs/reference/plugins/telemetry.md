@@ -26,8 +26,8 @@ There is no specific configuration for this component.
 
 ## Server-side API
 
-Telemetry plugin API description is available in corresponding [attributes](/docs/user-guide/attributes/) 
-and [telemetry](/docs/user-guide/telemetry/) guides. 
+Telemetry plugin API description is available in corresponding [attributes](/thingsboard-learning/docs/user-guide/attributes/) 
+and [telemetry](/thingsboard-learning/docs/user-guide/telemetry/) guides. 
 
 ## Example
 

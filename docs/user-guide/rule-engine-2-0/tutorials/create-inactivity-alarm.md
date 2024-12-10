@@ -111,7 +111,7 @@ The following screenshot shows how the final Rule Chain should look like:
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/inactivity alarms/chain.png)
 
-- Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/tutorial_of_inactivity_event.json) for the rule chain indicated above and import it.
+- Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/tutorial_of_inactivity_event.json) for the rule chain indicated above and import it.
 
 - Don't forget to mark the new rule chain as "root".
 
@@ -198,7 +198,7 @@ This Rule chain is now ready and you need to save it.
 
 ## How to verify the Rule Chain and Post telemetry
 
-- Use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api), for posting the device telemetry. <br>
+- Use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api), for posting the device telemetry. <br>
   Please, note that you will need to copy the device access token from the device, **Temperature device**, as shown in the following screenshot. 
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/inactivity alarms/access-token.png)
@@ -232,11 +232,11 @@ Please refer to the first two links under the **See Also** section to see how to
 
 ## See Also
 
-- [Create & Clear Alarms: configure dashboard](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#configure-device-and-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
+- [Create & Clear Alarms: configure dashboard](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#configure-device-and-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
 
-- [Send Email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
+- [Send Email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
 
-- [Device Connectivity Status](/docs/user-guide/device-connectivity-status/) guide.
+- [Device Connectivity Status](/thingsboard-learning/docs/user-guide/device-connectivity-status/) guide.
 
 ## Next steps
 

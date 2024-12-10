@@ -33,7 +33,7 @@ Once you complete this sample/tutorial, you will see your sensor data on a dashb
 
 ### Software
  - [RTU+ Configuration Interface](https://nettra.tech).
- - You will need to have ThingsBoard server up and running. Use either [Live Demo](/docs/user-guide/live-demo/) or [Installation Guide](/docs/user-guide/install/installation-options/) to install ThingsBoard.
+ - You will need to have ThingsBoard server up and running. Use either [Live Demo](/thingsboard-learning/docs/user-guide/live-demo/) or [Installation Guide](/thingsboard-learning/docs/user-guide/install/installation-options/) to install ThingsBoard.
 
 ## Connection diagram
 
@@ -46,7 +46,7 @@ The following picture summarizes the connections for this simple project:
 
 This step contains instructions that are necessary to connect your device to ThingsBoard.
 
-Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). See [Live Demo](/docs/user-guide/live-demo/) page for more details how to get your account.
+Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). See [Live Demo](/thingsboard-learning/docs/user-guide/live-demo/) page for more details how to get your account.
 
 ### Device
 
@@ -62,8 +62,8 @@ Sign up ThingsBoard Web UI as [live-demo](https://demo.thingsboard.io/signup). S
 
 ### Dashboard
 
-Download the dashboard file (.json) using this [link](/docs/samples/nettrartu+/resources/rtu_.json).
-Use import/export [instructions](/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file (.json) using this [link](/thingsboard-learning/docs/samples/nettrartu+/resources/rtu_.json).
+Use import/export [instructions](/thingsboard-learning/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Connect RTU+ to PC
 
@@ -157,7 +157,7 @@ Once you have your RTU+ connected to the PC, we can proceed with its configurati
 
 ### Script
 
- - Download this [***script***](/docs/samples/nettrartu+/resources/rtu_temp_script.nbs).
+ - Download this [***script***](/thingsboard-learning/docs/samples/nettrartu+/resources/rtu_temp_script.nbs).
 
 ```c
 /*
@@ -218,13 +218,13 @@ As a result, you will see a time-series chart displaying temperature level (simi
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

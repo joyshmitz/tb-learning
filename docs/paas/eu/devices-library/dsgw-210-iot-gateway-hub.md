@@ -14,4 +14,4 @@ docsTag: paas-eu
 {:toc}
 
 {% include get-hosts-name.html docsTag=page.docsTag %}
-{% include /docs/devices-library/guides/dsgw-210-iot-gateway-hub.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/dsgw-210-iot-gateway-hub.md %}

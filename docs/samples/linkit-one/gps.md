@@ -62,8 +62,8 @@ Paste your device id to some place, this value will be used in further steps.
 
 ### Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/linkit-one/resources/linkit_one_gps_dashboard_v2.json). 
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/linkit-one/resources/linkit_one_gps_dashboard_v2.json). 
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Programming the LinkIt One device
 
@@ -90,7 +90,7 @@ Download and open **gps_tracker.ino** sketch.
  - thingsboardServer - ThingsBoard HOST/IP address that is accessible within your wifi network. Specify "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
 
 {% capture tabspec %}gps-arduino
-gps,gps_tracker.ino,c,resources/gps_tracker.ino,/docs/samples/linkit-one/resources/gps_tracker.ino{% endcapture %}
+gps,gps_tracker.ino,c,resources/gps_tracker.ino,/thingsboard-learning/docs/samples/linkit-one/resources/gps_tracker.ino{% endcapture %}
 {% include tabs.html %}
 
 Connect your LinkIt One device via USB cable and select Serial Debug COM port in Arduino IDE. Compile and Upload your sketch to the device using "Upload" button.
@@ -120,13 +120,13 @@ As a result, you will see the map widget with a pointer indicating your device l
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
  

@@ -46,7 +46,7 @@ You may notice some errors in the output. However, it is expected, since gateway
 
 ### Step 4. Configure the gateway 
 
-Now you can go to [**configuration guide**](/docs/iot-gateway/configuration/) to configure the gateway. In order for the changes to be saved, we need to restart the gateway.
+Now you can go to [**configuration guide**](/thingsboard-learning/docs/iot-gateway/configuration/) to configure the gateway. In order for the changes to be saved, we need to restart the gateway.
 
 ```bash
 systemctl restart thingsboard-gateway

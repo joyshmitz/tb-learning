@@ -220,7 +220,7 @@ tar -czf thingsboard-logs-backup.tar.gz ~/.mytb-logs
    ```
 
 ## Корисні посилання
-- [Офіційна документація ThingsBoard](https://thingsboard.io/docs/)
+- [Офіційна документація ThingsBoard](https://thingsboard.io/thingsboard-learning/docs/)
 - [Docker документація](https://docs.docker.com/)
 - [Docker Compose документація](https://docs.docker.com/compose/)
-- [PostgreSQL документація](https://www.postgresql.org/docs/)
+- [PostgreSQL документація](https://www.postgresql.org/thingsboard-learning/docs/)

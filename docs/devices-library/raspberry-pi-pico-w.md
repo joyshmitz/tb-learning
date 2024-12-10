@@ -12,4 +12,4 @@ deviceImageFileName: raspberry-pi-pico-w.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/raspberry-pi-pico-w.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/raspberry-pi-pico-w.md %}

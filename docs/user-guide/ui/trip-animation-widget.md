@@ -2,7 +2,7 @@
 layout: docwithnav
 title: Trip animation widget
 description: Trip animation widget guide
-redirect_from: "/docs/user-guide/ui/widgets/trip-animation-widget/"
+redirect_from: "/thingsboard-learning/docs/user-guide/ui/widgets/trip-animation-widget/"
 
 adding-device:
     0:

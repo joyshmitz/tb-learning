@@ -38,16 +38,16 @@ This Tutorial is to show you how to send an email message with HTML page or imag
 
 ## Prerequisites
 
-* [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-* [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-* [Send email](/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) node.
+* [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+* [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+* [Send email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) node.
 
 
 ## Message flow
-- Like a start point we will use [Generator](/docs/user-guide/rule-engine-2-0/action-nodes/#generator-node) that will imitate regular rule chain messages flow: prepared message and metadata
+- Like a start point we will use [Generator](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#generator-node) that will imitate regular rule chain messages flow: prepared message and metadata
   where we can contain some dynamic field for **to email** node.
-- The [To email node](/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) prepares data, destination email, and other for email message.
-- The [Send email node](/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) sends a message.
+- The [To email node](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) prepares data, destination email, and other for email message.
+- The [Send email node](/thingsboard-learning/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) sends a message.
 
 ## Configuring Rule Nodes
 
@@ -96,7 +96,7 @@ We got the next message:
 
 ## See Also
 
-- [Send email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/).
+- [Send email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/).
 
 ## Next steps
 

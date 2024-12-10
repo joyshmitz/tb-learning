@@ -15,7 +15,7 @@ or external sites. In this guide, you will learn how to do this.
 
 ## Prerequisites
 
-You should [import Trendz widget bundle into ThingsBoard](/docs/trendz/trendz-bundle#Import-Trendz-bundle-into-ThingsBoard). If you are using ThingsBoard Cloud - you should already have required bundle imported into ThingsBoard.
+You should [import Trendz widget bundle into ThingsBoard](/thingsboard-learning/docs/trendz/trendz-bundle#Import-Trendz-bundle-into-ThingsBoard). If you are using ThingsBoard Cloud - you should already have required bundle imported into ThingsBoard.
 
 ## Add visualization on ThingsBoard Dashboard
 

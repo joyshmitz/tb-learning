@@ -104,8 +104,8 @@ This article contains instructions on how to configure ThingsBoard PE platform a
 
 Explore guides related to main ThingsBoard features:
 
- - [Create Dashboard](/docs/getting-started-guides/helloworld/#step-3-create-dashboard) - how to create a new dashboard.
- - [Working with IoT dashboards](/docs/user-guide/dashboards/) - how to work with dashboards.
+ - [Create Dashboard](/thingsboard-learning/docs/getting-started-guides/helloworld/#step-3-create-dashboard) - how to create a new dashboard.
+ - [Working with IoT dashboards](/thingsboard-learning/docs/user-guide/dashboards/) - how to work with dashboards.
 <br>
 
 ## Next steps

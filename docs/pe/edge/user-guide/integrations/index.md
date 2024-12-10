@@ -99,7 +99,7 @@ Pros:
 Cons:
 * requires installation of a separate package;
 
-Learn how to configure integration to run remotely using [this guide](/docs/pe/edge/user-guide/integrations/remote-integrations).
+Learn how to configure integration to run remotely using [this guide](/thingsboard-learning/docs/pe/edge/user-guide/integrations/remote-integrations).
 
 <object width="70%" data="/images/user-guide/integrations/remote-integrations-overview.svg"></object>
 
@@ -150,12 +150,12 @@ These limitations affect Uplink Data converter functionality:
 
 Explore guides and video tutorials related to specific integrations:
 
- - [HTTP](/docs/pe/edge/user-guide/integrations/http/)
- - [MQTT](/docs/pe/edge/user-guide/integrations/mqtt/)
- - [CoAP](/docs/pe/edge/user-guide/integrations/coap/)
- - [OPC-UA](/docs/pe/edge/user-guide/integrations/opc-ua/)
- - [TCP](/docs/pe/edge/user-guide/integrations/tcp/)
- - [UDP](/docs/pe/edge/user-guide/integrations/udp/)
+ - [HTTP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/http/)
+ - [MQTT](/thingsboard-learning/docs/pe/edge/user-guide/integrations/mqtt/)
+ - [CoAP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/coap/)
+ - [OPC-UA](/thingsboard-learning/docs/pe/edge/user-guide/integrations/opc-ua/)
+ - [TCP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/tcp/)
+ - [UDP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/udp/)
  
 ## Next steps
 

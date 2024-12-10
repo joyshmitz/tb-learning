@@ -12,7 +12,7 @@ description: ThingsBoard  X.509 Certificate based authentication for IoT devices
 
 
 X.509 Certificates are used to setup [mutual](https://en.wikipedia.org/wiki/Mutual_authentication) (two-way) authentication for MQTT over TLS.
-It is similar to [access token](/docs/{{docsPrefix}}user-guide/access-token/) authentication, but uses X.509 Certificate instead of token.
+It is similar to [access token](/thingsboard-learning/docs/{{docsPrefix}}user-guide/access-token/) authentication, but uses X.509 Certificate instead of token.
 
 Instructions below will describe how to connect MQTT client using X.509 Certificate to ThingsBoard Cloud.
 

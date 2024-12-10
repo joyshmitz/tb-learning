@@ -7,7 +7,7 @@ description: ThingsBoard IoT Platform hardware samples and tutorials
 
 #### Demo Account
 
-ThingsBoard installation contains **[single tenant account](/docs/samples/demo-account/)** that is used in sample applications and contains a lot of pre-provisioned entities for demonstration purposes.
+ThingsBoard installation contains **[single tenant account](/thingsboard-learning/docs/samples/demo-account/)** that is used in sample applications and contains a lot of pre-provisioned entities for demonstration purposes.
 
 #### Hardware platforms
 
@@ -19,25 +19,25 @@ ThingsBoard team is working on samples applications for
 Intel Edison, C.H.I.P, Tessel, Samsung Artik and Gemalto 
 and will upload them to this page as soon as possible.  
 
- - [**Arduino**](/docs/samples/arduino/)
+ - [**Arduino**](/thingsboard-learning/docs/samples/arduino/)
 
- - [**ESP32**](/docs/samples/esp32/)
+ - [**ESP32**](/thingsboard-learning/docs/samples/esp32/)
 
- - [**ESP8266**](/docs/samples/esp8266/)
+ - [**ESP8266**](/thingsboard-learning/docs/samples/esp8266/)
 
- - [**NodeMCU**](/docs/samples/nodemcu/)
+ - [**NodeMCU**](/thingsboard-learning/docs/samples/nodemcu/)
 
- - [**Raspberry Pi**](/docs/samples/raspberry/)
+ - [**Raspberry Pi**](/thingsboard-learning/docs/samples/raspberry/)
 
- - [**LinkIt ONE**](/docs/samples/linkit-one/)
+ - [**LinkIt ONE**](/thingsboard-learning/docs/samples/linkit-one/)
 
- - [**Nettra RTU**](/docs/samples/nettrartu+/)
+ - [**Nettra RTU**](/thingsboard-learning/docs/samples/nettrartu+/)
 
- - [**Smartico**](/docs/samples/smartico/)
+ - [**Smartico**](/thingsboard-learning/docs/samples/smartico/)
 
 #### Tutorials
 
- - [**Sending alarms using Email Plugin**](/docs/samples/alarms/mail/)
- - [**Alarms based on sensor readings**](/docs/samples/alarms/basic-rules/)
- - [**Facilities monitoring system prototype using ThingsBoard**](/docs/samples/monitoring/facilities-monitoring-poc/)
+ - [**Sending alarms using Email Plugin**](/thingsboard-learning/docs/samples/alarms/mail/)
+ - [**Alarms based on sensor readings**](/thingsboard-learning/docs/samples/alarms/basic-rules/)
+ - [**Facilities monitoring system prototype using ThingsBoard**](/thingsboard-learning/docs/samples/monitoring/facilities-monitoring-poc/)
  

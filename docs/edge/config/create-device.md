@@ -20,7 +20,7 @@ create-device:
 assignment-from-cloud:
     0:
         image: /images/edge/config/devices/0-assignment-from-cloud.webp
-        title: 'The variety of buttons on the <b>"Instances"</b> page will help you to manage different <a href="/docs/user-guide/entities-and-relations/" target="_blank">entities</a>, and assign them accordingly to the <b>Edge instance</b>. To assign a <b>Device</b>, click the <b>"Manage devices"</b> button.'
+        title: 'The variety of buttons on the <b>"Instances"</b> page will help you to manage different <a href="/thingsboard-learning/docs/user-guide/entities-and-relations/" target="_blank">entities</a>, and assign them accordingly to the <b>Edge instance</b>. To assign a <b>Device</b>, click the <b>"Manage devices"</b> button.'
     1:
         image: /images/edge/config/devices/1-assign-devices-from-cloud.webp
         title: 'On the <b>"Edge devices"</b> page, click the <b>"+"</b> icon and then select the <b>Device(s)</b> from the drop-down list in the pop-up window. Confirm the action by clicking the <b>"Assign"</b> button.'

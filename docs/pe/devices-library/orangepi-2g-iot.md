@@ -11,4 +11,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/orangepi-2g-iot.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/orangepi-2g-iot.md %}

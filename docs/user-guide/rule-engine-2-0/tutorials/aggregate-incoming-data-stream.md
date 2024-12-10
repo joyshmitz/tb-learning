@@ -25,8 +25,8 @@ You can use this tutorial as a basis for much more complex scenarios.
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Model definition
 
@@ -43,7 +43,7 @@ It is also convenient to use relations in the dashboards to provide drill-down c
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/aggregation/add-relations.png)
 
-**Note**: Please review the following [**documentation page**](/docs/user-guide/entities-and-relations/) to learn how to create assets and relations.
+**Note**: Please review the following [**documentation page**](/thingsboard-learning/docs/user-guide/entities-and-relations/) to learn how to create assets and relations.
 
 ## Message Flow
 
@@ -106,13 +106,13 @@ In this section, we explain the purpose of each node in this tutorial. There wil
 
 ## Configuring the Rule Chains
 
-Download and [**import**](/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached emulators rule chain [**file**](/docs/user-guide/rule-engine-2-0/pe/tutorials/aggregation_emulators.json) as a new "Emulators" rule chain and 
-attached water consumption rule chain [**file**](/docs/user-guide/rule-engine-2-0/pe/tutorials/aggregation_water_consumption.json) as a new "Water Consumption" rule chain. 
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached emulators rule chain [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/pe/tutorials/aggregation_emulators.json) as a new "Emulators" rule chain and 
+attached water consumption rule chain [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/pe/tutorials/aggregation_water_consumption.json) as a new "Water Consumption" rule chain. 
 Please note that some nodes have debug enabled. This affects performance. Create Node C and Node D as shown on the image above in the root rule chain to forward telemetry to new rule chain.
 
 ## Validating the flow
 
-Download and [**import**](/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) attached dashboard [**file**](/docs/user-guide/rule-engine-2-0/pe/tutorials/building_water_meters.json) as a new "Building Water Meters" dashboard.
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/dashboards/#iot-dashboard-importexport) attached dashboard [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/pe/tutorials/building_water_meters.json) as a new "Building Water Meters" dashboard.
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/aggregation/dashboard-part1.png)
 

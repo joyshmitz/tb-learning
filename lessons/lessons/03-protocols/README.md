@@ -244,6 +244,6 @@ Modbus - це протокол прикладного рівня для пром
 4. Налаштуйте відображення даних на дашборді
 
 ## Додаткові ресурси
-- [Офіційна документація MQTT в ThingsBoard](https://thingsboard.io/docs/reference/mqtt-api/)
-- [Документація Modbus інтеграції](https://thingsboard.io/docs/user-guide/integrations/modbus/)
-- [Приклади MQTT клієнтів](https://thingsboard.io/docs/reference/mqtt-api/#client-side-rpc)
+- [Офіційна документація MQTT в ThingsBoard](https://thingsboard.io/thingsboard-learning/docs/reference/mqtt-api/)
+- [Документація Modbus інтеграції](https://thingsboard.io/thingsboard-learning/docs/user-guide/integrations/modbus/)
+- [Приклади MQTT клієнтів](https://thingsboard.io/thingsboard-learning/docs/reference/mqtt-api/#client-side-rpc)

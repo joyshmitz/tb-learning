@@ -5,7 +5,7 @@ assignees:
 title: ThingsBoard Professional Edition installation options
 description: ThingsBoard Professional Edition installation instructions for various operation systems and cloud platforms
 notitle: "true"
-redirect_from: "/docs/pe/user-guide/install/installation-options/"
+redirect_from: "/thingsboard-learning/docs/pe/user-guide/install/installation-options/"
 ---
 
 <div class="installation-options">
@@ -55,7 +55,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/ubuntu/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/ubuntu/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/ubuntu.svg" title="Ubuntu" alt="Ubuntu">
@@ -64,7 +64,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/rhel/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/rhel/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/centos-redhat.svg" title="CentOS/RHEL" alt="CentOS/RHEL">
@@ -73,7 +73,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/windows/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/windows/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/windows.svg" title="Windows" alt="Windows">
@@ -82,7 +82,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/docker-windows/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/docker-windows/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-windows.svg" title="Docker (Windows)" alt="Docker (Windows)">
@@ -91,7 +91,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/docker/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/docker/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-linux-macos.svg" title="Docker (Linux or Mac OS)" alt="Docker (Linux or Mac OS)">
@@ -100,7 +100,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/cluster-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/cluster-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/cluster.svg" title="Cluster setup" alt="Cluster setup">
@@ -115,7 +115,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                             <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/aws/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/aws/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cloud/aws.svg" title="AWS" alt="AWS">
@@ -124,7 +124,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/azure/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/azure/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cloud/azure.svg" title="Microsoft Azure" alt="Microsoft Azure">
@@ -133,7 +133,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/digital-ocean/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/digital-ocean/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cloud/digitalocean.svg" title="DigitalOcean" alt="DigitalOcean">
@@ -142,7 +142,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/gcp/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/gcp/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cloud/gcp.svg" title="Google Cloud Platform" alt="Google Cloud Platform">
@@ -151,7 +151,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/ibm-cloud/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/ibm-cloud/">
                                             <span>
                                                 <div class="deployment-logo coming-soon">
                                                     <img width="" src="/images/install/cloud/ibm-cloud.png" title="IBM Cloud" alt="IBM Cloud">
@@ -160,7 +160,7 @@ redirect_from: "/docs/pe/user-guide/install/installation-options/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/alibaba-cloud/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/alibaba-cloud/">
                                             <span>
                                                 <div class="deployment-logo coming-soon">
                                                     <img width="" src="/images/install/cloud/alibaba-cloud.jpg" title="Alibaba Cloud" alt="Alibaba Cloud">

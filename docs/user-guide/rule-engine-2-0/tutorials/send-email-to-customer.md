@@ -11,7 +11,7 @@ This tutorial is to show you how to send an email to the customer using the Rule
 {:toc}
 
 {% capture difference %}
-**Note:** this tutorial is based on the [send email on alarm](/docs/user-guide/rule-engine-2-0/tutorials/send-email/#use-case) tutorial and it's use case. We will reuse the rule chains from the above-mentioned tutorial and will add a few more rule nodes to send email to the customer of the assigned device.
+**Note:** this tutorial is based on the [send email on alarm](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/#use-case) tutorial and it's use case. We will reuse the rule chains from the above-mentioned tutorial and will add a few more rule nodes to send email to the customer of the assigned device.
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -32,10 +32,10 @@ In this tutorial we will configure ThingsBoard Rule Engine to:
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-  * [Create & Clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
-  * [Send email on alarm](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+  * [Create & Clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
+  * [Send email on alarm](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
 
 ## Create customer and assign device
 
@@ -45,7 +45,7 @@ First of all, we need to create Customer and assign device to customer. The foll
 
 <br>
 
-Customer created. Now we need to assign device **Thermostat Home**(the creation of which was described in the [Create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#adding-the-device) tutorial) to the customer.<br> Go to **Manage devices** on Customer page and select our device
+Customer created. Now we need to assign device **Thermostat Home**(the creation of which was described in the [Create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#adding-the-device) tutorial) to the customer.<br> Go to **Manage devices** on Customer page and select our device
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/email/manage-devices.png)
 <br>
@@ -72,21 +72,21 @@ Go to **Devices** -> **Thermostat Home** -> **Attributes** -> **Server attribute
 
 In this section, we explain the purpose of each node that was added or modified to initial rule chains in this tutorial:
 
-- Node A: [**Customer attributes**](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#customer-attributes) node.
+- Node A: [**Customer attributes**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#customer-attributes) node.
   - This node will be used for taking email attribute of the customer and save it in Message Metadata property customerEmail
-- Node B: [**Originator attributes**](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-attributes) node.
+- Node B: [**Originator attributes**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-attributes) node.
   - This node will be used for taking address server scope attribute of the originator (device is an originator of the incoming message) and save it in the Message Metadata.
-- Node C: [**To Email**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) node.
+- Node C: [**To Email**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) node.
   - This node builds actual email from the configured template.
-- Node D: [**Rule Chain**](/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
+- Node D: [**Rule Chain**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
   - Forwards incoming Message to specified Rule Chain **Create/Clear Alarm & Send Email to Customer**.
 
 <br>
 
 ## Configure Rule Chains
 
-In this tutorial, we used Rule Chains from [send email on alarm](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
-We modified Rule Chain **Create/Clear Alarm & Send Email** by adding nodes that was described above in the section [Message flow](/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#message-flow)<br>
+In this tutorial, we used Rule Chains from [send email on alarm](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
+We modified Rule Chain **Create/Clear Alarm & Send Email** by adding nodes that was described above in the section [Message flow](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#message-flow)<br>
  and renamed this rule chain to: **Create/Clear Alarm & Send Email to Customer**.
 
 <br>The following screenshots show how the above Rule Chains should look like:
@@ -101,10 +101,10 @@ We modified Rule Chain **Create/Clear Alarm & Send Email** by adding nodes that 
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/create_clear_alarm___send_email_to_customer.json) for the **Create/Clear Alarm & Send Email to Customer:** rule chain. 
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/create_clear_alarm___send_email_to_customer.json) for the **Create/Clear Alarm & Send Email to Customer:** rule chain. 
 Create Node **D** as shown on the image above in the root rule chain to forward telemetry to the imported rule chain.
 
-The following section shows you how to modify this rule chain, specifically: add rule nodes [**A**](/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-a-customer-attributes) and [**B**](/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-b-originator-attributes) and modify node [**C**](/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-c-to-email).
+The following section shows you how to modify this rule chain, specifically: add rule nodes [**A**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-a-customer-attributes) and [**B**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-b-originator-attributes) and modify node [**C**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/#node-c-to-email).
 <br>
 
 ## Modify **Create & Clear Alarms with details:**
@@ -206,7 +206,7 @@ In this rule chain, you will add 2 nodes and modify 1 node as it will be explain
 
 
 ## Post telemetry and verify
-For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api). For this we will need to
+For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api). For this we will need to
 copy device access token from then device **Thermostat Home**.
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/email v2/copy-token.png)
@@ -243,11 +243,11 @@ Please refer to the links under the **See Also** section to see how to do this.
 
 ## See Also
 
-- [Notifications and Alarms on your smartphone using Telegram Bot](/docs/iot-gateway/integration-with-telegram-bot/) guide
+- [Notifications and Alarms on your smartphone using Telegram Bot](/thingsboard-learning/docs/iot-gateway/integration-with-telegram-bot/) guide
 
-- [Create alarm with details](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/) guide.
+- [Create alarm with details](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/) guide.
 
-- [Create Alarm when the Device is offline](/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/) guide.
+- [Create Alarm when the Device is offline](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/) guide.
 
 ## Next steps
 

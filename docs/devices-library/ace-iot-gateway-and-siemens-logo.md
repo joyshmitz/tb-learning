@@ -12,4 +12,4 @@ deviceImageFileName: ace-iot-gateway.png
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/ace-iot-gateway-and-siemens-logo.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/ace-iot-gateway-and-siemens-logo.md %}

@@ -14,8 +14,8 @@ This guide will help you to set up TBMQ in Azure AKS.
 
 #### Install and configure tools
 
-To deploy TBMQ on the AKS cluster you will need to install [kubectl](https://kubernetes.io/docs/tasks/tools/), 
-[helm](https://helm.sh/docs/intro/install/), and [az](https://learn.microsoft.com/en-us/cli/azure/) tools.
+To deploy TBMQ on the AKS cluster you will need to install [kubectl](https://kubernetes.io/thingsboard-learning/docs/tasks/tools/), 
+[helm](https://helm.sh/thingsboard-learning/docs/intro/install/), and [az](https://learn.microsoft.com/en-us/cli/azure/) tools.
 
 After installation is done you need to log in to the cli using the next command.
 
@@ -183,7 +183,7 @@ nano tb-broker-db-configmap.yml
 
 ### Step 6. Azure Cache for Redis
 
-You need to set up Azure Cache for Redis. TBMQ uses cache to store messages for [DEVICE persistent clients](/docs/mqtt-broker/architecture/#persistent-device-client),
+You need to set up Azure Cache for Redis. TBMQ uses cache to store messages for [DEVICE persistent clients](/thingsboard-learning/docs/mqtt-broker/architecture/#persistent-device-client),
 to improve performance and avoid frequent DB reads (see below for more details).
 
 It is useful when clients connect to TBMQ with the authentication enabled.
@@ -414,7 +414,7 @@ The load balancer will forward all TCP traffic for ports 1883 and 8883.
 
 ##### MQTT over SSL
 
-Follow [this guide](https://thingsboard.io/docs/user-guide/mqtt-over-ssl/) to create a .pem file with the SSL certificate. Store the file as _server.pem_ in the working directory.
+Follow [this guide](https://thingsboard.io/thingsboard-learning/docs/user-guide/mqtt-over-ssl/) to create a .pem file with the SSL certificate. Store the file as _server.pem_ in the working directory.
 
 You’ll need to create a config-map with your PEM file, you can do it by calling command:
 
@@ -493,11 +493,11 @@ kubectl get statefulsets
 ```
 {: .copy-code}
 
-See [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) command reference for more details.
+See [kubectl Cheat Sheet](https://kubernetes.io/thingsboard-learning/docs/reference/kubectl/cheatsheet/) command reference for more details.
 
 ### Upgrading
 
-Review the [release notes](/docs/mqtt-broker/releases/) and [upgrade instruction](/docs/mqtt-broker/install/upgrade-instructions/)
+Review the [release notes](/thingsboard-learning/docs/mqtt-broker/releases/) and [upgrade instruction](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/)
 for detailed information on the latest changes.
 
 #### Backup and restore (Optional)
@@ -537,7 +537,7 @@ After that execute the following commands:
 {: .copy-code}
 
 Where `FROM_VERSION` - from which version upgrade should be started.
-See [Upgrade Instructions](/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
+See [Upgrade Instructions](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
 
 ### Cluster deletion
 

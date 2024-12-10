@@ -3,8 +3,8 @@ layout: docwithnav-gw
 title: MQTT Connector Configuration
 description: MQTT protocol support for ThingsBoard IoT Gateway
 redirect_from: 
-  - "/docs/iot-gateway/mqtt/"  
-  - "/docs/iot-gateway/resources/mqtt-gui-extension-configuration.json"
+  - "/thingsboard-learning/docs/iot-gateway/mqtt/"  
+  - "/thingsboard-learning/docs/iot-gateway/resources/mqtt-gui-extension-configuration.json"
 
 ---
 
@@ -12,7 +12,7 @@ redirect_from:
 {:toc}
 
 This guide will help you to get familiar with MQTT Connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this Connector. 
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this Connector. 
 The purpose of this Connector is to connect to an external MQTT broker and subscribe to data feed from devices. 
 The connector is also able to push data to MQTT brokers based on the updates/commands from ThingsBoard. 
 
@@ -279,7 +279,7 @@ Advanced<small></small>%,%advanced%,%templates/iot-gateway/mqtt-connector/attrib
 This configuration section is optional.  
 ThingsBoard allows to provision device attributes and fetch some of them from the device application.
 You can treat this as a remote configuration for devices. Your devices are able to request shared attributes from ThingsBoard.
-See [user guide](/docs/user-guide/attributes/) for more details.
+See [user guide](/thingsboard-learning/docs/user-guide/attributes/) for more details.
 
 The "**attributeUpdates**" configuration allows configuring the format of the corresponding attribute request and response messages.
 
@@ -333,7 +333,7 @@ Broker received new message from the ThingsBoard server about updating attribute
 
 ### Server side RPC commands
 
-ThingsBoard allows sending [RPC commands](/docs/user-guide/rpc/) to the device that is connected to ThingsBoard directly or via Gateway.
+ThingsBoard allows sending [RPC commands](/thingsboard-learning/docs/user-guide/rpc/) to the device that is connected to ThingsBoard directly or via Gateway.
 Configuration, provided in this section is used for sending RPC requests from ThingsBoard to device.
 
 Select basic or advanced MQTT configuration:
@@ -547,8 +547,8 @@ Example of MQTT Connector configuration file:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

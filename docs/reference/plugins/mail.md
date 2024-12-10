@@ -10,7 +10,7 @@ title: Mail Plugin
 
 ## Overview
 
-Mail plugin is responsible for sending email messages that are triggered by corresponding rule [actions](/docs/reference/actions/send-mail-action/).  
+Mail plugin is responsible for sending email messages that are triggered by corresponding rule [actions](/thingsboard-learning/docs/reference/actions/send-mail-action/).  
 
 ## Configuration
 
@@ -21,7 +21,7 @@ You can specify following parameters:
  - user name
  - password
  - map with other properties. 
-See [java mail sender](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSenderImpl.html#setJavaMailProperties-java.util.Properties-) for more details. 
+See [java mail sender](http://docs.spring.io/spring/thingsboard-learning/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSenderImpl.html#setJavaMailProperties-java.util.Properties-) for more details. 
 
 ## Server-side API
 

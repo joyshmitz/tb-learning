@@ -12,4 +12,4 @@ deviceImageFileName: hiletgo-esp32-dev-kit.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/hiletgo-esp32-dev-kit.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/hiletgo-esp32-dev-kit.md %}

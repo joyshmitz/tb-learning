@@ -9,7 +9,7 @@ description: Socket API support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you to get familiar with Socket Connector configuration for ThingsBoard IoT Gateway. 
-Use [general configuration guide](/docs/iot-gateway/configuration/) to enable this Connector. The purpose of this 
+Use [general configuration guide](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this Connector. The purpose of this 
 Connector is to connect to your server using TCP or UDP connection type.
 
 This Connector is useful when you have a local server in your facility or corporate network and want to push
@@ -216,7 +216,7 @@ That means that we have to send the next message for requesting two shared attri
 
 This configuration section is optional. ThingsBoard allows the provisioning of device attributes and fetches some of them from 
 the device application. You can treat this as a remote configuration for devices, enabling them to request 
-shared attributes from ThingsBoard. See [user guide](/docs/user-guide/attributes/) for more details.
+shared attributes from ThingsBoard. See [user guide](/thingsboard-learning/docs/user-guide/attributes/) for more details.
 
 The “attributeRequests” configuration allows you to configure the format of the corresponding attribute data that will be 
 sent to the server.
@@ -269,14 +269,14 @@ Also, every telemetry and attribute parameter has a built-in SET RPC method out 
 manual configuration. To use them, make sure you set all the required parameters (in the case of Socket Connector, 
 these are the following:
 **withResponse**, **methodProcessing**, **encoding**). 
-See [the guide](/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
+See [the guide](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
 
 ## Next steps
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -77,7 +77,7 @@ redisEndpointUrl:
 {:toc}
 
 This guide will help you to setup ThingsBoard in microservices mode using AWS EKS. 
-See [microservices](/docs/reference/msa/) architecture page for more details about each component that will be installed.
+See [microservices](/thingsboard-learning/docs/reference/msa/) architecture page for more details about each component that will be installed.
 We will use Amazon RDS for managed PostgreSQL, Amazon MSK for managed Kafka and Amazon ElastiCache for managed Redis.
 
 ## Prerequisites

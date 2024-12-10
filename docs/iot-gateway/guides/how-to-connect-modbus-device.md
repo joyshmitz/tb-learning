@@ -13,7 +13,7 @@ description: Understand how to connect Modbus device to ThingsBoard using the Th
 ## Device information
 
 For the purpose of this guide, we will use Raspberry Pi with Modbus server to emulate Modbus device.
-We will use [Modbus connector](/docs/iot-gateway/config/modbus/) to collect data.  
+We will use [Modbus connector](/thingsboard-learning/docs/iot-gateway/config/modbus/) to collect data.  
 
 The info available at this moment:  
 
@@ -90,7 +90,7 @@ For example:
 {: .copy-code}
 
   
-About sections of Modbus configuration file you can [read more here](/docs/iot-gateway/config/modbus/).  
+About sections of Modbus configuration file you can [read more here](/thingsboard-learning/docs/iot-gateway/config/modbus/).  
 
 Let's analyze our settings:
 
@@ -103,7 +103,7 @@ Save the configuration file as modbus.json in configuration folder (the director
 
 ## Step 3. Turn on the connector 
 
-To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/docs/iot-gateway/configuration/#connectors-configuration)**)
+To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/thingsboard-learning/docs/iot-gateway/configuration/#connectors-configuration)**)
 
 In "connectors" section we should uncomment following strings:
 
@@ -123,7 +123,7 @@ sudo systemctl restart thingsboard-gateway
 ```  
 {: .copy-code}
 
-If you have installed the gateway as a python module (using [pip package manager](/docs/iot-gateway/install/pip-installation/) or [from sources](/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
+If you have installed the gateway as a python module (using [pip package manager](/thingsboard-learning/docs/iot-gateway/install/pip-installation/) or [from sources](/thingsboard-learning/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
 **Notice**: You must place correct path to the main configuration file (**tb_gateway.yaml**) in the command/script.  
 
 ```bash

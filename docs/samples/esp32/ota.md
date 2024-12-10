@@ -44,7 +44,7 @@ The specified device type will be used later in the rule chains and in the dashb
 
 2. Add the new rule chain that will update the device's server attribute *fwStateIsSynced*.
 The attribute type is boolean and it will be used to show on the dashboard is firmware synced or not.
-Download, import [Check is ESP32 firmware synced](/docs/samples/esp32/resources/check_is_esp32_firmware_synced.json) rule chain into ThingsBoard and save it:
+Download, import [Check is ESP32 firmware synced](/thingsboard-learning/docs/samples/esp32/resources/check_is_esp32_firmware_synced.json) rule chain into ThingsBoard and save it:
 
     <img data-gifffer="/images/samples/esp32/ota/import_rule_chain.gif" width="1000" alt="import rule chain">
 
@@ -66,8 +66,8 @@ To the added node should be connected two links:
     - After the user save the new OTA configuration in the widget.
     The new value of firmware version passes through *Attributes Updated* link in the rule chain as server attribute *lastTargetFwVer*.
 
-4. Download and import [OTA widgets (ThingsBoard v3.x)](/docs/samples/esp32/resources/ota_widgets_v2.json) or [OTA widgets (ThingsBoard v2.x)](/docs/samples/esp32/resources/ota_widgets.json) widgets group to Widgets Library to allow specifying of firmware URL and version and send OTA configuration to ESP32.
-5. Download and import [OTA for ESP32 (ThingsBoard v3.x)](/docs/samples/esp32/resources/ota_for_esp32_v2.json) or [OTA for ESP32 (ThingsBoard v2.x)](/docs/samples/esp32/resources/ota_for_esp32.json) dashboard to Dashboards Group. The dashboard has the alias *ESP32_OTA_alias* for the devices with type *ESP32_OTA*.
+4. Download and import [OTA widgets (ThingsBoard v3.x)](/thingsboard-learning/docs/samples/esp32/resources/ota_widgets_v2.json) or [OTA widgets (ThingsBoard v2.x)](/thingsboard-learning/docs/samples/esp32/resources/ota_widgets.json) widgets group to Widgets Library to allow specifying of firmware URL and version and send OTA configuration to ESP32.
+5. Download and import [OTA for ESP32 (ThingsBoard v3.x)](/thingsboard-learning/docs/samples/esp32/resources/ota_for_esp32_v2.json) or [OTA for ESP32 (ThingsBoard v2.x)](/thingsboard-learning/docs/samples/esp32/resources/ota_for_esp32.json) dashboard to Dashboards Group. The dashboard has the alias *ESP32_OTA_alias* for the devices with type *ESP32_OTA*.
 It allows to show on the dashboard a list of ESP32 with OTA support and the current firmware state (synced or not synced) for every device in the list.
 User can change and update OTA config of any ESP32 form the list by clicking 'Select OTA configuration' control in the last column.
 
@@ -195,13 +195,13 @@ After this OTA update *counter* periodically changes its value to 0 or to 1, in 
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 Don't hesitate to star ThingsBoard on **[github](https://github.com/thingsboard/thingsboard)** to help us spread the word.
 If you have any questions about this sample - post it on the **[issues](https://github.com/thingsboard/esp32-ota/issues)**.

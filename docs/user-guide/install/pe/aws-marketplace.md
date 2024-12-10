@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Installing ThingsBoard PE from AWS Marketplace
 description: Installing ThingsBoard PE from AWS Marketplace
-redirect_from: "/docs/user-guide/install/aws-marketplace-pe/"
+redirect_from: "/thingsboard-learning/docs/user-guide/install/aws-marketplace-pe/"
 ---
 
 This guide describes how to install ThingsBoard Professional Edition from AWS Marketplace. 
@@ -111,7 +111,7 @@ Please use the official guides:
   * [Connecting to Your Linux Instance from Windows Using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html) - for Windows users;
   * [Connecting to Your Linux Instance Using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html) - For Linux/Mac users.
   
-Note: You will need to use instance Public DNS name (see [Step 3.7](/docs/user-guide/install/pe/aws/#step-37-obtain-your-public-ip-and-ec2-instance-id)) and the key file (see [Step 3.4](/docs/user-guide/install/pe/aws/#step-34-configure-key-pair-settings))
+Note: You will need to use instance Public DNS name (see [Step 3.7](/thingsboard-learning/docs/user-guide/install/pe/aws/#step-37-obtain-your-public-ip-and-ec2-instance-id)) and the key file (see [Step 3.4](/thingsboard-learning/docs/user-guide/install/pe/aws/#step-34-configure-key-pair-settings))
 
 #### Step 5.2. Put License Secret to thingsboard configuration file
 
@@ -165,7 +165,7 @@ Use this login to connect as system Administrator
 
 - **sysadmin@thingsboard.org**
 
-Default password for System Administrator is Instance ID (see [Step 3.7](/docs/user-guide/install/pe/aws/#step-37-obtain-your-public-ip-and-ec2-instance-id)). In this example: 
+Default password for System Administrator is Instance ID (see [Step 3.7](/thingsboard-learning/docs/user-guide/install/pe/aws/#step-37-obtain-your-public-ip-and-ec2-instance-id)). In this example: 
 
 -  **i-032b8bbf297987458**
 
@@ -231,26 +231,26 @@ See <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html">off
 
 **How to enable HTTPS?**
 
-See <a href="/docs/user-guide/install/pe/aws/#post-installation-steps">Post-installation steps</a>
+See <a href="/thingsboard-learning/docs/user-guide/install/pe/aws/#post-installation-steps">Post-installation steps</a>
 <br><br>
 
 **How do I configure my TB PE instance?**
 
-See <a href="/docs/user-guide/install/config/">official documentation page</a> for more details.
+See <a href="/thingsboard-learning/docs/user-guide/install/config/">official documentation page</a> for more details.
 
 <br>
 
 **How do I get software updates for my TB PE instance?**
 
 You will receive an email notification about new software versions once it becomes available. 
-This email notification will contain a link to <a href="/docs/user-guide/install/aws-marketplace-pe-upgrade/">official documentation page</a> with the upgrade instructions.
+This email notification will contain a link to <a href="/thingsboard-learning/docs/user-guide/install/aws-marketplace-pe-upgrade/">official documentation page</a> with the upgrade instructions.
 <br><br>
 
 **How do I backup my database?**
 Depending on your instance type and configuration, ThingsBoard may store data in SQL or NoSQL databases. 
 ThingsBoard may also store data using hybrid database mode. 
-Please review <a href="/docs/reference/#sql-vs-nosql-vs-hybrid-database-approach">architecture docs</a> for more info on available database types.
-Once you figure out the database type(s) you are using in your instance, you can review official <a href="https://www.postgresql.org/docs/9.1/backup.html">PostgreSQL</a> 
+Please review <a href="/thingsboard-learning/docs/reference/#sql-vs-nosql-vs-hybrid-database-approach">architecture docs</a> for more info on available database types.
+Once you figure out the database type(s) you are using in your instance, you can review official <a href="https://www.postgresql.org/thingsboard-learning/docs/9.1/backup.html">PostgreSQL</a> 
 or <a href="https://docs.datastax.com/en/cassandra/3.0/cassandra/operations/opsBackupRestore.html">Cassandra</a> documentation. 
 There is also planty of docs and tools in the web how you can backup and restore your DB. 
 <br><br>
@@ -263,12 +263,12 @@ See official License Server <a href="/products/license-server/">documentation pa
 **Where is my ThingsBoard instance logs?**
 
 ThingsBoard logs are stored in the <i>/var/log/thingsboard</i> folder. 
-See <a href="/docs/user-guide/install/config/#logging">configuration page</a> to find out how to configure logging levels.
+See <a href="/thingsboard-learning/docs/user-guide/install/config/#logging">configuration page</a> to find out how to configure logging levels.
 <br><br>
 
 **How do I get professional support?**
 
-Please review ThingsBoard professional <a href="/docs/services/support/">support plans</a> and <a href="/docs/contact-us/">contact us</a>.
+Please review ThingsBoard professional <a href="/thingsboard-learning/docs/services/support/">support plans</a> and <a href="/thingsboard-learning/docs/contact-us/">contact us</a>.
 <br><br>
 
 ### Next steps

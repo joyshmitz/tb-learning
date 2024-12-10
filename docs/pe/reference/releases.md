@@ -526,7 +526,7 @@ Everything from [TB CE v3.3.1](https://github.com/thingsboard/thingsboard/releas
 
 Main features:
 
-* Introduced [Solution templates](/docs/pe/solution-templates/overview/);
+* Introduced [Solution templates](/thingsboard-learning/docs/pe/solution-templates/overview/);
 * UI: Added rule engine service to make requests to rule engine from custom actions;
 * Remote integrations: Ability to setup RPC SSL without server SSL certificate
 
@@ -569,7 +569,7 @@ Main features:
 
 * Update custom menu: Introduce dashboardId parameter to embed dashboard instead of using iframe;
 * Azure Event Hub Integration is updated to use new SDK;
-* Added new version of ["Alarms Count Node"](/docs/pe/user-guide/rule-engine-2-0/analytics-nodes/#alarms-count-node).
+* Added new version of ["Alarms Count Node"](/thingsboard-learning/docs/pe/user-guide/rule-engine-2-0/analytics-nodes/#alarms-count-node).
 * Added "Duplicate to group entities;
 * Added ability to aggregate data on each message in the "Aggregate stream node".
 * Add ability to aggregate data weekly from Sunday to Saturday in the "Aggregate stream node".
@@ -835,7 +835,7 @@ Everything from TB CE v2.4.0 with the following improvements.
 
 Main features:
 
-- Added [Self-registration](/docs/user-guide/self-registration/) feature;
+- Added [Self-registration](/thingsboard-learning/docs/user-guide/self-registration/) feature;
 
 Additional features:
 
@@ -859,8 +859,8 @@ Everything from TB CE v2.3.1 with the following improvements.
 
 Main features:
 
-- Introduced [Change Owner](/docs/user-guide/rbac/) operation;
-- Introduced [Custom Menu](/docs/user-guide/custom-menu/) feature;
+- Introduced [Change Owner](/thingsboard-learning/docs/user-guide/rbac/) operation;
+- Introduced [Custom Menu](/thingsboard-learning/docs/user-guide/custom-menu/) feature;
 
 Additional features:
 
@@ -884,7 +884,7 @@ Everything from TB CE v2.3+ the following improvements.
 
 Main features:
 
-- [Advanced RBAC for IoT](/docs/user-guide/rbac/) to be able to define user groups and set permissions in relation to entity groups (devices/assets/dashboards, etc);
+- [Advanced RBAC for IoT](/thingsboard-learning/docs/user-guide/rbac/) to be able to define user groups and set permissions in relation to entity groups (devices/assets/dashboards, etc);
 
 Additional features:
 

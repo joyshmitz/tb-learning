@@ -22,12 +22,12 @@ In this tutorial we will configure ThingsBoard Rule Engine to modify temperature
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Step 1: Adding temperature transformation node
 
-We will modify default rule chain and will add [**transformation**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node) rule node with temperature transformation script. 
+We will modify default rule chain and will add [**transformation**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node) rule node with temperature transformation script. 
 We will place this rule node between default "message type switch" and "save timeseries" rule nodes.
 Please note that we have removed irrelevant rule nodes from the root rule chain as well.
 
@@ -61,7 +61,7 @@ You can check few more cases, for example when temperature is not set.
 
 ## TL;DR
 
-Download and import attached json [**file**](/docs/user-guide/resources/transformation-rule-chain.json) with a rule chain from this tutorial. Don't forget to mark new rule chain as "root".
+Download and import attached json [**file**](/thingsboard-learning/docs/user-guide/resources/transformation-rule-chain.json) with a rule chain from this tutorial. Don't forget to mark new rule chain as "root".
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/make-root.png)
 

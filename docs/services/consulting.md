@@ -36,6 +36,6 @@ description: Professional services
 </div>
 
 <div class="bottom">
-    <a href="/docs/contact-us/" class="contact-button">Contact Us</a>
+    <a href="/thingsboard-learning/docs/contact-us/" class="contact-button">Contact Us</a>
     <p>Contact us to get the ThingsBoard Professional services</p>
 </div>

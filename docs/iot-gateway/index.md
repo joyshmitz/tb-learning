@@ -11,7 +11,7 @@ For example, you can extract data from devices that are connected to external **
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/iot-gateway/what-is-iot-gateway/">
+        <a class="feature-card" href="/thingsboard-learning/docs/iot-gateway/what-is-iot-gateway/">
             <img class="feature-logo" src="/images/feature-logo/gateway-logo.svg" alt="Gateway logo">
             <div class="feature-title">What is ThingsBoard IoT Gateway?</div>
             <div class="feature-text">
@@ -23,7 +23,7 @@ For example, you can extract data from devices that are connected to external **
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/iot-gateway/getting-started/">
+        <a class="feature-card" href="/thingsboard-learning/docs/iot-gateway/getting-started/">
             <img class="feature-logo" src="/images/feature-logo/getting-started.svg" alt="Getting started icon">
             <div class="feature-title">Getting started</div>
             <div class="feature-text">
@@ -32,7 +32,7 @@ For example, you can extract data from devices that are connected to external **
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/iot-gateway/installation/">
+        <a class="feature-card" href="/thingsboard-learning/docs/iot-gateway/installation/">
             <img class="feature-logo" src="/images/feature-logo/install.svg" alt="Install icon">
             <div class="feature-title">Installation</div>
             <div class="feature-text">
@@ -41,7 +41,7 @@ For example, you can extract data from devices that are connected to external **
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/iot-gateway/configuration/">
+        <a class="feature-card" href="/thingsboard-learning/docs/iot-gateway/configuration/">
             <img class="feature-logo" src="/images/feature-logo/configuration.svg" alt="Gear icon">
             <div class="feature-title">Configuration</div>
             <div class="feature-text">

@@ -13,8 +13,8 @@ This guide will help you to set up TBMQ in cluster mode using Minikube.
 ### Prerequisites
 
 You need to have a Kubernetes cluster, and the `kubectl` command-line tool must be configured to communicate with your cluster.
-If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/docs/setup/learning-environment/minikube/).
-Additionally, you will need [helm](https://helm.sh/docs/intro/install/) to be installed.
+If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/thingsboard-learning/docs/setup/learning-environment/minikube/).
+Additionally, you will need [helm](https://helm.sh/thingsboard-learning/docs/intro/install/) to be installed.
 
 ### Step 1. Clone TBMQ repository
 
@@ -98,7 +98,7 @@ kubectl get statefulsets
 ```
 {: .copy-code}
 
-See [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) command reference for more details.
+See [kubectl Cheat Sheet](https://kubernetes.io/thingsboard-learning/docs/reference/kubectl/cheatsheet/) command reference for more details.
 
 Execute the following command to delete TBMQ nodes:
 
@@ -116,7 +116,7 @@ Execute the following command to delete all resources (including database):
 
 ### Upgrading
 
-Review the [release notes](/docs/mqtt-broker/releases/) and [upgrade instruction](/docs/mqtt-broker/install/upgrade-instructions/)
+Review the [release notes](/thingsboard-learning/docs/mqtt-broker/releases/) and [upgrade instruction](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/)
 for detailed information on the latest changes.
 
 #### Backup and restore (Optional)
@@ -151,7 +151,7 @@ After that execute the following commands:
 {: .copy-code}
 
 Where `FROM_VERSION` - from which version upgrade should be started.
-See [Upgrade Instructions](/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
+See [Upgrade Instructions](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/) for valid `fromVersion` values.
 
 ### Next steps
 

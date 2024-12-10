@@ -15,7 +15,7 @@ The applications in this samples that are running on LinkIt ONE are developed us
 
 ## Samples
 
- - [GPS data upload and visualization using LinkIt ONE and ThingsBoard](/docs/samples/linkit-one/gps/)
+ - [GPS data upload and visualization using LinkIt ONE and ThingsBoard](/thingsboard-learning/docs/samples/linkit-one/gps/)
 
 ## Documentation
 

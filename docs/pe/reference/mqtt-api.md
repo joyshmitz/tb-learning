@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: MQTT Device API Reference
 description: Supported MQTT API Reference for IoT Devices
-redirect_from: "/docs/pe/reference/mqtt-api"
+redirect_from: "/thingsboard-learning/docs/pe/reference/mqtt-api"
 
 server-side-rpc:
     0:

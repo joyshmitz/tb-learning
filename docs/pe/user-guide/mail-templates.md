@@ -4,7 +4,7 @@ assignees:
 - stitenko
 title: Mail Templates
 description:
-redirect_from: "/docs/user-guide/mail-templates/"
+redirect_from: "/thingsboard-learning/docs/user-guide/mail-templates/"
 
 ---
 

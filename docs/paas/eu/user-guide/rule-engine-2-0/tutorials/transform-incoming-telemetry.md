@@ -2,7 +2,7 @@
 layout: docwithnav-paas-eu
 title: Transform incoming telemetry
 description: Transform incoming telemetry
-redirect_to: "/docs/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
+redirect_to: "/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
 ---
 
 {% assign docsPrefix = "paas/eu/" %}

@@ -24,7 +24,7 @@ the corresponding containers. For more details, refer to the [Docker documentati
 #### K8S-Based deployment
 
 If TBMQ is installed in a K8S environment, you can edit the scripts and add environment variables for the 
-corresponding deployments/stateful sets. For more details, refer to the [K8S documentation](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/).
+corresponding deployments/stateful sets. For more details, refer to the [K8S documentation](https://kubernetes.io/thingsboard-learning/docs/tasks/inject-data-application/define-environment-variable-container/).
 
 ### Configuration parameters
 

@@ -8,7 +8,7 @@ title: Device Telemetry Filter
 
 ## Overview
 
-This component allows filtering incoming [telemetry](/docs/user-guide/telemetry/) messages by their values.
+This component allows filtering incoming [telemetry](/thingsboard-learning/docs/user-guide/telemetry/) messages by their values.
 This filter is very useful if you want to apply rule based on certain values of telemetry. 
 For example, an engine controller may periodically report its temperature. 
 When engine temperature is higher than 100 degrees you may raise an alert. 

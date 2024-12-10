@@ -2,7 +2,7 @@
 layout: docwithnav-gw
 title: Install ThingsBoard IoT Gateway using Docker
 redirect_from: 
- - "/docs/iot-gateway/install/windows/"
+ - "/thingsboard-learning/docs/iot-gateway/install/windows/"
 ---
 
 * TOC
@@ -14,7 +14,7 @@ This guide will help you to install and start ThingsBoard Gateway using Docker o
 
 - [Install Docker Toolbox for Windows](https://docker-docs.uclv.cu/toolbox/toolbox_install_windows/){:target="_blank"};
 - You will need to have access to ThingsBoard. The easiest way is to use the [ThingsBoard Demo](https://demo.thingsboard.io/){:target="_blank"} server. 
-The alternative option is to install the ThingsBoard locally using the [installation guide](https://thingsboard.io/docs/user-guide/install/installation-options/){:target="_blank"}.
+The alternative option is to install the ThingsBoard locally using the [installation guide](https://thingsboard.io/thingsboard-learning/docs/user-guide/install/installation-options/){:target="_blank"}.
 
 ## Download docker-compose file
 

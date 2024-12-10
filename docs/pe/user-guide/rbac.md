@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Advanced Role-Based Access Control (RBAC) for IoT devices and applications
 description:
-redirect_from: "/docs/user-guide/rbac/"
+redirect_from: "/thingsboard-learning/docs/user-guide/rbac/"
 
 generic-roles-example-1:
     0:

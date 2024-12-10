@@ -9,7 +9,7 @@ description: Configuration of a Senquip telemetry device to enable it to send te
 {:toc}
 
 ## Introduction
-ThingsBoard is a sevice management, data collection, processing and visualization platform for IoT solutions.  If this is your first experience with the platform we recommend to review  [what-is-thingsboard](/docs/getting-started-guides/what-is-thingsboard/) page and [getting-started](/docs/getting-started-guides/helloworld/) guide.
+ThingsBoard is a sevice management, data collection, processing and visualization platform for IoT solutions.  If this is your first experience with the platform we recommend to review  [what-is-thingsboard](/thingsboard-learning/docs/getting-started-guides/what-is-thingsboard/) page and [getting-started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
 
 
 Senquip manufactures programmable telemetry devices such as the [ORB-C1](https://www.senquip.com) that connects to any industrial sensor or system. Senquip devices can maintain connection with a third-party endpoint (via UDP, HTTP and MQTT), and the [Senquip Portal](https://portal.senquip.com) at the same time. This allows for configuration changes and firmware updates to be made from the [Senquip Portal](https://portal.senquip.com) whilst sending measured data to the ThingsBoard.

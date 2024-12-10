@@ -19,7 +19,7 @@ To enable it, use the type of connector "opcua_asyncio".**
 {% include templates/info-banner.md content=difference %}
 
 This guide will help you to get familiar with OPC-UA connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this extension.
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this extension.
 The connector configuration file will be described below.
 
 <b>Example of OPC-UA Connector config file.</b>
@@ -341,7 +341,7 @@ This part of configuration will look like this:
 
 {% capture methodFilterOptions %}
 Also, every telemetry and attribute parameter has built-in GET and SET RPC methods out of the box, so you don’t need to configure
-it manually. See [the guide](/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
+it manually. See [the guide](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
 {% endcapture %}
 {% include templates/info-banner.md content=methodFilterOptions %}
 
@@ -413,10 +413,10 @@ Now go to OPC UA server and make sure the value of the deviceName node is update
 ## Next steps
 
 Explore guides related to main ThingsBoard features:
- - [How to connect OPC-UA server to the gateway](/docs/iot-gateway/guides/how-to-connect-opcua-server/)
- - [ThingsBoard IoT Gateway Features](/docs/iot-gateway/features/)
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [How to connect OPC-UA server to the gateway](/thingsboard-learning/docs/iot-gateway/guides/how-to-connect-opcua-server/)
+ - [ThingsBoard IoT Gateway Features](/thingsboard-learning/docs/iot-gateway/features/)
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -14,4 +14,4 @@ deviceImageFileName: rock960.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/rock960.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/rock960.md %}

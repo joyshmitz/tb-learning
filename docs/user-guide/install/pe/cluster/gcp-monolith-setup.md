@@ -77,7 +77,7 @@ cd thingsboard-pe-k8s/gcp/monolith
 #### Transparent Load Balancer
 
 This type of the load balancer requires you to provision and maintain valid SSL certificate on your own.
-Follow the generic [HTTP over SSL](/docs/{{docsPrefix}}user-guide/ssl/http-over-ssl/#ssl-configuration-using-pem-certificates-file) guide
+Follow the generic [HTTP over SSL](/thingsboard-learning/docs/{{docsPrefix}}user-guide/ssl/http-over-ssl/#ssl-configuration-using-pem-certificates-file) guide
 to configure required environment variables in the *tb-node.yml* file.
 
 Afterwards, setup TCP load balancer to forward traffic from 443 port to corresponding services port 8080.

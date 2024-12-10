@@ -5,7 +5,7 @@ assignees:
 title: ThingsBoard Professional Edition cluster setup guide
 notitle: "true"
 description: ThingsBoard Professional Edition cluster setup guide
-redirect_from: "/docs/pe/user-guide/install/cluster-setup/"
+redirect_from: "/thingsboard-learning/docs/pe/user-guide/install/cluster-setup/"
 ---
 
 <div class="installation-options">
@@ -27,7 +27,7 @@ redirect_from: "/docs/pe/user-guide/install/cluster-setup/"
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/cluster/docker-compose-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/cluster/docker-compose-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cluster/docker-compose.svg" title="Docker Compose" alt="Docker Compose">
@@ -36,7 +36,7 @@ redirect_from: "/docs/pe/user-guide/install/cluster-setup/"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/pe/cluster/minikube-cluster-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/pe/cluster/minikube-cluster-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cluster/minikube.svg" title="Minikube" alt="Minikube">

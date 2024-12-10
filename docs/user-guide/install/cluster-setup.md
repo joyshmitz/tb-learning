@@ -27,7 +27,7 @@ description: ThingsBoard IoT platform cluster setup guide
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/cluster/docker-compose-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/cluster/docker-compose-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cluster/docker-compose.svg" title="Docker Compose" alt="Docker Compose">
@@ -36,7 +36,7 @@ description: ThingsBoard IoT platform cluster setup guide
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/cluster/minikube-cluster-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/cluster/minikube-cluster-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cluster/minikube.svg" title="Minikube" alt="Minikube">
@@ -45,7 +45,7 @@ description: ThingsBoard IoT platform cluster setup guide
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/cluster/openshift-cluster-setup/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/cluster/openshift-cluster-setup/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/cluster/openshift.svg" title="Openshift" alt="Openshift">

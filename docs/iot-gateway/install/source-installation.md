@@ -51,7 +51,7 @@ mkdir logs
 {: .copy-code}
 
 **8.** Configure the gateway to work with your instance of the ThingsBoard platform: change the "host" and "accessToken" to your values in a *tb_gateway.json* configuration file.
-You can find a description of this file in the [IoT Gateway Configuration](/docs/iot-gateway/configuration/#general-configuration-file) guide.
+You can find a description of this file in the [IoT Gateway Configuration](/thingsboard-learning/docs/iot-gateway/configuration/#general-configuration-file) guide.
 
 The tb_gateway.json file is located in the config folder:
 

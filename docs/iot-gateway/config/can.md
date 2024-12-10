@@ -9,7 +9,7 @@ description: CAN protocol support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you to get familiar with CAN connector configuration for ThingsBoard IoT Gateway.  
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this connector.  
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this connector.  
 We will describe connector configuration file below.
 
 <b>Example of CAN Connector config file.</b>
@@ -151,7 +151,7 @@ This section provides an array of configurations for devices connected through t
 | type                          | **can**           | Type of device.                                                                                                                 |
 | sendDataOnlyOnChange          | **false**         | Sends data only if it has changed from the last check, if not specified data will be sent after each received CAN message.      |
 | strictEval                    | **true**          | Restricted mode of Python [eval()](https://docs.python.org/3/library/functions.html#eval) API.                                  |
-| enableUnknownRpc              | **false**         | Allow processing RPC commands not listed in [serverSideRpc](/docs/iot-gateway/config/can/#subsection-serversiderpc) subsection. |
+| enableUnknownRpc              | **false**         | Allow processing RPC commands not listed in [serverSideRpc](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-serversiderpc) subsection. |
 | overrideRpcConfig             | **false**         | Allow overriding RPC command configuration (all or some of options) by data received from server.                               |
 | converters                    |                   | Custom converters.                                                                                                              |
 | attributes                    |                   | List of device attributes.                                                                                                      |
@@ -162,7 +162,7 @@ This section provides an array of configurations for devices connected through t
 
 If *enableUnknownRpc* is set to *true*, *overrideRpcConfig* is forcibly set to *true* as well.  
 
-**Note** that despite [attributes](/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries), [timeseries](/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries), [attributeUpdates](/docs/iot-gateway/config/can/#subsection-attributeupdates) and [serverSideRpc](/docs/iot-gateway/config/can/#subsection-serversiderpc) being optional subsections, at least one of them must be set to utilize the device configuration.
+**Note** that despite [attributes](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries), [timeseries](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries), [attributeUpdates](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributeupdates) and [serverSideRpc](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-serversiderpc) being optional subsections, at least one of them must be set to utilize the device configuration.
 
 #### Subsection "converters"
 CAN connector is provided with built-in uplink/downlink data converters. One can specify a custom converter for either uplink, downlink, or both.
@@ -172,7 +172,7 @@ CAN connector is provided with built-in uplink/downlink data converters. One can
 | uplink                            |                     | Python class of uplink converter.   |
 | downlink                          |                     | Python class of downlink converter. |
 
-*As input data* **the uplink converter** gets CAN payload (array of bytes) and list of configurations from ["attributes" and "timeseries" subsection](/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries) to know which bytes to get and how they need to be interpreted.  
+*As input data* **the uplink converter** gets CAN payload (array of bytes) and list of configurations from ["attributes" and "timeseries" subsection](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributes-or-timeseries) to know which bytes to get and how they need to be interpreted.  
 
 *As output data* **the uplink converter** returns dictionary with attribute and telemetry lists. Each element of this list is key/value pair, where key is attribute name or time series key and the value is what it is.  
 
@@ -182,7 +182,7 @@ CAN connector is provided with built-in uplink/downlink data converters. One can
   "telemetry": [{"rpm":100},{"milliage": 300000}]
 }
 ```
-*As input data* **the downlink converter** gets the value (or values in case of RPC) and configuration (from ["attributeUpdates"](/docs/iot-gateway/config/can/#subsection-attributeupdates) or ["serverSideRpc"](/docs/iot-gateway/config/can/#subsection-serversiderpc) subsections) that describes how to convert the value (or values) to CAN payload.  
+*As input data* **the downlink converter** gets the value (or values in case of RPC) and configuration (from ["attributeUpdates"](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributeupdates) or ["serverSideRpc"](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-serversiderpc) subsections) that describes how to convert the value (or values) to CAN payload.  
 
 *As output data* **the downlink converter** returns CAN payload (array of bytes) for the further sending.  
 
@@ -294,11 +294,11 @@ get the final value.
 ##### "expression"
 The option _expression_ is evaluated via Python [eval()](https://docs.python.org/3/library/functions.html#eval) API. The following variables are available in the [eval()](https://docs.python.org/3/library/functions.html#eval) context:
 
-1. *value* - the result of applying the [value configuration](/docs/iot-gateway/config/can/#value) to the CAN payload
+1. *value* - the result of applying the [value configuration](/thingsboard-learning/docs/iot-gateway/config/can/#value) to the CAN payload
 2. *can_data* - the CAN payload (array of bytes)
 
 **Note**, by default Python [eval()](https://docs.python.org/3/library/functions.html#eval) API is working in some kind of a restricted mode by denying the explicit access to [\_\_builtins\_\_ API](https://docs.python.org/3/library/builtins.html). To
-disable the restricted mode, [set](/docs/iot-gateway/config/can/#section-devices) the option *strictEval* to _False_.
+disable the restricted mode, [set](/thingsboard-learning/docs/iot-gateway/config/can/#section-devices) the option *strictEval* to _False_.
 
 ##### "polling"
 If a polling configuration is not specified the CAN connector receives only the data that CAN node decides to send on its own.
@@ -332,9 +332,9 @@ This subsection provides the list of configurations to subscribe for changes of 
 
 The steps of processing an attribute update are the following:
 
-1. If *dataExpression* is set, [the value](/docs/reference/gateway-mqtt-api/#subscribe-to-attribute-updates-from-the-server) that received from Thingsboard server is modified via Python [eval()](https://docs.python.org/3/library/functions.html#eval) API. The variable *value* is available in *dataExpression*. This is a value of the attribute that was changed.
+1. If *dataExpression* is set, [the value](/thingsboard-learning/docs/reference/gateway-mqtt-api/#subscribe-to-attribute-updates-from-the-server) that received from Thingsboard server is modified via Python [eval()](https://docs.python.org/3/library/functions.html#eval) API. The variable *value* is available in *dataExpression*. This is a value of the attribute that was changed.
 If *dataExpression* is not set, the value is left as it is.
-2. The value from the step 1 is packed to the array of bytes based on its type (deduced by Python [isinstance()](https://docs.python.org/3/library/functions.html#isinstance) API) and [configuration](/docs/iot-gateway/config/can/#subsection-attributeupdates) provided for this attribute. **Note**, *float* type value requires 4 bytes.
+2. The value from the step 1 is packed to the array of bytes based on its type (deduced by Python [isinstance()](https://docs.python.org/3/library/functions.html#isinstance) API) and [configuration](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributeupdates) provided for this attribute. **Note**, *float* type value requires 4 bytes.
 3. If *dataBefore* or/and *dataAfter* are set, they are converted to the arrays of bytes and are added to the *value* bytes (from the step 2) before and after respectively.
 4. Send the final byte array through a CAN bus.
 
@@ -344,7 +344,7 @@ This subsection provides the list of configurations to process RPC commands from
 | **Parameter**            | **Default value**     | **Description**                                                         |
 |:-|:-|-
 | **method**               |                       | Name of RPC command.       |
-| response                 | **false**             | If true, [response](/docs/reference/gateway-mqtt-api/#server-side-rpc) will be sent to ThingsBoard.       |
+| response                 | **false**             | If true, [response](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) will be sent to ThingsBoard.       |
 | **nodeId**               |                       | CAN node (arbitration) id.                                           |
 | isExtendedId             | **false**             | If True means extended CAN node (arbitration) id.                                                 |
 | isFd                     | **false**             | If True means using CAN FD mode.                                  |
@@ -359,12 +359,12 @@ This subsection provides the list of configurations to process RPC commands from
 | dataInHex                |                       | **Only for RPC without parameters** Hexadecimal string of bytes that are sent to CAN node. |
 |---
 
-The CAN connector supports RPC commands *without* and *with* parameters (see [params](/docs/reference/gateway-mqtt-api/#server-side-rpc) JSON object).  
+The CAN connector supports RPC commands *without* and *with* parameters (see [params](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) JSON object).  
 
 The *without parameters* RPC type requires **only** *dataInHex* to be set (another *data\** options are not used). The value of *dataInHex* is sent as payload of a CAN message each time when the RPC command is processed.  
 
-The *with parameters* RPC type is based on all *data\** options except *dataInHex*. The steps of processing are the same as for [attribute updates](/docs/iot-gateway/config/can/#subsection-attributeupdates) except:  
-- if *dataExpression* is **not set**, [RPC params](/docs/reference/gateway-mqtt-api/#server-side-rpc) **must have** the JSON property named *value*. The value of this JSON property is packed to the array of bytes and send to CAN node as payload of a CAN message.  
+The *with parameters* RPC type is based on all *data\** options except *dataInHex*. The steps of processing are the same as for [attribute updates](/thingsboard-learning/docs/iot-gateway/config/can/#subsection-attributeupdates) except:  
+- if *dataExpression* is **not set**, [RPC params](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) **must have** the JSON property named *value*. The value of this JSON property is packed to the array of bytes and send to CAN node as payload of a CAN message.  
 ```json
 {
   "device": "Car", 
@@ -376,7 +376,7 @@ The *with parameters* RPC type is based on all *data\** options except *dataInHe
   }
 }
 ```
-- if *dataExpression* is **set**, no specific JSON property is required and [all RPC params](/docs/reference/gateway-mqtt-api/#server-side-rpc) are available in *dataExpression*.  
+- if *dataExpression* is **set**, no specific JSON property is required and [all RPC params](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) are available in *dataExpression*.  
 <br><br>For example, **user** wants to increase a car speed to **150 mph**, but a car control system has its own **limit** that is set to **100 mph**.  
 ```json
 {
@@ -410,8 +410,8 @@ So after processing the _setSpeed_ RPC command, CAN payload is as follows:
 
 Explore guides related to main ThingsBoard features:  
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

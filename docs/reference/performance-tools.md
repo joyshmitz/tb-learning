@@ -19,7 +19,7 @@ We have chosen [**Gatling**](http://gatling.io/) as a framework to run our test 
  * Generates beautiful reports out-of-the-box.
  * High performance and low overhead.
  * Easy setup of load scenarios.
- * [**Scalability**](https://gatling.io/docs/gatling/guides/scaling_out/) of simulations.
+ * [**Scalability**](https://gatling.io/thingsboard-learning/docs/gatling/guides/scaling_out/) of simulations.
 
 Unfortunately Gatling.io framework doesn’t support MQTT protocol out-of-the-box. At the same time, Gatling is an open-source framework and we have found an unofficial MQTT plugin.
 

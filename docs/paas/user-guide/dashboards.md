@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Working with IoT dashboards
 description: IoT dashboards using ThingsBoard
-redirect_from: "/docs/paas/user-guide/ui/dashboards/"
+redirect_from: "/thingsboard-learning/docs/paas/user-guide/ui/dashboards/"
 
 creating-dashboard:
     0:

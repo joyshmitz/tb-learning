@@ -12,4 +12,4 @@ deviceImageFileName: esp32-dev-kit-v4.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/esp32-dev-kit-v4.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/esp32-dev-kit-v4.md %}

@@ -27,7 +27,7 @@ description: ThingsBoard IoT platform  AWS cluster setup guide
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                       <a href="/docs/user-guide/install/cluster/aws-self-hosted-setup/">
+                                       <a href="/thingsboard-learning/docs/user-guide/install/cluster/aws-self-hosted-setup/">
                                            <span>
                                                <div class="deployment-logo">
                                                    <img width="" src="/images/install/cloud/amazon_ec2.svg" title="Self-hosted setup using AWS EC2 instance" alt="AWS EC2">
@@ -36,7 +36,7 @@ description: ThingsBoard IoT platform  AWS cluster setup guide
                                        </a>
                                    </div>
                                    <div class="deployment-card-block">
-                                       <a href="/docs/user-guide/install/cluster/aws-eks-setup/">
+                                       <a href="/thingsboard-learning/docs/user-guide/install/cluster/aws-eks-setup/">
                                            <span>
                                                <div class="deployment-logo">
                                                    <img width="" src="/images/install/cloud/eks.svg" title="ThingsBoard setup with Kubernetes on AWS EKS" alt="AWS EKS">

@@ -3,7 +3,7 @@ layout: docwithnav
 assignees:
 - stitenko
 title: Lesson 3. Charts and card widgets
-redirect_to: "/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-3/"
+redirect_to: "/thingsboard-learning/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-3/"
 
 ---
 

@@ -13,7 +13,7 @@ description: ThingsBoard IoT Platform sample for temperature data upload over MQ
 
 This sample application performs collection of temperature and humidity values produced by [DHT22 sensor](https://www.adafruit.com/product/385) and further visualization on the real-time web dashboard.
 Collected data is pushed via MQTT to ThingsBoard server for storage and visualization.
-The purpose of this application is to demonstrate ThingsBoard [data collection API](/docs/user-guide/telemetry/) and [visualization capabilities](/docs/user-guide/visualization/).
+The purpose of this application is to demonstrate ThingsBoard [data collection API](/thingsboard-learning/docs/user-guide/telemetry/) and [visualization capabilities](/thingsboard-learning/docs/user-guide/visualization/).
 
 The DHT22 sensor is connected to [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
 Raspberry Pi offers a complete and self-contained Wi-Fi networking solution.
@@ -99,8 +99,8 @@ Paste your device id to some place, this value will be used in further steps.
 
 ### Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/raspberry/resources/dht22_temp_dashboard_v2.json). 
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/raspberry/resources/dht22_temp_dashboard_v2.json). 
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Programming the Raspberry Pi
 
@@ -135,10 +135,10 @@ You will need to modify **THINGSBOARD_HOST** constant to match your ThingsBoard 
 Use "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
 
 The value of **ACCESS_TOKEN** constant corresponds to sample DHT22 demo device.
-If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "DHT22 Demo Device".
+If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/thingsboard-learning/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "DHT22 Demo Device".
 
 {% capture tabspec %}python-script
-mqtt-dht22,mqtt-dht22.py,python,resources/mqtt-dht22.py,/docs/samples/raspberry/resources/mqtt-dht22.py{% endcapture %}
+mqtt-dht22,mqtt-dht22.py,python,resources/mqtt-dht22.py,/thingsboard-learning/docs/samples/raspberry/resources/mqtt-dht22.py{% endcapture %}
 {% include tabs.html %}
 
 ### Running the application
@@ -163,7 +163,7 @@ In case of live-demo server:
  - login: your live-demo username (email)
  - password: your live-demo password
  
-See **[live-demo](/docs/user-guide/live-demo/)** page for more details how to get your account.
+See **[live-demo](/thingsboard-learning/docs/user-guide/live-demo/)** page for more details how to get your account.
   
 Go to **"Devices"** section and locate **"DHT22 Demo Device"**, open device details and switch to **"Latest telemetry"** tab. 
 If all is configured correctly you should be able to see latest values of *"temperature"* and *"humidity"* in the table.
@@ -175,13 +175,13 @@ As a result you will see two digital gauges and two time-series charts displayin
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
  

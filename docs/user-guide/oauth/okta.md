@@ -17,9 +17,9 @@ In this guide we will configure the **OAuth** with the [Okta](https://www.okta.c
 User is going to be logged into the Tenant and Tenant name is going to be equal to the users email.
 If Tenant does not exist in the system, the new Tenant will be created.
 
-To map those external user infos from Auth0 platform we are going to use built-in [basic mapper](/docs/user-guide/oauth-2-support/#basic-mapper). 
+To map those external user infos from Auth0 platform we are going to use built-in [basic mapper](/thingsboard-learning/docs/user-guide/oauth-2-support/#basic-mapper). 
 
-If [basic mapper](/docs/user-guide/oauth-2-support/#basic-mapper) functionality will not fit your business needs, you can configure the [custom mapper](/docs/user-guide/oauth-2-support/#custom-mapper)  so that you are able to add an implementation that fits under your specific needs.
+If [basic mapper](/thingsboard-learning/docs/user-guide/oauth-2-support/#basic-mapper) functionality will not fit your business needs, you can configure the [custom mapper](/thingsboard-learning/docs/user-guide/oauth-2-support/#custom-mapper)  so that you are able to add an implementation that fits under your specific needs.
 
 ## Login with Okta
 
@@ -123,7 +123,7 @@ security:
    ...
       oauth2:
         # Enable/disable OAuth 2 login functionality
-        # For details please refer to https://thingsboard.io/docs/user-guide/oauth-2-support/
+        # For details please refer to https://thingsboard.io/thingsboard-learning/docs/user-guide/oauth-2-support/
         enabled: "${SECURITY_OAUTH2_ENABLED:true}"
         # Redirect URL where access code from external user management system will be processed
         loginProcessingUrl: "${SECURITY_OAUTH2_LOGIN_PROCESSING_URL:/login/oauth2/code/}"
@@ -188,7 +188,7 @@ $ sudo service thingsboard restart
 ```  
 After that, proceed to the User Interface of yours, to make sure there are no troubles, press the **Login With Okta**.
 
-In case of the troubleshooting with those, please, contact us [using the contact us form](/docs/contact-us/).
+In case of the troubleshooting with those, please, contact us [using the contact us form](/thingsboard-learning/docs/contact-us/).
 
 ## Next Steps
 

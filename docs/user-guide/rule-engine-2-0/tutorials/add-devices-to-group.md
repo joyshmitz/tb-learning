@@ -24,8 +24,8 @@ You can use this tutorial as a basis for much more complex filtering.
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Model definition
 
@@ -82,12 +82,12 @@ In this section, we explain the purpose of each node in this tutorial.
 
 ## Configuring the Rule Chain
 
-Download and [**import**](/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached json [**file**](/docs/user-guide/rule-engine-2-0/pe/tutorials/add_device_to_group.json) as a new "Add device to group" rule chain. 
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/rule-chains/#rule-chains-importexport) attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/pe/tutorials/add_device_to_group.json) as a new "Add device to group" rule chain. 
 Please note that all nodes have debug enabled. This affects performance. Create Node A as shown on the image above in the root rule chain to forward telemetry to new rule chain.
 
 ## Validating the flow
 
-[Publish](/docs/getting-started-guides/helloworld/#pushing-data-from-the-device) temperature readings on behalf of the new device and observe new group automatically created: 
+[Publish](/thingsboard-learning/docs/getting-started-guides/helloworld/#pushing-data-from-the-device) temperature readings on behalf of the new device and observe new group automatically created: 
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/groups/results.png)   
 

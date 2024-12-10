@@ -141,7 +141,7 @@ nano /etc/thingsboard-gateway/config/tb_gateway.json
 
 {% include images-gallery.liquid imageCollection=configureGatewayLogs %}
 
-**7. Check installation you can with command** (You will get errors about connection, because you don't configure gateway for yourself. *For configuration please use [Configuration guide](/docs/iot-gateway/configuration/)):*
+**7. Check installation you can with command** (You will get errors about connection, because you don't configure gateway for yourself. *For configuration please use [Configuration guide](/thingsboard-learning/docs/iot-gateway/configuration/)):*
 
 ```bash
 thingsboard-gateway

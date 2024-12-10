@@ -11,9 +11,9 @@ description: ThingsBoard API client library for Dart developers
 ## Overview
 
 [Dart ThingsBoard API Client](https://pub.dev/packages/thingsboard_client) package is a [Dart](https://dart.dev/) library
-providing model objects and services to communicate with ThingsBoard platform using [RESTful APIs](/docs/reference/rest-api/) and WebSocket protocol.
-With Dart Client you can programmatically access ThingsBoard API to manage [entities](/docs/user-guide/entities-and-relations/),
-query [telemetry data](/docs/user-guide/telemetry/) and get real-time updates via [WebSocket API](/docs/user-guide/telemetry/#websocket-api).
+providing model objects and services to communicate with ThingsBoard platform using [RESTful APIs](/thingsboard-learning/docs/reference/rest-api/) and WebSocket protocol.
+With Dart Client you can programmatically access ThingsBoard API to manage [entities](/thingsboard-learning/docs/user-guide/entities-and-relations/),
+query [telemetry data](/thingsboard-learning/docs/user-guide/telemetry/) and get real-time updates via [WebSocket API](/thingsboard-learning/docs/user-guide/telemetry/#websocket-api).
 The Dart ThingsBoard API Client is also a part of ThingsBoard Mobile Application.
 
 The version of the Dart ThingsBoard API Client depends on the version of the platform that you are using.

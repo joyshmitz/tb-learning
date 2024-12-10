@@ -9,7 +9,7 @@ description: REST API enpoints support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you to get familiar with REST Connector configuration for ThingsBoard IoT Gateway.  
-Use [general configuration guide](/docs/iot-gateway/configuration/) to enable this Connector.  
+Use [general configuration guide](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this Connector.  
 The purpose of this Connector is to create API endpoints and get data from received requests.  
 Connector is also able to push data to external HTTP(S) API based on the updates/commands from ThingsBoard.    
 
@@ -272,7 +272,7 @@ will look like:
 Configuration in this section are optional.  
 ThingsBoard allows to provision device attributes and fetch some of them from the device application.
 You can treat this as a remote configuration for devices. Your devices are able to request shared attributes from ThingsBoard.
-See [user guide](/docs/user-guide/attributes/) for more details.
+See [user guide](/thingsboard-learning/docs/user-guide/attributes/) for more details.
 
 The "**attributeRequests**" configuration allows configuring the format of the corresponding attribute request and response messages. 
 
@@ -324,7 +324,7 @@ The **attributeUpdates** section will look like:
 ### Server side RPC section
 
 
-ThingsBoard allows sending [RPC commands](/docs/user-guide/rpc/) to the device that is connected to ThingsBoard directly or via Gateway.
+ThingsBoard allows sending [RPC commands](/thingsboard-learning/docs/user-guide/rpc/) to the device that is connected to ThingsBoard directly or via Gateway.
  
 Configuration, provided in this section uses for sending RPC requests from ThingsBoard to device.
 
@@ -387,14 +387,14 @@ Examples for both methods provided below.
 Also, every telemetry and attribute parameter has built-in GET and SET RPC methods out of the box, so you don’t need to configure
 it manually. To use them, make sure you set all required parameters (in the case of REST Connector, these are the following:
 **requestUrlExpression**, **responseTimeout**, **HTTPMethod**, **valueExpression**). 
-See [the guide](/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
+See [the guide](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
 
 ## Next steps
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

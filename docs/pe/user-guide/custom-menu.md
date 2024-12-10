@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Custom menu
 description:  
-redirect_from: "/docs/user-guide/custom-menu/"
+redirect_from: "/thingsboard-learning/docs/user-guide/custom-menu/"
 ---
 
 {% assign docsPrefix = "pe/" %}

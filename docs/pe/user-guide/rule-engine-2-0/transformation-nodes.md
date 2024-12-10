@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Transformation Nodes
 description: Rule Engine 2.0 Transformation Nodes
-redirect_from: "/docs/user-guide/rule-engine-2-0/pe/transformation-nodes"
+redirect_from: "/thingsboard-learning/docs/user-guide/rule-engine-2-0/pe/transformation-nodes"
 
 ---
 

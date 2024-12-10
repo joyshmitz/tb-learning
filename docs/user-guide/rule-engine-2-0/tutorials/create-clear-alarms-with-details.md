@@ -10,7 +10,7 @@ description: Create and Clear Alarms with details
 
 ## Use case
 
-This tutorial is based on the [create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#use-case) tutorial and it's use case.
+This tutorial is based on the [create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#use-case) tutorial and it's use case.
 We will reuse the rule chains from the above-mentioned tutorial and will configure the Alarm Details function in the Create and Clear Alarm nodes.
 Let's assume your device is using DHT22 sensor to collect and push temperature readings to ThingsBoard.
 DHT22 sensor is good for -40 to 80°C temperature readings. We want generate Alarms if temperature is out of good range.
@@ -24,26 +24,26 @@ In this tutorial we will configure ThingsBoard Rule Engine to:
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-  * [Create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+  * [Create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
 
 ## Message flow
 
 In this section, we explain the purpose of each node in this tutorial:
 
-- Node A: [**Create alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
+- Node A: [**Create alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
   - Creates or Updates an  alarm if the published temperature is not at expected time range (filter script node returns True).
-- Node B: [**Clear alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
+- Node B: [**Clear alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
   - Clears alarm if it exists in case if the published temperature is in expected time range (script node returns False).
-- Node C: [**Rule Chain**](/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
+- Node C: [**Rule Chain**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
   - Forwards incoming Message to specified Rule Chain **Create & Clear Alarms with details**.
 
 <br>
 
 ## Configure Rule Chains
 
-In this tutorial, we only modified **Create & Clear Alarms** rule chain, namely configured Alarm Details function in nodes that was described above in the section [Message flow](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#message-flow)<br> Also, we renamed this Rule Chain to **Create & Clear Alarms with details**.
+In this tutorial, we only modified **Create & Clear Alarms** rule chain, namely configured Alarm Details function in nodes that was described above in the section [Message flow](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#message-flow)<br> Also, we renamed this Rule Chain to **Create & Clear Alarms with details**.
 
 <br>The following screenshots show how the above Rule Chains should look like:
 
@@ -57,12 +57,12 @@ In this tutorial, we only modified **Create & Clear Alarms** rule chain, namely 
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/create___clear_alarms_with_details.json) for the **Create & Clear Alarms with details:** rule chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/create___clear_alarms_with_details.json) for the **Create & Clear Alarms with details:** rule chain.
 Create Node **C** as shown on the image above in the root rule chain to forward telemetry to the imported rule chain.
 <br>
 <br>
 
-The following section shows you how to modify this rule chain, specifically: rule nodes [**A**](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#node-a-create-alarm) and [**B**](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#node-b-clear-alarm).
+The following section shows you how to modify this rule chain, specifically: rule nodes [**A**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#node-a-create-alarm) and [**B**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#node-b-clear-alarm).
 
 
 ## Modify **Create & Clear Alarms with details:**
@@ -132,7 +132,7 @@ Chain configuration is finished and we need to **save it**.
 
 ## Configure Dashboard 
 
-Download the attached json [**file**](/docs/user-guide/resources/thermostat_dashboard.json) for the dashboard indicated in this tutorial and import it.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/resources/thermostat_dashboard.json) for the dashboard indicated in this tutorial and import it.
 
 - Go to **Dashboards** -> **Add new Dashboard** -> **Import Dashboard** and drop the downloaded json file.
 
@@ -167,7 +167,7 @@ And rename label of each field by press **edit** button on the field:
 
 ## Post telemetry and verify
 
-For posting device telemetry we will use Rest API ([link](/docs/reference/http-api/#telemetry-upload-api)). For this we will need to
+For posting device telemetry we will use Rest API ([link](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api)). For this we will need to
 copy device access token from then device **Thermostat Home**. 
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/alarms/copy-access-token.png)
@@ -208,9 +208,9 @@ Also, you can see how to:
 
 ## See Also
 
- - [Send Email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
+ - [Send Email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) guide.
 
- - [Notifications and Alarms on your smartphone using Telegram Bot](/docs/iot-gateway/integration-with-telegram-bot/) guide.
+ - [Notifications and Alarms on your smartphone using Telegram Bot](/thingsboard-learning/docs/iot-gateway/integration-with-telegram-bot/) guide.
 
 ## Next steps
 

@@ -8,14 +8,14 @@ description: Built in Visualisation Types in Trendz Analytics
 
 Trendz provides major visualization types required for analyzing IoT datasets. 
 
-* [**Tables**](/docs/trendz/visualizations-tables)
-* [**Line Chart**](/docs/trendz/visualizations-line)
-* [**Bar Chart & Histogram**](/docs/trendz/visualizations-bar)
-* [**Pie Chart**](/docs/trendz/visualizations-pie)
-* [**Scatter Plot**](/docs/trendz/visualizations-scatter)
-* [**Heat Map**](/docs/trendz/visualizations-heatmap)
-* [**Calendar**](/docs/trendz/visualizations-calendar)
-* [**Card**](/docs/trendz/visualizations-card)
+* [**Tables**](/thingsboard-learning/docs/trendz/visualizations-tables)
+* [**Line Chart**](/thingsboard-learning/docs/trendz/visualizations-line)
+* [**Bar Chart & Histogram**](/thingsboard-learning/docs/trendz/visualizations-bar)
+* [**Pie Chart**](/thingsboard-learning/docs/trendz/visualizations-pie)
+* [**Scatter Plot**](/thingsboard-learning/docs/trendz/visualizations-scatter)
+* [**Heat Map**](/thingsboard-learning/docs/trendz/visualizations-heatmap)
+* [**Calendar**](/thingsboard-learning/docs/trendz/visualizations-calendar)
+* [**Card**](/thingsboard-learning/docs/trendz/visualizations-card)
 
 ## First visualisation
 

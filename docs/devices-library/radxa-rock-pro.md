@@ -14,4 +14,4 @@ deviceImageFileName: radxa-rock-pro.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/radxa-rock-pro.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/radxa-rock-pro.md %}

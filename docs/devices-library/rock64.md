@@ -14,4 +14,4 @@ deviceImageFileName: rock64.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/rock64.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/rock64.md %}

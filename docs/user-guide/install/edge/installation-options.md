@@ -24,7 +24,7 @@ notitle: "true"
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/deb-installation/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/deb-installation/">
                                             <span>
                                                 <div class="deployment-logo" style="height:134px">
                                                     <img width="" src="/images/install/platform/ubuntu.svg" title="Ubuntu" alt="Ubuntu">
@@ -33,7 +33,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/rhel/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/rhel/">
                                             <span>
                                                 <div class="deployment-logo" style="height:134px">
                                                     <img width="" src="/images/install/platform/centos-redhat.svg" title="CentOS/RHEL" alt="CentOS/RHEL">
@@ -42,7 +42,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/docker/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/docker/">
                                             <span>
                                                 <div class="deployment-logo" style="height:134px">
                                                     <img width="" src="/images/install/platform/docker-linux-macos.svg" title="Docker (Linux or Mac OS)" alt="Docker (Linux or Mac OS)">
@@ -51,7 +51,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/docker-windows/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/docker-windows/">
                                             <span>
                                                 <div class="deployment-logo" style="height:134px">
                                                     <img width="" src="/images/install/platform/docker-windows.svg" title="Docker (Windows)" alt="Docker (Windows)">
@@ -60,7 +60,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/windows/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/windows/">
                                             <span>
                                                 <div class="deployment-logo" style="height:134px">
                                                     <img width="" src="/images/install/platform/windows.svg" title="Windows" alt="Windows">
@@ -69,7 +69,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/user-guide/install/edge/building-from-source/">
+                                        <a href="/thingsboard-learning/docs/user-guide/install/edge/building-from-source/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/sources.svg" title="Building from source" alt="Building from source">

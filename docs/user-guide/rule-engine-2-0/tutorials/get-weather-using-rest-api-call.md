@@ -24,9 +24,9 @@ In this tutorial we will configure ThingsBoard Rule Engine to automatically get 
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-  * [External rule nodes](/docs/user-guide/rule-engine-2-0/external-nodes/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+  * [External rule nodes](/thingsboard-learning/docs/user-guide/rule-engine-2-0/external-nodes/).
 
 ## Adding the asset
 
@@ -136,8 +136,8 @@ The following screenshot show how the above Rule Chain should look like:
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/rest-api-weather/weather-rule-chain-customer.png)
 
-Download and [**import**](/docs/user-guide/ui/rule-chains/#rule-import) attached
-json [**file**](/docs/user-guide/resources/outside-temperature-humidity-customer.json) with a rule chain for this tutorial.
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/rule-chains/#rule-import) attached
+json [**file**](/thingsboard-learning/docs/user-guide/resources/outside-temperature-humidity-customer.json) with a rule chain for this tutorial.
 Be aware that you need to set the asset you created in the beginning as an originator in the leftmost generator node.
 
 The following section shows you how to create this rule chain from scratch.
@@ -317,8 +317,8 @@ In this rule chain, you will create 5 nodes as it will be explained in the follo
 
 ## Setting up dashboard
 
-Download and [**import**](/docs/user-guide/ui/dashboards/#dashboard-import) attached
-json [**file**](/docs/user-guide/resources/weather_dashboard.json) with a dashboard for this tutorial.
+Download and [**import**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-import) attached
+json [**file**](/thingsboard-learning/docs/user-guide/resources/weather_dashboard.json) with a dashboard for this tutorial.
 
 The dashboard should look like this:
 ![image](/images/user-guide/rule-engine-2-0/tutorials/rest-api-weather/weather-dashboard.png)

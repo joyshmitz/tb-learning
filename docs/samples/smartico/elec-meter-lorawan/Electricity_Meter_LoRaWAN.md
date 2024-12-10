@@ -32,7 +32,7 @@ For example, we connected a device with the serial number 0012778. With the corr
 
 To be able to receive data via the MQTT protocol, you need to integrate the [LoRaWAN server and the Mosquitto MQTT broker](https://www.chirpstack.io/application-server/integrations/mqtt/).
 ## Step 1. Creation UpLink Data Converters.
-First, you should create the Uplink Data Converter according to the device protocol. The converter will decode incoming telemetry payload data from Electricity Meters “Smartico E307” that contains in encoded Base64 string to human readable, simplified ThingsBoard data format. Import [uplink_elec_meter.json](/docs/samples/smartico/elec-meter-lorawan/resources/uplink_elec_meter.json) file with Uplink data converter.
+First, you should create the Uplink Data Converter according to the device protocol. The converter will decode incoming telemetry payload data from Electricity Meters “Smartico E307” that contains in encoded Base64 string to human readable, simplified ThingsBoard data format. Import [uplink_elec_meter.json](/thingsboard-learning/docs/samples/smartico/elec-meter-lorawan/resources/uplink_elec_meter.json) file with Uplink data converter.
 
 ![image](/images/samples/smartico/elec-meter-lorawan/uplink.PNG)
 
@@ -131,7 +131,7 @@ The payload is contained in the “data” field and encrypted in Base64. After 
 }
 ```
 The input and output data are for example purposes only and not related to the dashboard shown at the beginning of the guide. 
-Before turning on the device, you can verify the functionality of programming code from [uplink_elec_meter.json](/docs/samples/smartico/elec-meter-lorawan/resources/uplink_elec_meter.json) file. For this purpose, open the **Test decoder function** for Uplink Elec meter in the DATA CONVERTERS and copy the input data from this guide into **Payload content** field. Press **TEST** button then in **Output** field should appear decoding output data as shown on the figure (the REAL_TIME field displays the current date and time).
+Before turning on the device, you can verify the functionality of programming code from [uplink_elec_meter.json](/thingsboard-learning/docs/samples/smartico/elec-meter-lorawan/resources/uplink_elec_meter.json) file. For this purpose, open the **Test decoder function** for Uplink Elec meter in the DATA CONVERTERS and copy the input data from this guide into **Payload content** field. Press **TEST** button then in **Output** field should appear decoding output data as shown on the figure (the REAL_TIME field displays the current date and time).
 
 ![image](/images/samples/smartico/elec-meter-lorawan/verifyingUplink.PNG)
 
@@ -143,7 +143,7 @@ To be able to display data in the dashboard, you should first create an asset an
 ![image](/images/samples/smartico/elec-meter-lorawan/asset2.PNG)
 
 ## Step 5. Dashboard import and configuration.
-To display data to users, you need to create a dashboard that can be imported from [dashboard_elec_meter.json](/docs/samples/smartico/elec-meter-lorawan/resources/dashboard_elec_meter.json) file. 
+To display data to users, you need to create a dashboard that can be imported from [dashboard_elec_meter.json](/thingsboard-learning/docs/samples/smartico/elec-meter-lorawan/resources/dashboard_elec_meter.json) file. 
 
 ![image](/images/samples/smartico/elec-meter-lorawan/dash1.PNG)
 
@@ -155,13 +155,13 @@ If everything was done correctly, in DASHBOARD GROUPS → All you will see the n
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

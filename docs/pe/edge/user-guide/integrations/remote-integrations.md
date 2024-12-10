@@ -81,7 +81,7 @@ It is possible to execute any ThingsBoard Integration remotely from main ThingsB
 This guide contains step-by-step instructions how to launch ThingsBoard integration remotely.
 For example, we will launch HTTP integration and push data over *remote* HTTP integration to ThingsBoard Edge.  
 
-See [deployment options](/docs/pe/edge/user-guide/integrations/#deployment-options) for more general information.
+See [deployment options](/thingsboard-learning/docs/pe/edge/user-guide/integrations/#deployment-options) for more general information.
 
 ## Prerequisites
 
@@ -280,12 +280,12 @@ The created device with data can be seen in the section **Device groups -> All**
 Remote integration configuration is done via ThingsBoard UI and there is no specific steps.
 Explore guides and video tutorials related to specific integrations:
 
- - [HTTP](/docs/pe/edge/user-guide/integrations/http/)
- - [MQTT](/docs/pe/edge/user-guide/integrations/mqtt/)
- - [OPC-UA](/docs/pe/edge/user-guide/integrations/opc-ua/)
- - [TCP](/docs/pe/edge/user-guide/integrations/tcp/)
- - [UDP](/docs/pe/edge/user-guide/integrations/udp/)
- - [CoAP](/docs/pe/edge/user-guide/integrations/coap/)
+ - [HTTP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/http/)
+ - [MQTT](/thingsboard-learning/docs/pe/edge/user-guide/integrations/mqtt/)
+ - [OPC-UA](/thingsboard-learning/docs/pe/edge/user-guide/integrations/opc-ua/)
+ - [TCP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/tcp/)
+ - [UDP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/udp/)
+ - [CoAP](/thingsboard-learning/docs/pe/edge/user-guide/integrations/coap/)
 
 ## Remote integration troubleshooting
 

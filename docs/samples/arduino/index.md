@@ -13,8 +13,8 @@ Arduino boards are able to read inputs from sensor or buttons, process it and tu
 
 ## Samples
 
- - [Temperature upload over MQTT using Arduino UNO, ESP8266 and DHT22 sensor](/docs/samples/arduino/temperature/)
- - [Humidity and temperature upload over HTTP using Arduino UNO, SIM808 Shield and HTU21D sensor](/docs/samples/arduino/sim808-htu21d/)
+ - [Temperature upload over MQTT using Arduino UNO, ESP8266 and DHT22 sensor](/thingsboard-learning/docs/samples/arduino/temperature/)
+ - [Humidity and temperature upload over HTTP using Arduino UNO, SIM808 Shield and HTU21D sensor](/thingsboard-learning/docs/samples/arduino/sim808-htu21d/)
 
 ## Documentation
 

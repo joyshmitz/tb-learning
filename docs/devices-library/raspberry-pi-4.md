@@ -13,4 +13,4 @@ deviceImageFileName: raspberrypi4.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/raspberry-pi-4.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/raspberry-pi-4.md %}

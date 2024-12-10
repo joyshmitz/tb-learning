@@ -7,4 +7,4 @@ title: How to add your device to Device Library?
 {:toc}
 
 {% include get-hosts-name.html docsTag="pe" %}
-{% include /docs/devices-library/guidelines.md %}
+{% include /thingsboard-learning/docs/devices-library/guidelines.md %}

@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Getting Started with ThingsBoard Professional Edition
 description: Getting started with ThingsBoard open-source IoT platform and simulated IoT devices
-redirect_from: "/docs/pe/getting-started-guides/helloworld/"
+redirect_from: "/thingsboard-learning/docs/pe/getting-started-guides/helloworld/"
 
 step1:
     0:

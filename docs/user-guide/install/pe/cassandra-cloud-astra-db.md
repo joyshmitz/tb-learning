@@ -50,7 +50,7 @@ You need a `Database administrator` role to install the Thingsboard schema. Clic
 
 To connect to your Astra DB database using the drivers, download the secure database bundle from the DataStax Astra Portal that contains the connection credentials.
 
-The detail info on how to work with secure bundle you can find at [Astra DB documentation](https://docs.datastax.com/en/astra-serverless/docs/connect/connecting.html#_working_with_secure_connect_bundle)
+The detail info on how to work with secure bundle you can find at [Astra DB documentation](https://docs.datastax.com/en/astra-serverless/thingsboard-learning/docs/connect/connecting.html#_working_with_secure_connect_bundle)
 
 Or simple do as shown on the picture below
 

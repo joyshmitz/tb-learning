@@ -13,7 +13,7 @@ description: Understand how to connect BLE temperature and humidity sensor using
 ## Device information
 
 For the purpose of this guide, we will use a Mi humidity and temperature sensor.
-We will use [BLE connector](/docs/iot-gateway/config/ble/) to connect to the device and collect data.
+We will use [BLE connector](/thingsboard-learning/docs/iot-gateway/config/ble/) to connect to the device and collect data.
 
 Our goals for this device:  
 1. Temperature and humidity data.
@@ -103,18 +103,18 @@ We need to create ble setup file and put configuration there. For example:
 {: .copy-code}
 
   
-About sections of BLE configuration file you can [read more here](/docs/iot-gateway/config/ble/).  
+About sections of BLE configuration file you can [read more here](/thingsboard-learning/docs/iot-gateway/config/ble/).  
 
 In this guide we will use configuration above.
 
 Let's analyze our settings:
 
-1. General configuration for the connector. In this section we have defined general connector settings, such as connector name ("BLE Connector"), rescan interval (100) etc. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#main-section).  
-2. General device configuration. In this section we have defined general device settings, such as device name in ThingsBoard ("Temperature and humidity sensor"), MAC-address ("4C:65:A8:DF:85:C0") etc. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#device-object-subsection).
-3. Telemetry configuration. In this section we have defined a configuration for temperature and humidity parameters. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#subsection-telemetry).  
-4. Attributes configuration. In this section we have defined that connector will read value from characteristic ("00002A00-0000-1000-8000-00805F9B34FB") and write it as the device client-side attribute ("name") on ThingsBoard. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#subsection-attributes).    
-5. Attribute updates configuration. In this section we have configured the gateway to change the device name when we change shared attribute ("sharedName") in ThingsBoard device. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#subsection-attributeupdates).   
-6. Server side rpc configuration. In this section we have configured the gateway to read the device name and return it when we call RPC method ("rpcMethod1") from ThingsBoard. You can read more about available parameters [here](/docs/iot-gateway/config/ble/#subsection-serversiderpc).   
+1. General configuration for the connector. In this section we have defined general connector settings, such as connector name ("BLE Connector"), rescan interval (100) etc. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#main-section).  
+2. General device configuration. In this section we have defined general device settings, such as device name in ThingsBoard ("Temperature and humidity sensor"), MAC-address ("4C:65:A8:DF:85:C0") etc. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#device-object-subsection).
+3. Telemetry configuration. In this section we have defined a configuration for temperature and humidity parameters. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#subsection-telemetry).  
+4. Attributes configuration. In this section we have defined that connector will read value from characteristic ("00002A00-0000-1000-8000-00805F9B34FB") and write it as the device client-side attribute ("name") on ThingsBoard. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#subsection-attributes).    
+5. Attribute updates configuration. In this section we have configured the gateway to change the device name when we change shared attribute ("sharedName") in ThingsBoard device. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#subsection-attributeupdates).   
+6. Server side rpc configuration. In this section we have configured the gateway to read the device name and return it when we call RPC method ("rpcMethod1") from ThingsBoard. You can read more about available parameters [here](/thingsboard-learning/docs/iot-gateway/config/ble/#subsection-serversiderpc).   
 
 If you have a different device, you should provide your device characteristic identifiers in the configuration json.    
 
@@ -122,7 +122,7 @@ We have saved the configuration file as **ble.json** in the config folder (the d
 
 ## Step 3. Turn on the connector 
 
-To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/docs/iot-gateway/configuration/#connectors-configuration)**)
+To use the connector, we must turn it on in the main configuration file (**[tb_gateway.yaml](/thingsboard-learning/docs/iot-gateway/configuration/#connectors-configuration)**)
 
 In "connectors" section we should uncomment following strings:
 
@@ -143,7 +143,7 @@ sudo systemctl restart thingsboard-gateway
 ```  
 {: .copy-code}
 
-If you have installed the gateway as a python module (using [pip package manager](/docs/iot-gateway/install/pip-installation/) or [from sources](/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
+If you have installed the gateway as a python module (using [pip package manager](/thingsboard-learning/docs/iot-gateway/install/pip-installation/) or [from sources](/thingsboard-learning/docs/iot-gateway/install/source-installation/)), use following command or script to run the gateway.  
 **Notice**: You must place correct path to the main configuration file (**tb_gateway.yaml**) in the command/script.  
 
 ```bash
@@ -162,7 +162,7 @@ TBGatewayService(config_file_path)
 
 ## Step 5. Check information on ThingsBoard
 
-Check data in your ThingsBoard instance, that you have been configured in the [general configuration guide](/docs/iot-gateway/configuration/).  
+Check data in your ThingsBoard instance, that you have been configured in the [general configuration guide](/thingsboard-learning/docs/iot-gateway/configuration/).  
     - Go to the your ThingsBoard instance and login.  
     - Go to the "Devices" tab. "Temperature and Humidity sensor" should be there.
     <br>    

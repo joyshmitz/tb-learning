@@ -14,4 +14,4 @@ deviceImageFileName: odroid-xu4.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/odroid-xu4.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/odroid-xu4.md %}

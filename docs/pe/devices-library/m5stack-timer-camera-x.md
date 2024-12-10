@@ -13,4 +13,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/m5stack-timer-camera-x.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/m5stack-timer-camera-x.md %}

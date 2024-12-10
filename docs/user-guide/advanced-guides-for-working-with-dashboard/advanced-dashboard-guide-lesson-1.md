@@ -3,7 +3,7 @@ layout: docwithnav
 assignees:
 - stitenko
 title: Lesson 1. Visualizing assets data using OpenStreet Map and Entities table widgets
-redirect_to: "/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-1/"
+redirect_to: "/thingsboard-learning/docs/pe/user-guide/advanced-guides-for-working-with-dashboard/advanced-dashboard-guide-lesson-1/"
 
 ---
 

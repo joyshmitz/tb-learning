@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Installing ThingsBoard PE using Docker (Linux or Mac OS)
 description: Installing ThingsBoard PE IoT Platform using Docker (Linux or Mac OS)
-redirect_from: "/docs/pe/user-guide/install/docker/"
+redirect_from: "/thingsboard-learning/docs/pe/user-guide/install/docker/"
 ---
 
 * TOC
@@ -13,7 +13,7 @@ redirect_from: "/docs/pe/user-guide/install/docker/"
 
 This guide will help you to install and start ThingsBoard Professional Edition (PE) using Docker and Docker Compose on Linux or Mac OS. 
 This guide covers standalone ThingsBoard PE installation. 
-If you are looking for a cluster installation instruction, please visit [cluster setup page](/docs/user-guide/install/pe/cluster-setup/).  
+If you are looking for a cluster installation instruction, please visit [cluster setup page](/thingsboard-learning/docs/user-guide/install/pe/cluster-setup/).  
 
 ## Prerequisites
 

@@ -43,7 +43,7 @@ The initial step of the PoC is to provision several devices and their attributes
   
 ### Step 2. Flushing the devices
 
-During this step, we have flushed firmware update with individual device credentials built-in to the firmware. The firmware code and corresponding instructions are available in links below. We have used code from our [previous article](/docs/samples/nodemcu/temperature/) without modifications, since all the logic is on the server side.
+During this step, we have flushed firmware update with individual device credentials built-in to the firmware. The firmware code and corresponding instructions are available in links below. We have used code from our [previous article](/thingsboard-learning/docs/samples/nodemcu/temperature/) without modifications, since all the logic is on the server side.
 
 Please note that steps 1 and 2 may be automated, we’ve developed simple java based application that performs provisioning of the devices and other entities using REST API and also emulates these devices for the live demo purposes.
 
@@ -145,7 +145,7 @@ Once started, the emulator will ask you for your live demo login and password. T
 
 This prototype was written by two engineers literally in one day. Most of the time was spent on the client-side code (Lua script for real device and emulator). The server-side part of the prototype has zero coding and was all about configuration of the rules, plugins, and dashboards.
 
-This demonstrates how easy is to prototype and build IoT solutions using [ThingsBoard](http://thingsboard.io). Of course, there is a certain learning curve that you need to pass, but we hope that this article and other [docs](http://thingsboard.io/docs/) will help you to do this.
+This demonstrates how easy is to prototype and build IoT solutions using [ThingsBoard](http://thingsboard.io). Of course, there is a certain learning curve that you need to pass, but we hope that this article and other [docs](http://thingsboard.io/thingsboard-learning/docs/) will help you to do this.
 
 If you found this article interesting, please leave your feedback, questions or feature requests in the comments section and “star” our project on the [github](https://github.com/thingsboard/thingsboard) in order to stay tuned for new releases and tutorials.
 
@@ -154,9 +154,9 @@ If you found this article interesting, please leave your feedback, questions or 
 
  - Compatible sample applications for different hardware platforms:
  
-    - [Temperature upload over MQTT using ESP8266 and DHT22 sensor](/docs/samples/esp8266/temperature/)
-    - [Temperature upload over MQTT using Arduino UNO, ESP8266 and DHT22 sensor](/docs/samples/arduino/temperature/)
-    - [Temperature upload over MQTT using NodeMCU and DHT11 sensor](/docs/samples/nodemcu/temperature/)
+    - [Temperature upload over MQTT using ESP8266 and DHT22 sensor](/thingsboard-learning/docs/samples/esp8266/temperature/)
+    - [Temperature upload over MQTT using Arduino UNO, ESP8266 and DHT22 sensor](/thingsboard-learning/docs/samples/arduino/temperature/)
+    - [Temperature upload over MQTT using NodeMCU and DHT11 sensor](/thingsboard-learning/docs/samples/nodemcu/temperature/)
  
  - [ThingsBoard github page](https://github.com/thingsboard/thingsboard)
  - [Emulator source code](https://github.com/thingsboard/samples)

@@ -173,7 +173,7 @@ The **thingsboard.log** file should contain following line:
 YYYY-MM-DD HH:mm:ss,sss [main] INFO  o.t.s.ThingsboardServerApplication - Started ThingsboardServerApplication in x.xxx seconds (JVM running for x.xxx)
 ```
 
-In case of any unclear errors, use general [troubleshooting guide](/docs/user-guide/troubleshooting/#getting-help) or [contact us](/docs/contact-us/).
+In case of any unclear errors, use general [troubleshooting guide](/thingsboard-learning/docs/user-guide/troubleshooting/#getting-help) or [contact us](/thingsboard-learning/docs/contact-us/).
 
 ### Windows firewall settings
 

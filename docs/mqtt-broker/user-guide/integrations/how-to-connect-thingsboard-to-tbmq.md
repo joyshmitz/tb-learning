@@ -63,4 +63,4 @@ tbmq-integration-events:
 
 ---
 
-{% include /docs/mqtt-broker/user-guide/integrations/how-to-connect-thingsboard-to-tbmq.md %}
+{% include /thingsboard-learning/docs/mqtt-broker/user-guide/integrations/how-to-connect-thingsboard-to-tbmq.md %}

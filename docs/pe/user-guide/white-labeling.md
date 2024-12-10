@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: White Labeling
 description:
-redirect_from: "/docs/user-guide/white-labeling/"
+redirect_from: "/thingsboard-learning/docs/user-guide/white-labeling/"
 
 white-labeling-default:
     0:

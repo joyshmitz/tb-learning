@@ -18,7 +18,7 @@ For this purpose, we will use docker container images available on [Docker Hub](
 ## Prerequisites
 
 ThingsBoard Microservices run on the Kubernetes cluster. You need to have a Kubernetes cluster, and the `kubectl` command-line tool must be configured to communicate with your cluster. 
-If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/docs/setup/learning-environment/minikube/).
+If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/thingsboard-learning/docs/setup/learning-environment/minikube/).
 
 ### Enable ingress addon
 
@@ -37,7 +37,7 @@ minikube addons enable ingress
 ## Step 1. Review the architecture page
 
 Starting ThingsBoard v2.2, it is possible to install ThingsBoard cluster using new microservices architecture and docker containers. 
-See [**microservices**](/docs/reference/msa/) architecture page for more details.
+See [**microservices**](/thingsboard-learning/docs/reference/msa/) architecture page for more details.
 
 ## Step 2. Clone ThingsBoard PE Kubernetes scripts
 
@@ -79,7 +79,7 @@ and put the license secret parameter:
 ## Step 5. Review the architecture page
 
 Starting ThingsBoard v2.2, it is possible to install ThingsBoard cluster using new microservices architecture and docker containers. 
-See [**microservices**](/docs/reference/msa/) architecture page for more details.
+See [**microservices**](/thingsboard-learning/docs/reference/msa/) architecture page for more details.
 
 ## Step 6. Configure Minikube
 
@@ -173,7 +173,7 @@ Where:
 Or use `kubectl get pods` to see the state of all the pods.
 Or use `kubectl get services` to see the state of all the services.
 Or use `kubectl get deployments` to see the state of all the deployments.
-See [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) command reference for details.
+See [kubectl Cheat Sheet](https://kubernetes.io/thingsboard-learning/docs/reference/kubectl/cheatsheet/) command reference for details.
 
 Execute the following command to delete all ThingsBoard microservices:
 
@@ -221,7 +221,7 @@ and then execute the following commands:
 
 Where:
 
-- `FROM_VERSION` - from which version upgrade should be started. See [Upgrade Instructions](/docs/user-guide/install/pe/upgrade-instructions) for valid `fromVersion` values. Note, that you have to upgrade versions one by one (for example 3.6.1 -> 3.6.2 -> 3.6.3 etc). 
+- `FROM_VERSION` - from which version upgrade should be started. See [Upgrade Instructions](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions) for valid `fromVersion` values. Note, that you have to upgrade versions one by one (for example 3.6.1 -> 3.6.2 -> 3.6.3 etc). 
 
 
 ## Next steps

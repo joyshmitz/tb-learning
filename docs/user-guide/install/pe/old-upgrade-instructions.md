@@ -434,8 +434,8 @@ These steps are applicable for 2.4.0PE ThingsBoard Professional Edition version.
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-4-1
-thingsboard-download-2-4-1-ubuntu,Ubuntu,shell,resources/2.4.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.4.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-4-1-centos,CentOS,shell,resources/2.4.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.4.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-4-1-ubuntu,Ubuntu,shell,resources/2.4.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-4-1-centos,CentOS,shell,resources/2.4.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -447,12 +447,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-4-1
-thingsboard-installation-2-4-1-ubuntu,Ubuntu,shell,resources/2.4.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.4.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-4-1-centos,CentOS,shell,resources/2.4.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.4.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-4-1-ubuntu,Ubuntu,shell,resources/2.4.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-4-1-centos,CentOS,shell,resources/2.4.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -532,8 +532,8 @@ These steps are applicable for 2.4.1PE and 2.4.2PE ThingsBoard Professional Edit
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-4-2
-thingsboard-download-2-4-2-ubuntu,Ubuntu,shell,resources/2.4.2.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-4-2-centos,CentOS,shell,resources/2.4.2.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-4-2-ubuntu,Ubuntu,shell,resources/2.4.2.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-4-2-centos,CentOS,shell,resources/2.4.2.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -545,12 +545,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-4-2
-thingsboard-installation-2-4-2-ubuntu,Ubuntu,shell,resources/2.4.2.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-4-2-centos,CentOS,shell,resources/2.4.2.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-4-2-ubuntu,Ubuntu,shell,resources/2.4.2.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-4-2-centos,CentOS,shell,resources/2.4.2.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.2.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -629,8 +629,8 @@ These steps are applicable for 2.4.2PE and 2.4.2.1PE ThingsBoard Professional Ed
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-4-3
-thingsboard-download-2-4-3-ubuntu,Ubuntu,shell,resources/2.4.3pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.4.3pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-4-3-centos,CentOS,shell,resources/2.4.3pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.4.3pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-4-3-ubuntu,Ubuntu,shell,resources/2.4.3pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.3pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-4-3-centos,CentOS,shell,resources/2.4.3pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.3pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -642,12 +642,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-4-3
-thingsboard-installation-2-4-3-ubuntu,Ubuntu,shell,resources/2.4.3pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.4.3pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-4-3-centos,CentOS,shell,resources/2.4.3pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.4.3pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-4-3-ubuntu,Ubuntu,shell,resources/2.4.3pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.3pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-4-3-centos,CentOS,shell,resources/2.4.3pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.4.3pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -727,8 +727,8 @@ These steps are applicable for 2.4.3PE ThingsBoard Professional Edition version.
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5
-thingsboard-download-2-5-ubuntu,Ubuntu,shell,resources/2.5pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-centos,CentOS,shell,resources/2.5pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-ubuntu,Ubuntu,shell,resources/2.5pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-centos,CentOS,shell,resources/2.5pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -740,12 +740,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5
-thingsboard-installation-2-5-ubuntu,Ubuntu,shell,resources/2.5pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-centos,CentOS,shell,resources/2.5pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-ubuntu,Ubuntu,shell,resources/2.5pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-centos,CentOS,shell,resources/2.5pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Upgrading ThingsBoard PE from 2.4.3 to 2.5 version in case of using PostgreSQL database require to upgrade the PostgreSQL service to 11.x version.
@@ -884,8 +884,8 @@ These steps are applicable for 2.4.3PE ThingsBoard Professional Edition version.
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5
-thingsboard-download-2-5-1-ubuntu,Ubuntu,shell,resources/2.5.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-1-centos,CentOS,shell,resources/2.5.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-1-ubuntu,Ubuntu,shell,resources/2.5.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-1-centos,CentOS,shell,resources/2.5.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -897,12 +897,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-1
-thingsboard-installation-2-5-1-ubuntu,Ubuntu,shell,resources/2.5.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-1-centos,CentOS,shell,resources/2.5.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-1-ubuntu,Ubuntu,shell,resources/2.5.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-1-centos,CentOS,shell,resources/2.5.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Upgrading ThingsBoard PE from 2.4.3 to 2.5.1 version in case of using PostgreSQL database require to upgrade the PostgreSQL service to 11.x version.
@@ -971,13 +971,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-252}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.1PE. In order to upgrade to 2.5.2PE you need to [**upgrade to 2.5.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-251).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.1PE. In order to upgrade to 2.5.2PE you need to [**upgrade to 2.5.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-251).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5-2
-thingsboard-download-2-5-2-ubuntu,Ubuntu,shell,resources/2.5.2pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.2pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-2-centos,CentOS,shell,resources/2.5.2pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.2pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-2-ubuntu,Ubuntu,shell,resources/2.5.2pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.2pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-2-centos,CentOS,shell,resources/2.5.2pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.2pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -989,12 +989,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-2
-thingsboard-installation-2-5-2-ubuntu,Ubuntu,shell,resources/2.5.2pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.2pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-2-centos,CentOS,shell,resources/2.5.2pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.2pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-2-ubuntu,Ubuntu,shell,resources/2.5.2pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.2pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-2-centos,CentOS,shell,resources/2.5.2pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.2pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Upgrading ThingsBoard to 2.5.2 version in case of using PostgreSQL database require to upgrade the PostgreSQL service to 11.x version.
@@ -1017,7 +1017,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-252}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.1PE. In order to upgrade to 2.5.2PE you need to [**upgrade to 2.5.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-251).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.1PE. In order to upgrade to 2.5.2PE you need to [**upgrade to 2.5.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-251).
 
 #### ThingsBoard PE package download
 
@@ -1059,13 +1059,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-253}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.2PE. In order to upgrade to 2.5.3PE you need to [**upgrade to 2.5.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-252).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.2PE. In order to upgrade to 2.5.3PE you need to [**upgrade to 2.5.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-252).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5-3
-thingsboard-download-2-5-3-ubuntu,Ubuntu,shell,resources/2.5.3pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.3pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-3-centos,CentOS,shell,resources/2.5.3pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.3pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-3-ubuntu,Ubuntu,shell,resources/2.5.3pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.3pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-3-centos,CentOS,shell,resources/2.5.3pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.3pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1077,12 +1077,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-3
-thingsboard-installation-2-5-3-ubuntu,Ubuntu,shell,resources/2.5.3pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.3pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-3-centos,CentOS,shell,resources/2.5.3pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.3pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-3-ubuntu,Ubuntu,shell,resources/2.5.3pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.3pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-3-centos,CentOS,shell,resources/2.5.3pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.3pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -1098,7 +1098,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-253}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.2PE. In order to upgrade to 2.5.3PE you need to [**upgrade to 2.5.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-252).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.2PE. In order to upgrade to 2.5.3PE you need to [**upgrade to 2.5.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-252).
 
 #### ThingsBoard PE package download
 
@@ -1130,13 +1130,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-254}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.3PE. In order to upgrade to 2.5.4PE you need to [**upgrade to 2.5.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-253).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.3PE. In order to upgrade to 2.5.4PE you need to [**upgrade to 2.5.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-253).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5-4
-thingsboard-download-2-5-4-ubuntu,Ubuntu,shell,resources/2.5.4pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.4pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-4-centos,CentOS,shell,resources/2.5.4pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.4pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-4-ubuntu,Ubuntu,shell,resources/2.5.4pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.4pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-4-centos,CentOS,shell,resources/2.5.4pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.4pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1148,12 +1148,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-4
-thingsboard-installation-2-5-4-ubuntu,Ubuntu,shell,resources/2.5.4pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.4pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-4-centos,CentOS,shell,resources/2.5.4pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.4pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-4-ubuntu,Ubuntu,shell,resources/2.5.4pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.4pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-4-centos,CentOS,shell,resources/2.5.4pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.4pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -1169,7 +1169,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-254}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.3PE. In order to upgrade to 2.5.4PE you need to [**upgrade to 2.5.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-253).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.3PE. In order to upgrade to 2.5.4PE you need to [**upgrade to 2.5.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-253).
 
 #### ThingsBoard PE package download
 
@@ -1201,13 +1201,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-255}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.4PE. In order to upgrade to 2.5.5PE you need to [**upgrade to 2.5.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-254).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.4PE. In order to upgrade to 2.5.5PE you need to [**upgrade to 2.5.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-254).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5-5
-thingsboard-download-2-5-5-ubuntu,Ubuntu,shell,resources/2.5.5pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.5pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-5-centos,CentOS,shell,resources/2.5.5pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.5pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-5-ubuntu,Ubuntu,shell,resources/2.5.5pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.5pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-5-centos,CentOS,shell,resources/2.5.5pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.5pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1219,12 +1219,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-5
-thingsboard-installation-2-5-5-ubuntu,Ubuntu,shell,resources/2.5.5pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.5pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-5-centos,CentOS,shell,resources/2.5.5pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.5pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-5-ubuntu,Ubuntu,shell,resources/2.5.5pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.5pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-5-centos,CentOS,shell,resources/2.5.5pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.5pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -1240,7 +1240,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-255}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.4PE. In order to upgrade to 2.5.5PE you need to [**upgrade to 2.5.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-254).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.4PE. In order to upgrade to 2.5.5PE you need to [**upgrade to 2.5.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-254).
 
 #### ThingsBoard PE package download
 
@@ -1272,13 +1272,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-256}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.5PE. In order to upgrade to 2.5.6PE you need to [**upgrade to 2.5.5PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-255).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.5PE. In order to upgrade to 2.5.6PE you need to [**upgrade to 2.5.5PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-255).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-2-5-6
-thingsboard-download-2-5-6-ubuntu,Ubuntu,shell,resources/2.5.6pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/2.5.6pe/thingsboard-ubuntu-download.sh
-thingsboard-download-2-5-6-centos,CentOS,shell,resources/2.5.6pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/2.5.6pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-2-5-6-ubuntu,Ubuntu,shell,resources/2.5.6pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.6pe/thingsboard-ubuntu-download.sh
+thingsboard-download-2-5-6-centos,CentOS,shell,resources/2.5.6pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.6pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1290,12 +1290,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-2-5-6
-thingsboard-installation-2-5-6-ubuntu,Ubuntu,shell,resources/2.5.6pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/2.5.6pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-2-5-6-centos,CentOS,shell,resources/2.5.6pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/2.5.6pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-2-5-6-ubuntu,Ubuntu,shell,resources/2.5.6pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.6pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-2-5-6-centos,CentOS,shell,resources/2.5.6pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/2.5.6pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -1311,7 +1311,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-256}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.5PE. In order to upgrade to 2.5.6PE you need to [**upgrade to 2.5.5PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-255).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 2.5.5PE. In order to upgrade to 2.5.6PE you need to [**upgrade to 2.5.5PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-255).
 
 #### ThingsBoard PE package download
 
@@ -1357,8 +1357,8 @@ These steps are applicable for 2.5PE ThingsBoard Professional Edition version.
 {% capture tb_3_0_postgreSQL_linux %}
 **Since ThingsBoard 3.0PE only PostgreSQL database is supported for entities data**  
  - If you are using **Cassandra** database for entities data please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-   - [PostgreSQL Installation on Ubuntu](/docs/user-guide/install/pe/ubuntu/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
-   - [PostgreSQL Installation on CentOS/RHEL](/docs/user-guide/install/pe/rhel/?rhelThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+   - [PostgreSQL Installation on Ubuntu](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+   - [PostgreSQL Installation on CentOS/RHEL](/thingsboard-learning/docs/user-guide/install/pe/rhel/?rhelThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_postgreSQL_linux %}
@@ -1366,8 +1366,8 @@ These steps are applicable for 2.5PE ThingsBoard Professional Edition version.
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-0
-thingsboard-download-3-0-ubuntu,Ubuntu,shell,resources/3.0.0pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.0.0pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-0-centos,CentOS,shell,resources/3.0.0pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.0.0pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-0-ubuntu,Ubuntu,shell,resources/3.0.0pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.0pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-0-centos,CentOS,shell,resources/3.0.0pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.0pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1379,12 +1379,12 @@ Sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-0
-thingsboard-installation-3-0-ubuntu,Ubuntu,shell,resources/3.0.0pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.0.0pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-0-centos,CentOS,shell,resources/3.0.0pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.0.0pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-0-ubuntu,Ubuntu,shell,resources/3.0.0pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.0pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-0-centos,CentOS,shell,resources/3.0.0pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.0pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1424,7 +1424,7 @@ sudo service thingsboard start
 {% capture tb_3_0_postgreSQL_windows %}
 **Since ThingsBoard 3.0PE only PostgreSQL database is supported for entities data**  
  - If you are using **Cassandra** database for entities data please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-   - [PostgreSQL Installation on Windows](/docs/user-guide/install/pe/windows/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+   - [PostgreSQL Installation on Windows](/thingsboard-learning/docs/user-guide/install/pe/windows/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_postgreSQL_windows %}
@@ -1483,7 +1483,7 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-301}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0PE. In order to upgrade to 3.0.1PE you need to [**upgrade to 3.0PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-30).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0PE. In order to upgrade to 3.0.1PE you need to [**upgrade to 3.0PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-30).
 
 <br>
 
@@ -1492,8 +1492,8 @@ net start thingsboard
 {% capture tb_3_0_postgreSQL_linux %}
 **Since ThingsBoard 3.0PE only PostgreSQL database is supported for entities data**
 - If you are using **Cassandra** database for entities data please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-  - [PostgreSQL Installation on Ubuntu](/docs/user-guide/install/pe/ubuntu/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
-  - [PostgreSQL Installation on CentOS/RHEL](/docs/user-guide/install/pe/rhel/?rhelThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+  - [PostgreSQL Installation on Ubuntu](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+  - [PostgreSQL Installation on CentOS/RHEL](/thingsboard-learning/docs/user-guide/install/pe/rhel/?rhelThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_postgreSQL_linux %}
@@ -1501,8 +1501,8 @@ net start thingsboard
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-0-1
-thingsboard-download-3-0-1-ubuntu,Ubuntu,shell,resources/3.0.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.0.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-0-1-centos,CentOS,shell,resources/3.0.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.0.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-0-1-ubuntu,Ubuntu,shell,resources/3.0.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-0-1-centos,CentOS,shell,resources/3.0.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1514,12 +1514,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-0-1
-thingsboard-installation-3-0-1-ubuntu,Ubuntu,shell,resources/3.0.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.0.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-0-1-centos,CentOS,shell,resources/3.0.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.0.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-0-1-ubuntu,Ubuntu,shell,resources/3.0.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-0-1-centos,CentOS,shell,resources/3.0.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.0.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1558,7 +1558,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-301}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0PE. In order to upgrade to 3.0.1PE you need to [**upgrade to 3.0PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-30).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0PE. In order to upgrade to 3.0.1PE you need to [**upgrade to 3.0PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-30).
 
 <br>
 
@@ -1567,7 +1567,7 @@ sudo service thingsboard start
 {% capture tb_3_0_1_postgreSQL_windows %}
 **Since ThingsBoard 3.0PE only PostgreSQL database is supported for entities data**
 - If you are using **Cassandra** database for entities data please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-  - [PostgreSQL Installation on Windows](/docs/user-guide/install/pe/windows/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
+  - [PostgreSQL Installation on Windows](/thingsboard-learning/docs/user-guide/install/pe/windows/?ubuntuThingsboardDatabase=postgresql#step-4-configure-thingsboard-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_1_postgreSQL_windows %}
@@ -1629,13 +1629,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-31}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0.1PE. In order to upgrade to 3.1PE you need to [**upgrade to 3.0.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-301).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0.1PE. In order to upgrade to 3.1PE you need to [**upgrade to 3.0.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-301).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-1
-thingsboard-download-3-1-ubuntu,Ubuntu,shell,resources/3.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-1-centos,CentOS,shell,resources/3.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-1-ubuntu,Ubuntu,shell,resources/3.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-1-centos,CentOS,shell,resources/3.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1647,12 +1647,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-8-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-1
-thingsboard-installation-3-1-ubuntu,Ubuntu,shell,resources/3.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-1-centos,CentOS,shell,resources/3.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-1-ubuntu,Ubuntu,shell,resources/3.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-1-centos,CentOS,shell,resources/3.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1665,7 +1665,7 @@ database:
     type: "${DATABASE_TS_TYPE:sql}" # cassandra, sql, or timescale (for hybrid mode, DATABASE_TS_TYPE value should be cassandra, or timescale)
 ```
 
-**NOTE**: Cassandra database does not support [advanced filters](/docs/user-guide/advanced-filters/). If you were using **Cassandra** database for timeseries data please make sure that **database.ts_latest.type** parameter value (in the file **/etc/thingsboard/conf/thingsboard.yml**) is "sql":
+**NOTE**: Cassandra database does not support [advanced filters](/thingsboard-learning/docs/user-guide/advanced-filters/). If you were using **Cassandra** database for timeseries data please make sure that **database.ts_latest.type** parameter value (in the file **/etc/thingsboard/conf/thingsboard.yml**) is "sql":
 
 ```
 database:
@@ -1700,7 +1700,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-31}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0.1PE. In order to upgrade to 3.1PE you need to [**upgrade to 3.0.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-301).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.0.1PE. In order to upgrade to 3.1PE you need to [**upgrade to 3.0.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-301).
 
 #### ThingsBoard PE package download
 
@@ -1759,13 +1759,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-311}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1PE. In order to upgrade to 3.1.1PE you need to [**upgrade to 3.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-31).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1PE. In order to upgrade to 3.1.1PE you need to [**upgrade to 3.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-31).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-1-1
-thingsboard-download-3-1-1-ubuntu,Ubuntu,shell,resources/3.1.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.1.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-1-1-centos,CentOS,shell,resources/3.1.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.1.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-1-1-ubuntu,Ubuntu,shell,resources/3.1.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-1-1-centos,CentOS,shell,resources/3.1.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1777,12 +1777,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-1-1
-thingsboard-installation-3-1-1-ubuntu,Ubuntu,shell,resources/3.1.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.1.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-1-1-centos,CentOS,shell,resources/3.1.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.1.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-1-1-ubuntu,Ubuntu,shell,resources/3.1.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-1-1-centos,CentOS,shell,resources/3.1.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.1.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1813,7 +1813,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-311}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1PE. In order to upgrade to 3.1.1PE you need to [**upgrade to 3.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-31).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1PE. In order to upgrade to 3.1.1PE you need to [**upgrade to 3.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-31).
 
 #### ThingsBoard PE package download
 
@@ -1865,13 +1865,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-32}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1.1PE. In order to upgrade to 3.2PE you need to [**upgrade to 3.1.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-311).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1.1PE. In order to upgrade to 3.2PE you need to [**upgrade to 3.1.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-311).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-2
-thingsboard-download-3-2-ubuntu,Ubuntu,shell,resources/3.2pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.2pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-2-centos,CentOS,shell,resources/3.2pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.2pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-2-ubuntu,Ubuntu,shell,resources/3.2pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-2-centos,CentOS,shell,resources/3.2pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1883,12 +1883,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-2
-thingsboard-installation-3-2-ubuntu,Ubuntu,shell,resources/3.2pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.2pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-2-centos,CentOS,shell,resources/3.2pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.2pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-2-ubuntu,Ubuntu,shell,resources/3.2pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-2-centos,CentOS,shell,resources/3.2pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1919,7 +1919,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-32}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1.1PE. In order to upgrade to 3.2PE you need to [**upgrade to 3.1.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-311).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.1.1PE. In order to upgrade to 3.2PE you need to [**upgrade to 3.1.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-311).
 
 #### ThingsBoard PE package download
 
@@ -1970,13 +1970,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-321}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2PE. In order to upgrade to 3.2.1PE you need to [**upgrade to 3.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-32).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2PE. In order to upgrade to 3.2.1PE you need to [**upgrade to 3.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-32).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-2-1
-thingsboard-download-3-2-1-ubuntu,Ubuntu,shell,resources/3.2.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.2.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-2-1-centos,CentOS,shell,resources/3.2.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.2.1pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-2-1-ubuntu,Ubuntu,shell,resources/3.2.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-2-1-centos,CentOS,shell,resources/3.2.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.1pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -1988,12 +1988,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-2-1
-thingsboard-installation-3-2-1-ubuntu,Ubuntu,shell,resources/3.2.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.2.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-2-1-centos,CentOS,shell,resources/3.2.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.2.1pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-2-1-ubuntu,Ubuntu,shell,resources/3.2.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-2-1-centos,CentOS,shell,resources/3.2.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.1pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -2024,7 +2024,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-321}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2PE. In order to upgrade to 3.2.1PE you need to [**upgrade to 3.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-32).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2PE. In order to upgrade to 3.2.1PE you need to [**upgrade to 3.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-32).
 
 #### ThingsBoard PE package download
 
@@ -2075,15 +2075,15 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-322}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.1PE. In order to upgrade to 3.2.2PE you need to [**upgrade to 3.2.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-321).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.1PE. In order to upgrade to 3.2.2PE you need to [**upgrade to 3.2.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-321).
 
 <br>
 
 {% capture tb_3_2_2pe_java_11_linux %}
 **NOTE: Since ThingsBoard version 3.2.2PE Java 11 is used**
 - Please install Java 11 before proceeding upgrade procedure using the following guide:
-  - [Java 11 Installation on Ubuntu](/docs/user-guide/install/pe/ubuntu/#step-1-install-java-11-openjdk)
-  - [Java 11 Installation on CentOS/RHEL](/docs/user-guide/install/pe/rhel/#step-1-install-java-11-openjdk)
+  - [Java 11 Installation on Ubuntu](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-1-install-java-11-openjdk)
+  - [Java 11 Installation on CentOS/RHEL](/thingsboard-learning/docs/user-guide/install/pe/rhel/#step-1-install-java-11-openjdk)
 
 {% endcapture %}
 {% include templates/warn-banner.md content=tb_3_2_2pe_java_11_linux %}
@@ -2092,8 +2092,8 @@ net start thingsboard
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-2-2
-thingsboard-download-3-2-2-ubuntu,Ubuntu,shell,resources/3.2.2pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.2.2pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-2-2-centos,CentOS,shell,resources/3.2.2pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.2.2pe/thingsboard-centos-download.sh{% endcapture %}  
+thingsboard-download-3-2-2-ubuntu,Ubuntu,shell,resources/3.2.2pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.2pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-2-2-centos,CentOS,shell,resources/3.2.2pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.2pe/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2105,12 +2105,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-2-2
-thingsboard-installation-3-2-2-ubuntu,Ubuntu,shell,resources/3.2.2pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.2.2pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-2-2-centos,CentOS,shell,resources/3.2.2pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.2.2pe/thingsboard-centos-installation.sh{% endcapture %}  
+thingsboard-installation-3-2-2-ubuntu,Ubuntu,shell,resources/3.2.2pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.2pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-2-2-centos,CentOS,shell,resources/3.2.2pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.2.2pe/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -2141,14 +2141,14 @@ sudo service thingsboard start
 
 ### Windows {#windows-322}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.1PE. In order to upgrade to 3.2.2PE you need to [**upgrade to 3.2.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-321).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.1PE. In order to upgrade to 3.2.2PE you need to [**upgrade to 3.2.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-321).
 
 <br>
 
 {% capture tb_3_2_2pe_java_11_windows %}
 **NOTE: Since ThingsBoard version 3.2.2PE Java 11 is used**
 - Please install Java 11 before proceeding upgrade procedure using the following guide:
-  - [Java 11 Installation on Windows](/docs/user-guide/install/pe/windows/#step-1-install-java-11-openjdk)
+  - [Java 11 Installation on Windows](/thingsboard-learning/docs/user-guide/install/pe/windows/#step-1-install-java-11-openjdk)
 
 {% endcapture %}
 {% include templates/warn-banner.md content=tb_3_2_2pe_java_11_windows %}
@@ -2202,13 +2202,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-33}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.2PE. In order to upgrade to 3.3PE you need to [**upgrade to 3.2.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-322).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.2PE. In order to upgrade to 3.3PE you need to [**upgrade to 3.2.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-322).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3
-thingsboard-download-3-3-ubuntu,Ubuntu,shell,resources/3.3pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-centos,CentOS,shell,resources/3.3pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-ubuntu,Ubuntu,shell,resources/3.3pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-centos,CentOS,shell,resources/3.3pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2220,12 +2220,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-3
-thingsboard-installation-3-3-ubuntu,Ubuntu,shell,resources/3.3pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-centos,CentOS,shell,resources/3.3pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-ubuntu,Ubuntu,shell,resources/3.3pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-centos,CentOS,shell,resources/3.3pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -2295,7 +2295,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-33}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.2PE. In order to upgrade to 3.3PE you need to [**upgrade to 3.2.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-322).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.2.2PE. In order to upgrade to 3.3PE you need to [**upgrade to 3.2.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-322).
 
 #### ThingsBoard PE package download
 
@@ -2371,13 +2371,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-331}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.0PE. In order to upgrade to 3.3.1PE you need to [**upgrade to 3.3.0PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-33).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.0PE. In order to upgrade to 3.3.1PE you need to [**upgrade to 3.3.0PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-33).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3-1
-thingsboard-download-3-3-1-ubuntu,Ubuntu,shell,resources/3.3.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-1-centos,CentOS,shell,resources/3.3.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3.1pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-1-ubuntu,Ubuntu,shell,resources/3.3.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-1-centos,CentOS,shell,resources/3.3.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.1pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2389,12 +2389,12 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-3-1
-thingsboard-installation-3-3-1-ubuntu,Ubuntu,shell,resources/3.3.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-1-centos,CentOS,shell,resources/3.3.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3.1pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-1-ubuntu,Ubuntu,shell,resources/3.3.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-1-centos,CentOS,shell,resources/3.3.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.1pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **NOTE:** Package installer may ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -2425,7 +2425,7 @@ sudo service thingsboard start
 
 ### Windows {#windows-331}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.0PE. In order to upgrade to 3.3.1PE you need to [**upgrade to 3.3.0PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-33).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.0PE. In order to upgrade to 3.3.1PE you need to [**upgrade to 3.3.0PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-33).
 
 #### ThingsBoard PE package download
 
@@ -2476,13 +2476,13 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-332}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.1PE. In order to upgrade to 3.3.2PE you need to [**upgrade to 3.3.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-331).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.1PE. In order to upgrade to 3.3.2PE you need to [**upgrade to 3.3.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-331).
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3-2
-thingsboard-download-3-3-2-ubuntu,Ubuntu,shell,resources/3.3.2pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3.2pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-2-centos,CentOS,shell,resources/3.3.2pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3.2pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-2-ubuntu,Ubuntu,shell,resources/3.3.2pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.2pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-2-centos,CentOS,shell,resources/3.3.2pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.2pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2493,12 +2493,12 @@ thingsboard-download-3-3-2-centos,CentOS,shell,resources/3.3.2pe/thingsboard-cen
 $ sudo service thingsboard stop
 ```
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-3-2
-thingsboard-installation-3-3-2-ubuntu,Ubuntu,shell,resources/3.3.2pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3.2pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-2-centos,CentOS,shell,resources/3.3.2pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3.2pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-2-ubuntu,Ubuntu,shell,resources/3.3.2pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.2pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-2-centos,CentOS,shell,resources/3.3.2pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.2pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **NOTE:** Package installer may ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -2528,7 +2528,7 @@ $ sudo service thingsboard start
 
 ### Windows {#windows-332}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.1PE. In order to upgrade to 3.3.2PE you need to [**upgrade to 3.3.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-331).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.1PE. In order to upgrade to 3.3.2PE you need to [**upgrade to 3.3.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-331).
 
 #### ThingsBoard PE package download
 
@@ -2576,15 +2576,15 @@ net start thingsboard
 
 ### Ubuntu/CentOS {#ubuntucentos-333}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.2PE. In order to upgrade to 3.3.3PE you need to [**upgrade to 3.3.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-332).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.2PE. In order to upgrade to 3.3.3PE you need to [**upgrade to 3.3.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-332).
 
 {% include templates/install/tb-333-update.md %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3-3
-thingsboard-download-3-3-3-ubuntu,Ubuntu,shell,resources/3.3.3pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3.3pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-3-centos,CentOS,shell,resources/3.3.3pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3.3pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-3-ubuntu,Ubuntu,shell,resources/3.3.3pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.3pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-3-centos,CentOS,shell,resources/3.3.3pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.3pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2595,12 +2595,12 @@ thingsboard-download-3-3-3-centos,CentOS,shell,resources/3.3.3pe/thingsboard-cen
 $ sudo service thingsboard stop
 ```
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 
 {% capture tabspec %}thingsboard-installation-3-3-3
-thingsboard-installation-3-3-3-ubuntu,Ubuntu,shell,resources/3.3.3pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3.3pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-3-centos,CentOS,shell,resources/3.3.3pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3.3pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-3-ubuntu,Ubuntu,shell,resources/3.3.3pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.3pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-3-centos,CentOS,shell,resources/3.3.3pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.3pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **NOTE:** Package installer may ask you to merge your thingsboard configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -2620,7 +2620,7 @@ $ sudo service thingsboard start
 
 ### Windows {#windows-333}
 
-**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.2PE. In order to upgrade to 3.3.3PE you need to [**upgrade to 3.3.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-332).
+**NOTE**: These upgrade steps are applicable for ThingsBoard version 3.3.2PE. In order to upgrade to 3.3.3PE you need to [**upgrade to 3.3.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-332).
 
 {% include templates/install/tb-333-update.md %}
 
@@ -2664,15 +2664,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.3PE. In order to upgrade to 3.3.4PE you need to [**upgrade to 3.3.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-333).
+These upgrade steps are applicable for ThingsBoard version 3.3.3PE. In order to upgrade to 3.3.4PE you need to [**upgrade to 3.3.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-333).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3-4
-thingsboard-download-3-3-4-ubuntu,Ubuntu,shell,resources/3.3.4pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3.4pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-4-centos,CentOS,shell,resources/3.3.4pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3.4pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-4-ubuntu,Ubuntu,shell,resources/3.3.4pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-4-centos,CentOS,shell,resources/3.3.4pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2684,11 +2684,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-3-4
-thingsboard-installation-3-3-4-ubuntu,Ubuntu,shell,resources/3.3.4pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3.4pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-4-centos,CentOS,shell,resources/3.3.4pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3.4pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-4-ubuntu,Ubuntu,shell,resources/3.3.4pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-4-centos,CentOS,shell,resources/3.3.4pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -2717,7 +2717,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.3PE. In order to upgrade to 3.3.4PE you need to [**upgrade to 3.3.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-333).
+These upgrade steps are applicable for ThingsBoard version 3.3.3PE. In order to upgrade to 3.3.4PE you need to [**upgrade to 3.3.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-333).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -2767,15 +2767,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.4PE. In order to upgrade to 3.3.4.1PE you need to [**upgrade to 3.3.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-334).
+These upgrade steps are applicable for ThingsBoard version 3.3.4PE. In order to upgrade to 3.3.4.1PE you need to [**upgrade to 3.3.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-334).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-3-4-1
-thingsboard-download-3-3-4-1-ubuntu,Ubuntu,shell,resources/3.3.4.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-3-4-1-centos,CentOS,shell,resources/3.3.4.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-3-4-1-ubuntu,Ubuntu,shell,resources/3.3.4.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-3-4-1-centos,CentOS,shell,resources/3.3.4.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2787,11 +2787,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-3-4-1
-thingsboard-installation-3-3-4-1-ubuntu,Ubuntu,shell,resources/3.3.4.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-3-4-1-centos,CentOS,shell,resources/3.3.4.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-3-4-1-ubuntu,Ubuntu,shell,resources/3.3.4.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-3-4-1-centos,CentOS,shell,resources/3.3.4.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.3.4.1pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -2813,7 +2813,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.4PE. In order to upgrade to 3.3.4.1PE you need to [**upgrade to 3.3.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-334).
+These upgrade steps are applicable for ThingsBoard version 3.3.4PE. In order to upgrade to 3.3.4.1PE you need to [**upgrade to 3.3.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-334).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -2849,15 +2849,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.4.1PE. In order to upgrade to 3.4PE you need to [**upgrade to 3.3.4.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-3341).
+These upgrade steps are applicable for ThingsBoard version 3.3.4.1PE. In order to upgrade to 3.4PE you need to [**upgrade to 3.3.4.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-3341).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-4
-thingsboard-download-3-4-ubuntu,Ubuntu,shell,resources/3.4pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.4pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-4-centos,CentOS,shell,resources/3.4pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.4pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-4-ubuntu,Ubuntu,shell,resources/3.4pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-4-centos,CentOS,shell,resources/3.4pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2869,11 +2869,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-4
-thingsboard-installation-3-4-ubuntu,Ubuntu,shell,resources/3.4pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.4pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-4-centos,CentOS,shell,resources/3.4pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.4pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-4-ubuntu,Ubuntu,shell,resources/3.4pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-4-centos,CentOS,shell,resources/3.4pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -2902,7 +2902,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.3.4.1PE. In order to upgrade to 3.4PE you need to [**upgrade to 3.3.4.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-3341).
+These upgrade steps are applicable for ThingsBoard version 3.3.4.1PE. In order to upgrade to 3.4PE you need to [**upgrade to 3.3.4.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-3341).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -2952,15 +2952,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4PE. In order to upgrade to 3.4.1PE you need to [**upgrade to 3.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-34).
+These upgrade steps are applicable for ThingsBoard version 3.4PE. In order to upgrade to 3.4.1PE you need to [**upgrade to 3.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-34).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-4-1
-thingsboard-download-3-4-1-ubuntu,Ubuntu,shell,resources/3.4.1pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.4.1pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-4-1-centos,CentOS,shell,resources/3.4.1pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.4.1pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-4-1-ubuntu,Ubuntu,shell,resources/3.4.1pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.1pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-4-1-centos,CentOS,shell,resources/3.4.1pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.1pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -2972,11 +2972,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-4-1
-thingsboard-installation-3-4-1-ubuntu,Ubuntu,shell,resources/3.4.1pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.4.1pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-4-1-centos,CentOS,shell,resources/3.4.1pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.4.1pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-4-1-ubuntu,Ubuntu,shell,resources/3.4.1pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.1pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-4-1-centos,CentOS,shell,resources/3.4.1pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.1pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -3005,7 +3005,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4PE. In order to upgrade to 3.4.1PE you need to [**upgrade to 3.4PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-34).
+These upgrade steps are applicable for ThingsBoard version 3.4PE. In order to upgrade to 3.4.1PE you need to [**upgrade to 3.4PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-34).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -3055,15 +3055,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.1PE. In order to upgrade to 3.4.2PE you need to [**upgrade to 3.4.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-341).
+These upgrade steps are applicable for ThingsBoard version 3.4.1PE. In order to upgrade to 3.4.2PE you need to [**upgrade to 3.4.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-341).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-4-2
-thingsboard-download-3-4-2-ubuntu,Ubuntu,shell,resources/3.4.2pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.4.2pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-4-2-centos,CentOS,shell,resources/3.4.2pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.4.2pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-4-2-ubuntu,Ubuntu,shell,resources/3.4.2pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.2pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-4-2-centos,CentOS,shell,resources/3.4.2pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.2pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -3075,11 +3075,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-4-2
-thingsboard-installation-3-4-2-ubuntu,Ubuntu,shell,resources/3.4.2pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.4.2pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-4-2-centos,CentOS,shell,resources/3.4.2pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.4.2pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-4-2-ubuntu,Ubuntu,shell,resources/3.4.2pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.2pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-4-2-centos,CentOS,shell,resources/3.4.2pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.2pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -3104,7 +3104,7 @@ sudo service thingsboard start
 {: .copy-code}
 
 {% capture default-jwt %}
-Update the JWT signing key if you use the default one "thingsboardDefaultSigningKey" on production environments. See [JWT security settings](/docs/pe/user-guide/ui/jwt-security-settings/) for details.
+Update the JWT signing key if you use the default one "thingsboardDefaultSigningKey" on production environments. See [JWT security settings](/thingsboard-learning/docs/pe/user-guide/ui/jwt-security-settings/) for details.
 {% endcapture %}
 {% include templates/info-banner.md content=default-jwt %}
 
@@ -3113,7 +3113,7 @@ Update the JWT signing key if you use the default one "thingsboardDefaultSigning
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.1PE. In order to upgrade to 3.4.2PE you need to [**upgrade to 3.4.1PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-341).
+These upgrade steps are applicable for ThingsBoard version 3.4.1PE. In order to upgrade to 3.4.2PE you need to [**upgrade to 3.4.1PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-341).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -3157,7 +3157,7 @@ net start thingsboard
 {: .copy-code}
 
 {% capture default-jwt %}
-Update the JWT signing key if you use the default one "thingsboardDefaultSigningKey" on production environments. See [JWT security settings](/docs/pe/user-guide/ui/jwt-security-settings/) for details.
+Update the JWT signing key if you use the default one "thingsboardDefaultSigningKey" on production environments. See [JWT security settings](/thingsboard-learning/docs/pe/user-guide/ui/jwt-security-settings/) for details.
 {% endcapture %}
 {% include templates/info-banner.md content=default-jwt %}
 
@@ -3168,15 +3168,15 @@ Update the JWT signing key if you use the default one "thingsboardDefaultSigning
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.2PE. In order to upgrade to 3.4.3PE you need to [**upgrade to 3.4.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-342).
+These upgrade steps are applicable for ThingsBoard version 3.4.2PE. In order to upgrade to 3.4.3PE you need to [**upgrade to 3.4.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-342).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-4-3
-thingsboard-download-3-4-3-ubuntu,Ubuntu,shell,resources/3.4.3pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.4.3pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-4-3-centos,CentOS,shell,resources/3.4.3pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.4.3pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-4-3-ubuntu,Ubuntu,shell,resources/3.4.3pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.3pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-4-3-centos,CentOS,shell,resources/3.4.3pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.3pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -3188,11 +3188,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-4-3
-thingsboard-installation-3-4-3-ubuntu,Ubuntu,shell,resources/3.4.3pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.4.3pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-4-3-centos,CentOS,shell,resources/3.4.3pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.4.3pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-4-3-ubuntu,Ubuntu,shell,resources/3.4.3pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.3pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-4-3-centos,CentOS,shell,resources/3.4.3pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.3pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -3214,7 +3214,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.2PE. In order to upgrade to 3.4.3PE you need to [**upgrade to 3.4.2PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-342).
+These upgrade steps are applicable for ThingsBoard version 3.4.2PE. In order to upgrade to 3.4.3PE you need to [**upgrade to 3.4.2PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-342).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -3249,15 +3249,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.3PE. In order to upgrade to 3.4.4PE you need to [**upgrade to 3.4.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-343).
+These upgrade steps are applicable for ThingsBoard version 3.4.3PE. In order to upgrade to 3.4.4PE you need to [**upgrade to 3.4.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#ubuntucentos-343).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard PE package download
 
 {% capture tabspec %}thingsboard-download-3-4-4
-thingsboard-download-3-4-4-ubuntu,Ubuntu,shell,resources/3.4.4pe/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.4.4pe/thingsboard-ubuntu-download.sh
-thingsboard-download-3-4-4-centos,CentOS,shell,resources/3.4.4pe/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.4.4pe/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-4-4-ubuntu,Ubuntu,shell,resources/3.4.4pe/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.4pe/thingsboard-ubuntu-download.sh
+thingsboard-download-3-4-4-centos,CentOS,shell,resources/3.4.4pe/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.4pe/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard PE service upgrade
@@ -3269,11 +3269,11 @@ sudo service thingsboard stop
 ```
 {: .copy-code}
 
-* Install Thingsboard Web Report component as described [here](/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
+* Install Thingsboard Web Report component as described [here](/thingsboard-learning/docs/user-guide/install/pe/ubuntu/#step-9-install-thingsboard-webreport-component).
 
 {% capture tabspec %}thingsboard-installation-3-4-4
-thingsboard-installation-3-4-4-ubuntu,Ubuntu,shell,resources/3.4.4pe/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.4.4pe/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-4-4-centos,CentOS,shell,resources/3.4.4pe/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.4.4pe/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-4-4-ubuntu,Ubuntu,shell,resources/3.4.4pe/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.4pe/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-4-4-centos,CentOS,shell,resources/3.4.4pe/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.4.4pe/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -3295,7 +3295,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.3PE. In order to upgrade to 3.4.4PE you need to [**upgrade to 3.4.3PE first**](/docs/user-guide/install/pe/upgrade-instructions/#windows-343).
+These upgrade steps are applicable for ThingsBoard version 3.4.3PE. In order to upgrade to 3.4.4PE you need to [**upgrade to 3.4.3PE first**](/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/#windows-343).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 

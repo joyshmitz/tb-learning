@@ -3,7 +3,7 @@ layout: docwithnav-paas-eu
 assignees:
 - dskarzhynets
 description: Using templates for dynamic configuration
-redirect_from: "/docs/paas/eu/user-guide/ui/templatization"
+redirect_from: "/thingsboard-learning/docs/paas/eu/user-guide/ui/templatization"
 title: Templatization
 ---
 

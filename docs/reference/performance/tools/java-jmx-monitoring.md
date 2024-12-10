@@ -5,4 +5,4 @@ description: Java JMX monitoring tool
 
 ---
 
-{% include /docs/reference/performance/tools/java-jmx-monitoring.md %}
+{% include /thingsboard-learning/docs/reference/performance/tools/java-jmx-monitoring.md %}

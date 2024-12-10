@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Entity Groups
 description: Entity Groups Guide
-redirect_from: "/docs/user-guide/groups/"
+redirect_from: "/thingsboard-learning/docs/user-guide/groups/"
 
 create-entity-group-1:
     0:

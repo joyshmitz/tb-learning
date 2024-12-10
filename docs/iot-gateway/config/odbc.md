@@ -9,7 +9,7 @@ description: ODBC support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you get familiar with ODBC connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this connector.
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this connector.
 We will describe the connector configuration file below.
 
 <b>Example of ODBC Connector config file.</b>
@@ -142,17 +142,17 @@ This **mandatory** section provides information on how often to query the databa
 
 1. Valid SQL *SELECT* statement that meets requirements of SQL dialect of the database the ThingsBoard gateway needs to connect to.
 2. Include *attributes* or/and *timeseries* columns in _SELECT_ list.
-3. Include the [*device*](/docs/iot-gateway/config/odbc/#subsection-device) column in the _SELECT_ list to determine to which device data belongs to.
-4. Include the [*iterator*](/docs/iot-gateway/config/odbc/#subsection-iterator) column in the _SELECT_ list.
-5. Among other conditions SQL _WHERE_ clause must include the [*iterator*](/docs/iot-gateway/config/odbc/#subsection-iterator) condition.
-6. Among other sorting expressions SQL _ORDER BY_ clause must include the [*iterator*](/docs/iot-gateway/config/odbc/#subsection-iterator) sorting expression.
+3. Include the [*device*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-device) column in the _SELECT_ list to determine to which device data belongs to.
+4. Include the [*iterator*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-iterator) column in the _SELECT_ list.
+5. Among other conditions SQL _WHERE_ clause must include the [*iterator*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-iterator) condition.
+6. Among other sorting expressions SQL _ORDER BY_ clause must include the [*iterator*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-iterator) sorting expression.
 7. It is *recommended* to use SQL _LIMIT_ clause to reduce memory consumption on each read from a database.
 
 **Example**: 
 
-For each polling iteration, the connector will read 10 records sorted by _ts_ column ([*iterator*](/docs/iot-gateway/config/odbc/#subsection-iterator)). 
+For each polling iteration, the connector will read 10 records sorted by _ts_ column ([*iterator*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-iterator)). 
 
-Each record consists of timeseries columns (*bool_v*, *str_v*, *dbl_v*, *long_v*), [device](/docs/iot-gateway/config/odbc/#subsection-device) column (*entity_id*) and [*iterator*](/docs/iot-gateway/config/odbc/#subsection-iterator) column (*ts*).
+Each record consists of timeseries columns (*bool_v*, *str_v*, *dbl_v*, *long_v*), [device](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-device) column (*entity_id*) and [*iterator*](/thingsboard-learning/docs/iot-gateway/config/odbc/#subsection-iterator) column (*ts*).
 
 After each polling iteration the connector remembers the value of the *ts* column of 10th record (the last record) and use it in _WHERE_ clause on the next iteration.
 ```sql
@@ -227,7 +227,7 @@ This **mandatory** subsection provides information on how to map the result set 
 | **name**                    |                     | Python [eval()](https://docs.python.org/3/library/functions.html#eval) expression to generate **unique** device name. |
 | type                        | **odbc**            | ThingsBoard device type. |
 
-**Note** All database columns listed in SQL *SELECT* clause of the [query](/docs/iot-gateway/config/odbc/#section-polling) option are available by their name in the Python [eval()](https://docs.python.org/3/library/functions.html#eval) context.
+**Note** All database columns listed in SQL *SELECT* clause of the [query](/thingsboard-learning/docs/iot-gateway/config/odbc/#section-polling) option are available by their name in the Python [eval()](https://docs.python.org/3/library/functions.html#eval) context.
 
 For example,
 ```json
@@ -271,7 +271,7 @@ The connector supports several configuration modes for these subsections:
 | column                      | Database column name.                                                                                       |
 | value                       | Python [eval()](https://docs.python.org/3/library/functions.html#eval) expression to evaluate a value.      |
 
-**Note** All database columns listed in SQL *SELECT* clause of the [query](/docs/iot-gateway/config/odbc/#section-polling) option are available by their names in the Python [eval()](https://docs.python.org/3/library/functions.html#eval) context.
+**Note** All database columns listed in SQL *SELECT* clause of the [query](/thingsboard-learning/docs/iot-gateway/config/odbc/#section-polling) option are available by their names in the Python [eval()](https://docs.python.org/3/library/functions.html#eval) context.
 
 * combining mode
 ```json
@@ -290,7 +290,7 @@ The connector supports several configuration modes for these subsections:
 , means treating all database columns as timeseries.
 
 ## Section "serverSideRpc"
-The connector is able to call SQL procedures/functions with or without parameters. Parameters are obtained either from a connector's configuration file or from [data](/docs/reference/gateway-mqtt-api/#server-side-rpc) received from a server.
+The connector is able to call SQL procedures/functions with or without parameters. Parameters are obtained either from a connector's configuration file or from [data](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) received from a server.
 
 | **Parameter**                 | **Default value**   | **Description**                                                              |
 |:-|:-|------------------------------------------------------------------------------
@@ -343,9 +343,9 @@ The connector supports several configuration modes for the *methods* subsection:
 
 **IMPORTANT**
 
-If *enableUnknownRpc* is set to *true*, [RPC params](/docs/reference/gateway-mqtt-api/#server-side-rpc) **must include** all required **procedure/function configuration parameters**.
+If *enableUnknownRpc* is set to *true*, [RPC params](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) **must include** all required **procedure/function configuration parameters**.
 
-If *overrideRpcConfig* is set to *true*, [RPC params](/docs/reference/gateway-mqtt-api/#server-side-rpc) **may contain** all or some of the **procedure/function configuration parameters** to override those specified in the connector configuration file.
+If *overrideRpcConfig* is set to *true*, [RPC params](/thingsboard-learning/docs/reference/gateway-mqtt-api/#server-side-rpc) **may contain** all or some of the **procedure/function configuration parameters** to override those specified in the connector configuration file.
 
 **The order of arguments matters**. It must be the same as the order of parameters in SQL procedure/function.
 ```json
@@ -364,9 +364,9 @@ If *overrideRpcConfig* is set to *true*, [RPC params](/docs/reference/gateway-mq
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
 

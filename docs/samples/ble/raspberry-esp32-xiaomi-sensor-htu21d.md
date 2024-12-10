@@ -12,7 +12,7 @@ hidetoc: "true"
 
 {% include templates/what-is-thingsboard.md %}
 
-This sample demo performs collection of temperature and humidity values produced by BLE broadcasting devices and further visualization on the real-time web dashboard. In this example we use [HTU21D](https://www.sparkfun.com/products/13763) connected to [ESP32](https://espressif.com/en/products/hardware/esp32/overview) and  "Xiaomi Smart Temperature & Humidity Sensor". The purpose of this application is to demonstrate ThingsBoard  [data collection API](/docs/user-guide/telemetry/) , [visualization capabilities](/docs/user-guide/visualization/), [gateway API](/docs/iot-gateway/what-is-iot-gateway/) and the capabilities of [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) protocol, which you can use with both custom and mass-produce devices.
+This sample demo performs collection of temperature and humidity values produced by BLE broadcasting devices and further visualization on the real-time web dashboard. In this example we use [HTU21D](https://www.sparkfun.com/products/13763) connected to [ESP32](https://espressif.com/en/products/hardware/esp32/overview) and  "Xiaomi Smart Temperature & Humidity Sensor". The purpose of this application is to demonstrate ThingsBoard  [data collection API](/thingsboard-learning/docs/user-guide/telemetry/) , [visualization capabilities](/thingsboard-learning/docs/user-guide/visualization/), [gateway API](/thingsboard-learning/docs/iot-gateway/what-is-iot-gateway/) and the capabilities of [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy) protocol, which you can use with both custom and mass-produce devices.
 
 Data is collected by a python script that is running on [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). It pushes data to ThingsBoard server via MQTT protocol by using  [ThingsBoard MQTT client Python SDK](https://github.com/thingsboard/thingsboard-python-client-sdk) library. Data is visualized using built-in customizable dashboard. Demo that is running on Raspberry Pi is written in Python which is quite simple and easy to understand.
 
@@ -196,7 +196,7 @@ sudo pip3 install tb-ble-adapter
 ```
 
 ## Device provisioning
-Run python script **before** importing dashboard. For this you have to [**create**](/docs/iot-gateway/getting-started/) gateway device and specify it in command arguments:
+Run python script **before** importing dashboard. For this you have to [**create**](/thingsboard-learning/docs/iot-gateway/getting-started/) gateway device and specify it in command arguments:
 ```
 sudo tb_ble_adapter -t $GATEWAY_ACCESS_TOKEN
 ```
@@ -288,7 +288,7 @@ It creates devices:
 
 
 ## Provision your dashboard
-Download the dashboard file using this [**link**](/docs/samples/ble/resources/device_gw.json). Now you have to import it. To do this, configure aliases in such way (use gateway device from [**Device provisioning**](#device-provisioning) section):
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/ble/resources/device_gw.json). Now you have to import it. To do this, configure aliases in such way (use gateway device from [**Device provisioning**](#device-provisioning) section):
 
   ![Configure aliases](/images/samples/ble/configure-aliases.png)
 
@@ -296,7 +296,7 @@ Download the dashboard file using this [**link**](/docs/samples/ble/resources/de
 
   ![Edit alias gw](/images/samples/ble/edit_alias_gw.png)
 
-Also this dashboard needs a custom widget bundle. Download it with this [**link**](/docs/samples/ble/resources/custom_widget.json) and import using import/export [**instructions**](/docs/user-guide/ui/widget-library/).
+Also this dashboard needs a custom widget bundle. Download it with this [**link**](/thingsboard-learning/docs/samples/ble/resources/custom_widget.json) and import using import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/widget-library/).
 
 ## Data visualization
 Finally, open ThingsBoard Web UI. You can access this dashboard by logging in as a tenant administrator.
@@ -309,7 +309,7 @@ In case of live-demo server:
 *   login: your live-demo username (email)
 *   password: your live-demo password
 
-See  **[live-demo](/docs/user-guide/live-demo/)**  page for more details how to get your account.
+See  **[live-demo](/thingsboard-learning/docs/user-guide/live-demo/)**  page for more details how to get your account.
 
 Go to **“Devices”** section, open created devices details and switch to **“Latest telemetry”** tab. If all is configured correctly you should be able to see latest telemetry values sent via BLE in the table.
 
@@ -323,13 +323,13 @@ After, open **“Dashboards”** section and find previously imported dashboard 
 In order to perform troubleshooting, you must check demo script output. It displays connection status with every device, as well as received and sent data.
 
 ## See also
-Browse other  [samples](/docs/samples)  or explore guides related to main ThingsBoard features:
+Browse other  [samples](/thingsboard-learning/docs/samples)  or explore guides related to main ThingsBoard features:
 
-*   [Device attributes](/docs/user-guide/attributes/)  - how to use device attributes.
-*   [Telemetry data collection](/docs/user-guide/telemetry/)  - how to collect telemetry data.
-*   [Using RPC capabilities](/docs/user-guide/rpc/)  - how to send commands to/from devices.
-*   [Rule Engine](/docs/user-guide/rule-engine/)  - how to use rule engine to analyze data from devices.
-*   [Data Visualization](/docs/user-guide/visualization/)  - how to visualize collected data.
+*   [Device attributes](/thingsboard-learning/docs/user-guide/attributes/)  - how to use device attributes.
+*   [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/)  - how to collect telemetry data.
+*   [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/)  - how to send commands to/from devices.
+*   [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/)  - how to use rule engine to analyze data from devices.
+*   [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/)  - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

@@ -110,7 +110,7 @@ step5Edge:
 {% assign currentThingsBoardVersion = "ThingsBoard Community Edition" %}
 
 {% capture difference %}
-Interested in the **Edge Professional Edition**? Explore the ThingsBoard PE Edge documentation [here](/docs/pe/edge/getting-started/).
+Interested in the **Edge Professional Edition**? Explore the ThingsBoard PE Edge documentation [here](/thingsboard-learning/docs/pe/edge/getting-started/).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 

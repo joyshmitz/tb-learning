@@ -12,4 +12,4 @@ docsTag: paas-eu
 {:toc}
 
 {% include get-hosts-name.html docsTag=page.docsTag %}
-{% include /docs/devices-library/guides/orangepi-zero.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/orangepi-zero.md %}

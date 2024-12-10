@@ -24,7 +24,7 @@ notitle: "true"
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/deb-installation/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/deb-installation/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/ubuntu.svg" title="Ubuntu" alt="Ubuntu logo">
@@ -33,7 +33,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/rpm-installation/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/rpm-installation/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/centos-redhat.svg" title="CentOS/RHEL" alt="CentOS/RHEL logo">
@@ -42,7 +42,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/deb-installation/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/deb-installation/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/rpi3.svg" title="Raspberry Pi 3" alt="Raspberry Pi 3 logo">
@@ -51,7 +51,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/docker-windows/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/docker-windows/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-windows.svg" title="Docker (Windows)" alt="Docker (Windows) logo">
@@ -60,7 +60,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/docker-installation/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/docker-installation/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/docker-linux-macos.svg" title="Docker (Linux or Mac OS)" alt="Docker (Linux or Mac OS) logo">
@@ -69,7 +69,7 @@ notitle: "true"
                                         </a>
                                     </div>
                                     <div class="deployment-card-block">
-                                        <a href="/docs/iot-gateway/install/pip-installation/">
+                                        <a href="/thingsboard-learning/docs/iot-gateway/install/pip-installation/">
                                             <span>
                                                 <div class="deployment-logo">
                                                     <img width="" src="/images/install/platform/python-img.svg" title="PIP" alt="Python logo">

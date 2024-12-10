@@ -14,4 +14,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/odroid-xu4.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/odroid-xu4.md %}

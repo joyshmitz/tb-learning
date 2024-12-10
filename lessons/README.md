@@ -88,7 +88,7 @@
 ## Додаткові ресурси
 
 1. **Офіційна документація**
-   - [ThingsBoard Documentation](https://thingsboard.io/docs/)
+   - [ThingsBoard Documentation](https://thingsboard.io/thingsboard-learning/docs/)
    - [ThingsBoard Community Edition](https://github.com/thingsboard/thingsboard)
 
 2. **Спільнота**

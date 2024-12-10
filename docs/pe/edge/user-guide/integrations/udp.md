@@ -254,7 +254,7 @@ Once converter and integration templates are created, we can assign Integration 
 
 ## Installing and running external UDP Integration
 
-Please refer to the [Remote Integration guide](/docs/pe/edge/user-guide/integrations/remote-integrations) and install UDP Integration service locally or on separate machine.
+Please refer to the [Remote Integration guide](/thingsboard-learning/docs/pe/edge/user-guide/integrations/remote-integrations) and install UDP Integration service locally or on separate machine.
 
 Please use **Integration key** and **Integration secret** from the above section for your UDP Integration configuration.
 

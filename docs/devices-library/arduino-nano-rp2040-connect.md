@@ -12,4 +12,4 @@ deviceImageFileName: arduino-nano-rp2040-connect.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/arduino-nano-rp2040-connect.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/arduino-nano-rp2040-connect.md %}

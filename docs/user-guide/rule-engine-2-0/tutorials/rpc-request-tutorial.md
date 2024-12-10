@@ -5,7 +5,7 @@ description: Send RPC Request to a Device
 
 ---
 
-ThingsBoard allows you to send remote procedure calls [**RPC**](/docs/user-guide/rpc/#server-side-rpc-api) from server-side applications to devices and vice versa. <br>
+ThingsBoard allows you to send remote procedure calls [**RPC**](/thingsboard-learning/docs/user-guide/rpc/#server-side-rpc-api) from server-side applications to devices and vice versa. <br>
 This Tutorial is to show you how to send a remote request call to a Related Device using Rule Engine.
 
 * TOC
@@ -43,8 +43,8 @@ Let’s assume the following use case:
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
- * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
- * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+ * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+ * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Model definition
 The Wind Turbine has two devices installed: Wind Direction Sensor and Rotating System.
@@ -62,21 +62,21 @@ The Wind Turbine has two devices installed: Wind Direction Sensor and Rotating S
 ## Message flow
 In this section, we explain the purpose of each node in this tutorial:
 
-- Node A: [**Message Type Switch**](/docs/user-guide/rule-engine-2-0/filter-nodes/#message-type-switch-node) node.
+- Node A: [**Message Type Switch**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#message-type-switch-node) node.
   - Routes incoming messages based on the message type.
-- Node B: [**Save Timeseries**](/docs/user-guide/rule-engine-2-0/action-nodes/#save-timeseries-node) node.
+- Node B: [**Save Timeseries**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#save-timeseries-node) node.
   - Stores messages telemetry from **Wind Direction Sensor** and **Rotating System** into the database. 
-- Node C: [**Related attributes**](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#related-attributes).
+- Node C: [**Related attributes**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#related-attributes).
   - Loads the source telemetry **windDirection** of the related **Wind Direction Sensor** and save it into the Message metadata with the name **windDirection**.
-- Node D: [**Change originator**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#change-originator) node.
+- Node D: [**Change originator**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#change-originator) node.
   - Change the originator from Devices **Wind Direction Sensor** and **Rotating System** to the related Asset **Wind Turbine** and the submitted message will be processed as a message from Asset.
-- Node E: [**Save Timeseries**](/docs/user-guide/rule-engine-2-0/action-nodes/#save-timeseries-node) node.
+- Node E: [**Save Timeseries**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#save-timeseries-node) node.
   - Stores messages telemetry from Asset **Wind Turbine** into the database. 
-- Node F: [**Transformation Script**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node).
+- Node F: [**Transformation Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node).
   - Transform an original message into RPC request message. 
-- Node G: [**Filter Script**](/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) node.
+- Node G: [**Filter Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) node.
   - Checks if msgType of incoming message is **RPC message**.
-- Node H: [**RPC call request**](/docs/user-guide/rule-engine-2-0/action-nodes/#rpc-call-request-node) node.
+- Node H: [**RPC call request**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#rpc-call-request-node) node.
   - Takes the message payload and sends it as a response to the **Rotating System**.
 
 <br>
@@ -88,7 +88,7 @@ The following screenshot shows how the **Tutorial of RPC Call Request** Rule Cha
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/rpc-request/chain.png)
 
-- Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/tutorial_of_rpc_call_request.json) for the rule chain indicated above and import it.
+- Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/tutorial_of_rpc_call_request.json) for the rule chain indicated above and import it.
 - Don't forget to mark the new rule chain as "root".
 
 Also, you can create the new Rule Chain from scratch. The following section shows you how to create it.
@@ -284,10 +284,10 @@ This Rule chain is now ready and you need to save it.
 ## How to verify the Rule Chain
 
 - Use the following javascript code to emulate the **Wind Direction Sensor** device.
-    - [**WindDirectionEmulator.js**](/docs/user-guide/rule-engine-2-0/tutorials/resources/WindDirectionEmulator.js).
+    - [**WindDirectionEmulator.js**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/WindDirectionEmulator.js).
 - Also, use the following javascript code to emulate the **Rotating System** device. <br>
   This code contains a method to emulate changing the turbine direction based on the incoming RPC message.
-    - [**RotatingSystemEmulator.js**](/docs/user-guide/rule-engine-2-0/tutorials/resources/RotatingSystemEmulator.js).
+    - [**RotatingSystemEmulator.js**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/RotatingSystemEmulator.js).
 
 
 To run the scripts, you need to do the following steps:
@@ -315,7 +315,7 @@ The following screenshot shows how the **Wind Turbine Dashboard** should look li
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/rpc-request/dashboard.png)
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/wind_turbine_dashboard.json) for the dashboard indicated above and import it.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/wind_turbine_dashboard.json) for the dashboard indicated above and import it.
 
 - Go to **Dashboards** -> **Add new Dashboard** -> **Import Dashboard** and drop the downloaded json file.
 
@@ -411,9 +411,9 @@ Please refer to the second link under the **See Also** section to see how to do 
 
 ## See Also
 
- - For more details about how RPC works in Thignsboard, please refer to the [RPC capabilities](/docs/user-guide/rpc/#server-side-rpc-api) guide.
+ - For more details about how RPC works in Thignsboard, please refer to the [RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/#server-side-rpc-api) guide.
 
- - [RPC Reply With data from Related Device](/docs/user-guide/rule-engine-2-0/tutorials/rpc-reply-tutorial/) guide.
+ - [RPC Reply With data from Related Device](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/rpc-reply-tutorial/) guide.
 
 ## Next steps
 

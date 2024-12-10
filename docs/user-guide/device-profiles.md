@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Device Profiles
 description: IoT device profiles
-redirect_from: "/docs/user-guide/ui/device-profiles"
+redirect_from: "/thingsboard-learning/docs/user-guide/ui/device-profiles"
 
 mqttTransportSettingExample:
     0:

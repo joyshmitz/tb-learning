@@ -22,8 +22,8 @@ We also assume you already have a ThingsBoard PE server or free demo account.
 Otherwise you can register for a 30-days free demo account here: [thingsboard.cloud](https://thingsboard.cloud/signup).
 
 We expect you have a very basic knowledge about ThingsBoard. Otherwise we do recommend to complete the following guides:
-- [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-- [Platform Integrations](/docs/user-guide/integrations/) guide.
+- [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+- [Platform Integrations](/thingsboard-learning/docs/user-guide/integrations/) guide.
 
 ## Integration overview
 
@@ -33,7 +33,7 @@ Besides configuring the integration, we will also setup ThingsBoard to decode in
 
 ## Step 1. Data Converter configuration
 
-In order to create an [Integration](/docs/user-guide/integrations), we should create the [Uplink Data Converter](/docs/user-guide/integrations/#uplink-data-converter) first.
+In order to create an [Integration](/thingsboard-learning/docs/user-guide/integrations), we should create the [Uplink Data Converter](/thingsboard-learning/docs/user-guide/integrations/#uplink-data-converter) first.
 The converter will decode incoming telemetry payload data from T-Mobile NB IoT that contains in encoded hex string to human readable, simplified ThingsBoard data format.
 
  - Input data from T-Mobile NB IoT Platform is a byte sequence and after converting them to a hexadecimal string-type look like this:
@@ -214,7 +214,7 @@ Few things to notice:
 
 - Go to **Data Converters** -> **Add new Data Converter** -> **Import Converter**
 
-- Import following json file: [**SODAQ UDP Uplink Data Converter**](/docs/user-guide/resources/sodaq/sodaq_udp_uplink_data_converter.json) (left click on the link and then 'Ctrl+S' to download)
+- Import following json file: [**SODAQ UDP Uplink Data Converter**](/thingsboard-learning/docs/user-guide/resources/sodaq/sodaq_udp_uplink_data_converter.json) (left click on the link and then 'Ctrl+S' to download)
 as described on the following screencast:
 
 <img data-gifffer="/images/user-guide/integrations/sodaq/import-udp-converter_updated.gif" alt="import udp converter updated">
@@ -223,7 +223,7 @@ as described on the following screencast:
 
 - Create new integration based on the screencast below.
 
-  Please, note that you should copy **Integration key** and **Integration secret** as described in the [**UDP Integration Setup**](/docs/user-guide/integrations/udp/#udp-integration-setup) guide.
+  Please, note that you should copy **Integration key** and **Integration secret** as described in the [**UDP Integration Setup**](/thingsboard-learning/docs/user-guide/integrations/udp/#udp-integration-setup) guide.
 
 
 <img data-gifffer="/images/user-guide/integrations/sodaq/create-udp-integration.gif" alt="create udp integration">
@@ -278,7 +278,7 @@ as described on the following screencast:
 
 
 
-Before we rush to T-Mobile IoT platform configuration, make sure that you complete the [**Remote integration installation steps**](/docs/user-guide/integrations/remote-integrations/#remote-integration-installation-steps).
+Before we rush to T-Mobile IoT platform configuration, make sure that you complete the [**Remote integration installation steps**](/thingsboard-learning/docs/user-guide/integrations/remote-integrations/#remote-integration-installation-steps).
 
 Also, let’s make sure ThingsBoard is properly configured using simple **echo** command and **netcat** utility.
 We will simulate messages from the T-Mobile IoT platform using the command below.

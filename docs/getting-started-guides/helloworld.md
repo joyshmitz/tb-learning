@@ -324,9 +324,9 @@ Learn more about **notifications** and how to configure them [here](#step-6-alar
 
 <br>
 You may also use:
- * [Bulk provisioning](/docs/user-guide/bulk-provisioning/) to provision multiple devices from a CSV file using UI;
- * [Device provisioning](/docs/user-guide/device-provisioning/) to allow device firmware to provision the device automatically, so you don't need to configure each device manually; 
- * [REST API](/docs/api/) to provision devices and other entities programmatically;
+ * [Bulk provisioning](/thingsboard-learning/docs/user-guide/bulk-provisioning/) to provision multiple devices from a CSV file using UI;
+ * [Device provisioning](/thingsboard-learning/docs/user-guide/device-provisioning/) to allow device firmware to provision the device automatically, so you don't need to configure each device manually; 
+ * [REST API](/thingsboard-learning/docs/api/) to provision devices and other entities programmatically;
 
 ## Step 2. Connect device
 
@@ -336,7 +336,7 @@ To accomplish this, use the "Check connectivity" functionality to publish teleme
 {% include images-gallery.html imageCollection="step2" showListImageTitles="true" %}
 
 <br>
-You may also use [ThingsBoard API reference](/docs/{{docsPrefix}}api). Here, you can find more detailed information about all supported protocols for device connectivity.
+You may also use [ThingsBoard API reference](/thingsboard-learning/docs/{{docsPrefix}}api). Here, you can find more detailed information about all supported protocols for device connectivity.
 
 ## Step 3. Create dashboard
 
@@ -399,35 +399,35 @@ Now it's time to configure alarm rules and raise some alarms.
 **Note:** in this documentation, we are using a single device as a data source for the widgets. 
 To use dynamic entities (for example, devices of a certain type or related to a certain asset) as data source, you should use the alias.
 Alias is a reference to a single entity or a group of entities that are used in the widgets. 
-You may learn more [about different aliases here](/docs/{{docsPrefix}}user-guide/ui/aliases/).
+You may learn more [about different aliases here](/thingsboard-learning/docs/{{docsPrefix}}user-guide/ui/aliases/).
 
 ## Step 4. Configure alarm rules
 
-We will use the [alarm rules](/docs/user-guide/device-profiles/#alarm-rules) feature to raise the alarm when the temperature reading is greater than 25 degrees.
+We will use the [alarm rules](/thingsboard-learning/docs/user-guide/device-profiles/#alarm-rules) feature to raise the alarm when the temperature reading is greater than 25 degrees.
 For this purpose, we should edit the device profile and add a new alarm rule. 
 The "My New Device" is using the "Default" device profile.
-We recommend creating dedicated [device profiles](/docs/user-guide/device-profiles/) for each corresponding device type but will skip this step for simplicity.
+We recommend creating dedicated [device profiles](/thingsboard-learning/docs/user-guide/device-profiles/) for each corresponding device type but will skip this step for simplicity.
 
 {% include images-gallery.html imageCollection="step4" showListImageTitles="true" %}
 
 ## Step 5. Create alarm
 
-Now, our alarm rule is active (see [Step 4](/docs/getting-started-guides/helloworld/#step-4-configure-alarm-rules)), 
-and we should send new telemetry on behalf of the device (see [Step 2](/docs/getting-started-guides/helloworld/#step-2-connect-device)) to trigger the alarm.
+Now, our alarm rule is active (see [Step 4](/thingsboard-learning/docs/getting-started-guides/helloworld/#step-4-configure-alarm-rules)), 
+and we should send new telemetry on behalf of the device (see [Step 2](/thingsboard-learning/docs/getting-started-guides/helloworld/#step-2-connect-device)) to trigger the alarm.
 Note that the temperature value should be 26 or higher to raise the alarm. Once we send a new temperature reading, we should immediately see a new alarm on our dashboard.
 
 {% include images-gallery.html imageCollection="step5" showListImageTitles="true" %}
 
-We also recommend reviewing alarm rule [examples](/docs/{{docsPrefix}}user-guide/device-profiles/#alarm-rules)
-and documentation about [alarm notifications](/docs/{{docsPrefix}}user-guide/device-profiles/#notifications-about-alarms).
+We also recommend reviewing alarm rule [examples](/thingsboard-learning/docs/{{docsPrefix}}user-guide/device-profiles/#alarm-rules)
+and documentation about [alarm notifications](/thingsboard-learning/docs/{{docsPrefix}}user-guide/device-profiles/#notifications-about-alarms).
 
 ## Step 6. Alarm notifications
 
-The ThingsBoard [Notification center](/docs/{{docsPrefix}}user-guide/notifications/) allows sending personalized notifications to end-users. These can include notifications about device activity, changes in temperature within your environment, or other events detected in your IoT ecosystem.
-Learn more about notifications and how to configure them [here](/docs/{{docsPrefix}}user-guide/notifications/).
+The ThingsBoard [Notification center](/thingsboard-learning/docs/{{docsPrefix}}user-guide/notifications/) allows sending personalized notifications to end-users. These can include notifications about device activity, changes in temperature within your environment, or other events detected in your IoT ecosystem.
+Learn more about notifications and how to configure them [here](/thingsboard-learning/docs/{{docsPrefix}}user-guide/notifications/).
 
-Additionally, the [ThingsBoard Mobile Application](/docs/mobile/) allows users to receive instant push notifications directly on their smartphone. This ensures that you will always be timely informed about any events in your IoT solution, no matter where you are.
-Follow [this guide](/docs/mobile/getting-started/) to learn how to install the ThingsBoard PE Mobile Application and set up push notifications delivery directly from ThingsBoard instance to your smartphone.
+Additionally, the [ThingsBoard Mobile Application](/thingsboard-learning/docs/mobile/) allows users to receive instant push notifications directly on their smartphone. This ensures that you will always be timely informed about any events in your IoT solution, no matter where you are.
+Follow [this guide](/thingsboard-learning/docs/mobile/getting-started/) to learn how to install the ThingsBoard PE Mobile Application and set up push notifications delivery directly from ThingsBoard instance to your smartphone.
 
 ## Step 7. Assign device and dashboard to customer
 

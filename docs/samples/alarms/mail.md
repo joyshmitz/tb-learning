@@ -58,7 +58,7 @@ Once a plugin is saved successfully, don't forget to activate it by clicking on 
 
 ## Next Steps
 
-Explore next [tutorial](/docs/samples/alarms/basic-rules/) to provision basic rules and generate emails based on sensor readings.
+Explore next [tutorial](/thingsboard-learning/docs/samples/alarms/basic-rules/) to provision basic rules and generate emails based on sensor readings.
   
 ## Troubleshooting
 

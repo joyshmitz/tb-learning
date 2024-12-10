@@ -19,15 +19,15 @@ This section contains installation instructions for build tools.
 
 ##### Java
 
-ThingsBoard is build using Java 11. You can use [following instructions](/docs/user-guide/install/linux#java) to install Java 11.
+ThingsBoard is build using Java 11. You can use [following instructions](/thingsboard-learning/docs/user-guide/install/linux#java) to install Java 11.
 
 ##### Maven
 
 ThingsBoard build requires Maven 3.1.0+.
 
 {% capture tabspec %}maven-installation
-A,Ubuntu,shell,resources/maven-ubuntu-installation.sh,/docs/user-guide/install/resources/maven-ubuntu-installation.sh
-B,CentOS,shell,resources/maven-centos-installation.sh,/docs/user-guide/install/resources/maven-centos-installation.sh{% endcapture %}
+A,Ubuntu,shell,resources/maven-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/maven-ubuntu-installation.sh
+B,CentOS,shell,resources/maven-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/maven-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **Please note** that maven installation may set Java 7 as a default JVM on certain Linux machines. 
@@ -39,7 +39,7 @@ Use java installation [instructions](#java) to fix this.
 **NOTE: Building Docker image on Windows machine**
 
 To build Docker image certain scripts, configuration files and sources what will be a part of the Docker image must have **LF** line endings.
-So before cloning the repo set to _input_ the Git [core.autocrlf](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreautocrlf) configuration option.
+So before cloning the repo set to _input_ the Git [core.autocrlf](https://git-scm.com/thingsboard-learning/docs/git-config#Documentation/git-config.txt-coreautocrlf) configuration option.
 
 For example, to set *core.autocrlf* globally:
 
@@ -136,7 +136,7 @@ Here are some tips and tricks to boost build experience:
 
 #### Build and runtime errors
 
-- If you see such errors when running locally-built Docker image, re-clone the repo with **LF** [file ending](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreautocrlf) and re-build the image.
+- If you see such errors when running locally-built Docker image, re-clone the repo with **LF** [file ending](https://git-scm.com/thingsboard-learning/docs/git-config#Documentation/git-config.txt-coreautocrlf) and re-build the image.
 To fix this read [Source code](#source-code) section.
 
 ```bash

@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Self-registration
 description:  
-redirect_from: "/docs/user-guide/self-registration/"
+redirect_from: "/thingsboard-learning/docs/user-guide/self-registration/"
 ---
 
 {% assign docsPrefix = "pe/" %}

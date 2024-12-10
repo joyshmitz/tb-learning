@@ -12,7 +12,7 @@ description: Integrating Senquip telemetry devices into the ThingsBoard.
 
 ## Samples
 
- - [Connecting a Senquip telemetry device to the ThingsBoard](/docs/samples/senquip/senquip/)
+ - [Connecting a Senquip telemetry device to the ThingsBoard](/thingsboard-learning/docs/samples/senquip/senquip/)
  
 ## Documentation
 

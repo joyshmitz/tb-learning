@@ -25,7 +25,7 @@ We assume:
 - You have at least one Abeeway Micro Tracker or Abeeway Industrial Tracker that is already connected  with ACTILITY THINGPARK IoT NETWORK and is active.
 - We also assume you already have a ThingsBoard PE server or free demo account.
 Otherwise, you can register for a 30-days free demo account here: [thingsboard.cloud](https://thingsboard.cloud/signup).
-We expect you to have at least a basic knowledge about ThingsBoard, so we do recommend to complete the [Getting Started](/docs/getting-started-guides/helloworld) guide.
+We expect you to have at least a basic knowledge about ThingsBoard, so we do recommend to complete the [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld) guide.
 
 
 ## Integration overview
@@ -67,7 +67,7 @@ Therefore, when creating a new device, in the <b>Name</b> field, enter the value
 </details>
 
 ## Step 2. Creation UpLink and DownLink DATA Converters
-In order to create an [Integration](/docs/user-guide/integrations), we should create the [Uplink Data Converter](/docs/user-guide/integrations/#uplink-data-converter) and the [Downlink Data Converter](/docs/user-guide/integrations/#downlink-data-converter) first. 
+In order to create an [Integration](/thingsboard-learning/docs/user-guide/integrations), we should create the [Uplink Data Converter](/thingsboard-learning/docs/user-guide/integrations/#uplink-data-converter) and the [Downlink Data Converter](/thingsboard-learning/docs/user-guide/integrations/#downlink-data-converter) first. 
 The converters will decode incoming telemetry payload data from global standard LoRaWAN that contains in encoded hex string to human readable, simplified ThingsBoard data format.
 
 <details>
@@ -378,7 +378,7 @@ After creating the Uplink Converter to the Decoder section, you need to update t
     </ul>
 </details>
 
-Alternatively, you can import it from this [file](/docs/user-guide/resources/actility/uplink_actility_converter.json) 
+Alternatively, you can import it from this [file](/thingsboard-learning/docs/user-guide/resources/actility/uplink_actility_converter.json) 
 <details>
     <summary>
         <font color="#006400"><i><b>the following way: Go to Data Converters -> Add new Data Converter -> Import Converter </b></i></font> (<b>click to open expanded view</b>)
@@ -439,7 +439,7 @@ Open Downlink Converter, editor mode, click "test decoder function" and replace 
     </ul>
 
 
-Alternatively, you can import it from this [file](/docs/user-guide/resources/actility/downlink_actility_converter.json)
+Alternatively, you can import it from this [file](/thingsboard-learning/docs/user-guide/resources/actility/downlink_actility_converter.json)
 <details>
     <summary>
         <font color="#006400"><i><b>the following way: Go to Data Converters -> Add new Data Converter -> Import Converter </b></i></font> (<b>click to open expanded view</b>)

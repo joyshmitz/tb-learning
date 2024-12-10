@@ -17,7 +17,7 @@ We have one device per room (zone) in the building or other facility and we want
 
 ## Assumptions
 
-We assume you have already configured email plugin that will distribute generated alarms to recipients. You can follow previous [tutorial](/docs/samples/alarms/mail/) to do this. 
+We assume you have already configured email plugin that will distribute generated alarms to recipients. You can follow previous [tutorial](/thingsboard-learning/docs/samples/alarms/mail/) to do this. 
 
 ## How it works?
 
@@ -119,7 +119,7 @@ In our case, we use a timestamp that is truncated to minutes to make sure that w
 
 #### Step 8. Rule Action
 
-Select "SendGrid Email Plugin" from previous [tutorial](/docs/samples/alarms/mail/) and click on "Create" button.
+Select "SendGrid Email Plugin" from previous [tutorial](/thingsboard-learning/docs/samples/alarms/mail/) and click on "Create" button.
 Don't forget to replace "thingsboard@gmail.com" with your email address.
 
 ![image](/images/samples/alarms/add-action.png)

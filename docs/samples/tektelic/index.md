@@ -76,12 +76,12 @@ Smart Room Sensor has a sticker with QR code with data required by Network Serve
  Be aware, *Application* and *Network* session keys are changing whenever a sensor has been rejoined.
  Smart Room Sensor is rejoining every time after the battery has been disconnected.
 ### Step 2. Configure integration with ThingsBoard
- ThingsBoard provides [MQTT Gateway API](/docs/reference/gateway-mqtt-api/).
+ ThingsBoard provides [MQTT Gateway API](/thingsboard-learning/docs/reference/gateway-mqtt-api/).
  Network Server integration, in turn, uses this MQTT Gateway API.
  So sensors and gateways will be created automatically at ThingsBoard side.
 ##### Step 2.1 Add a gateway device in ThingsBoard
  - Create a new device in ThingsBoard. Just for convenience, let’s set its type as *ns_integration*, the type name doesn't affect the functionality.
- *Is gateway* checkbox has to be set to make a device using [MQTT Gateway API](/docs/reference/gateway-mqtt-api/).
+ *Is gateway* checkbox has to be set to make a device using [MQTT Gateway API](/thingsboard-learning/docs/reference/gateway-mqtt-api/).
  Please don’t confuse gateway-device in ThingsBoard with a LoRa gateway, it’s just name matching.
  It’s necessary to copy the device access token to use it in the next step.
 
@@ -103,7 +103,7 @@ Smart Room Sensor has a sticker with QR code with data required by Network Serve
 
 ### Step 3. Integration verification
  After the integration has been created, wait for a new uplink (or trigger it) from the sensor.
- **Only after a new uplink** Network Server, through [MQTT Gateway API](/docs/reference/gateway-mqtt-api/), will create new devices in ThingsBoard.
+ **Only after a new uplink** Network Server, through [MQTT Gateway API](/thingsboard-learning/docs/reference/gateway-mqtt-api/), will create new devices in ThingsBoard.
  In ThingsBoard open device-gateway from step 2.1, go to the *RELATIONS* tab, and select outbound relations with a direction *From*.
  There should be present the gateway and the sensor added in Network Server at Step 1.1 and Step 1.2
 
@@ -130,8 +130,8 @@ Smart Room Sensor has a sticker with QR code with data required by Network Serve
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

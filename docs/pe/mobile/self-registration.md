@@ -23,7 +23,7 @@ self-registration:
 
 ThingsBoard PE Mobile Application provides self-registration support. The mobile app with self-registration enabled provides a registration form allowing to sign up new customer users.
 It can be configured in **Self Registration** settings form by Tenant administrator user.
-See [self-registration](/docs/pe/user-guide/self-registration/) to understand general Self registration configuration.
+See [self-registration](/thingsboard-learning/docs/pe/user-guide/self-registration/) to understand general Self registration configuration.
 In order to enable self-registration in mobile app you should enable and configure it in the **Mobile application self registration settings** section of Self Registration settings form:
 
 1. As a Tenant administrator user Go to **System Settings** -> **Self Registration**;

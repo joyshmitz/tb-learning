@@ -19,7 +19,7 @@ The client must specify the access token as a username in MQTT connect message.
 #### Plain MQTT (without SSL)
  
 Let's review a simple command to upload temperature readings using Access Token *YOUR_ACCESS_TOKEN* to ThingsBoard Cloud. 
-See [MQTT API](/docs/{{docsPrefix}}reference/mqtt-api/) for more details. The command is using plain MQTT without TLS:
+See [MQTT API](/thingsboard-learning/docs/{{docsPrefix}}reference/mqtt-api/) for more details. The command is using plain MQTT without TLS:
 
 ```bash
 mosquitto_pub -d -q 1 -h "{{mqttHostName}}" -p "1883" -t "v1/devices/me/telemetry" -u "YOUR_ACCESS_TOKEN" -m {"temperature":25}
@@ -33,10 +33,10 @@ The above command uses **{{mqttHostName}}** host and **1883** port and requires 
 One-way SSL authentication is a standard authentication mode, where your client device verifies the identity of a server using server certificate.
 ThingsBoard Team has already provisioned a valid certificate for [ThingsBoard Cloud](https://thingsboard.cloud/signup){:target="_blank"}.
 
-Please download the CA root certificate using this [**link**](/docs/{{docsPrefix}}user-guide/resources/mqtt-over-ssl/ca-root.pem) and save it to your working directory as "**ca-root.pem**".
+Please download the CA root certificate using this [**link**](/thingsboard-learning/docs/{{docsPrefix}}user-guide/resources/mqtt-over-ssl/ca-root.pem) and save it to your working directory as "**ca-root.pem**".
 
 ```bash
-wget https://thingsboard.io/docs/{{docsPrefix}}user-guide/resources/mqtt-over-ssl/ca-root.pem
+wget https://thingsboard.io/thingsboard-learning/docs/{{docsPrefix}}user-guide/resources/mqtt-over-ssl/ca-root.pem
 ```
 {: .copy-code}
 

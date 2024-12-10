@@ -5,4 +5,4 @@ description: Thingsboard performance charts
 
 ---
 
-{% include /docs/reference/performance/tools/thingsboard-performance-charts.md %}
+{% include /thingsboard-learning/docs/reference/performance/tools/thingsboard-performance-charts.md %}

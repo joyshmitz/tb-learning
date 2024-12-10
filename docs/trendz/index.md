@@ -12,7 +12,7 @@ and explore step-by-step how-to guides for constructing end-to-end IoT solutions
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/trendz/getting-started/">
+        <a class="feature-card" href="/thingsboard-learning/docs/trendz/getting-started/">
             <img class="feature-logo" src="/images/feature-logo/getting-started.svg" alt="Getting started icon">
             <div class="feature-title">Getting started</div>
             <div class="feature-text">
@@ -21,7 +21,7 @@ and explore step-by-step how-to guides for constructing end-to-end IoT solutions
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/trendz/install/installation-options/">
+        <a class="feature-card" href="/thingsboard-learning/docs/trendz/install/installation-options/">
             <img class="feature-logo" src="/images/feature-logo/install.svg" alt="Install icon">
             <div class="feature-title">Installation</div>
             <div class="feature-text">
@@ -30,7 +30,7 @@ and explore step-by-step how-to guides for constructing end-to-end IoT solutions
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="/docs/trendz/guides/">
+        <a class="feature-card" href="/thingsboard-learning/docs/trendz/guides/">
             <img class="feature-logo" src="/images/feature-logo/guides.svg" alt="guides">
             <div class="feature-title">Guides</div>
             <div class="feature-text">
@@ -49,7 +49,7 @@ and explore step-by-step how-to guides for constructing end-to-end IoT solutions
     </div>
     <div class="w-100"></div>
     <div class="col-12 col-sm-6 mb-4">
-        <a class="feature-card" href="/docs/trendz/prediction/">
+        <a class="feature-card" href="/thingsboard-learning/docs/trendz/prediction/">
             <img class="feature-logo" src="/images/feature-logo/guides.svg" alt="guides">
             <div class="feature-title">Predict time-series</div>
             <div class="feature-text">
@@ -58,7 +58,7 @@ and explore step-by-step how-to guides for constructing end-to-end IoT solutions
         </a>
     </div>
     <div class="col-12 col-sm-6 mb-4">
-        <a class="feature-card" href="/docs/trendz/anomaly/anomaly-detection-overview/">
+        <a class="feature-card" href="/thingsboard-learning/docs/trendz/anomaly/anomaly-detection-overview/">
             <img class="feature-logo" src="/images/feature-logo/faq.svg" alt="faq">
             <div class="feature-title">Anomaly detection</div>
             <div class="feature-text">

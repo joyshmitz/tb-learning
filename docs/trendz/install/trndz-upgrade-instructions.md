@@ -214,8 +214,8 @@ These steps are applicable for 1.11.1 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-11-2
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.2/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.11.2/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.2/trendz-centos-download.sh,/docs/user-guide/install/resources/1.11.2/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.2/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.2/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.2/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.2/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -230,8 +230,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-11-2
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.2/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.11.2/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.2/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.11.2/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.2/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.2/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.2/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.2/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -293,8 +293,8 @@ These steps are applicable for 1.11.0 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-11-1
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.1/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.11.1/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.1/trendz-centos-download.sh,/docs/user-guide/install/resources/1.11.1/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.1/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.1/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.1/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.1/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -309,8 +309,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-11-1
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.1/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.11.1/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.1/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.11.1/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.1/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.1/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.1/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.1/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -374,9 +374,9 @@ Trendz backend was migrated to Java 17. Install JDK 17 and ensure that system's 
 
 Please refer to Step 1 of the corresponding installation guide for detailed instructions:
 
-[**Ubuntu**](/docs/trendz/install/ubuntu/#step-1-install-java-17-openjdk)
+[**Ubuntu**](/thingsboard-learning/docs/trendz/install/ubuntu/#step-1-install-java-17-openjdk)
 
-[**CentOS/RHEL**](/docs/trendz/install/rhel/#step-1-install-java-17-openjdk)
+[**CentOS/RHEL**](/thingsboard-learning/docs/trendz/install/rhel/#step-1-install-java-17-openjdk)
 
 {% endcapture %}
 {% include templates/warn-banner.md content=tb_3_7_0_upgrade_note %}
@@ -387,8 +387,8 @@ Please refer to Step 1 of the corresponding installation guide for detailed inst
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-11-0
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.11.0/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.11.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.0/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.11.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -403,8 +403,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-11-0
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.11.0/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.11.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.11.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.0/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.11.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.11.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -429,7 +429,7 @@ sudo service trendz start
 
 Trendz backend was migrated to Java 17. Install JDK 17 and ensure that system's default Java version is set to 17.
 
-Please refer to [**Step 1 of the installation guide**](/docs/trendz/install/windows/#step-1-install-java-17-openjdk) for detailed instructions.
+Please refer to [**Step 1 of the installation guide**](/thingsboard-learning/docs/trendz/install/windows/#step-1-install-java-17-openjdk) for detailed instructions.
 
 {% endcapture %}
 {% include templates/warn-banner.md content=tb_3_7_0_upgrade_note %}
@@ -476,8 +476,8 @@ These steps are applicable for 1.10.3 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-10-3-hf7
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3-HF7/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.10.3-HF7/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.3-HF7/trendz-centos-download.sh,/docs/user-guide/install/resources/1.10.3-HF7/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3-HF7/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3-HF7/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.3-HF7/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3-HF7/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -492,8 +492,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-10-3-hf7
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3-HF7/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.3-HF7/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.10.3/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3-HF7/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.3-HF7/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -555,8 +555,8 @@ These steps are applicable for 1.10.2 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-10-3
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.3/trendz-centos-download.sh,/docs/user-guide/install/resources/1.10.3/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.3/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -571,8 +571,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-10-2
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.3/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.10.3/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.3/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.3/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.3/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -628,7 +628,7 @@ net start trendz
 ## Upgrading to 1.10.2
 
 In Trendz 1.10.2 we add support of Python script execution for calculated fields and custom prediction models. Python script support is an experimental feature that was included into the current release. 
-For usage in production installations we recommend to start Python executor as a [separate docker container](/docs/trendz/install/docker/#standalone-python-executor-service). However, it is also possible to execute Python scripts in monolithic Trendz installations. In that case this feature requires Python 3.8 to be [installed on the server same server with Trendz](/docs/trendz/install/ubuntu/#step-8-install-trendz-python-executor). 
+For usage in production installations we recommend to start Python executor as a [separate docker container](/thingsboard-learning/docs/trendz/install/docker/#standalone-python-executor-service). However, it is also possible to execute Python scripts in monolithic Trendz installations. In that case this feature requires Python 3.8 to be [installed on the server same server with Trendz](/thingsboard-learning/docs/trendz/install/ubuntu/#step-8-install-trendz-python-executor). 
 
 Please follow the steps below to upgrade your Trendz Analytics instance to 1.10.2 version. These steps are applicable for 1.10.1 Trendz Analytics version.
 
@@ -637,8 +637,8 @@ Please follow the steps below to upgrade your Trendz Analytics instance to 1.10.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-10-2
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.2/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.10.2/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.2/trendz-centos-download.sh,/docs/user-guide/install/resources/1.10.2/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.2/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.2/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.2/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.2/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -653,8 +653,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-10-2
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.2/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.10.2/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.2/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.10.2/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.2/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.2/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.2/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.2/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -716,8 +716,8 @@ These steps are applicable for 1.10.0 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-10-1
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.1/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.10.1/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.1/trendz-centos-download.sh,/docs/user-guide/install/resources/1.10.1/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.1/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.1/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.1/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.1/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -732,8 +732,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-10-1
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.1/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.10.1/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.1/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.10.1/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.1/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.1/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.1/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.1/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -788,7 +788,7 @@ net start trendz
 
 #### Trendz Bundle update
 If you are using ThingsBoard v3.5.0 or higher, you alos need to update Trendz bundle in ThingsBoard to use correct Trendz library version in ThingsBoard. 
-Detailed instructions how to do that you can find in [this article](/docs/trendz/trendz-bundle/#thingsboard-35-blank-widget-with-error)
+Detailed instructions how to do that you can find in [this article](/thingsboard-learning/docs/trendz/trendz-bundle/#thingsboard-35-blank-widget-with-error)
 
 ## Upgrading to 1.10.0
 
@@ -799,8 +799,8 @@ These steps are applicable for 1.9.2 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-10-0
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.10.0/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.10.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.0/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.10.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -815,8 +815,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service
 
 {% capture tabspec %}trendz-installation-1-9-2
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.10.0/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.10.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.10.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.0/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.10.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.10.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.
@@ -879,8 +879,8 @@ These steps are applicable for 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.9.2 Trendz Analytic
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-9-2
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.9.2/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.9.2/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.9.2/trendz-centos-download.sh,/docs/user-guide/install/resources/1.9.2/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.9.2/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.9.2/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.9.2/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.9.2/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -895,8 +895,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-9-2
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.9.2/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.9.2/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.9.2/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.9.2/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.9.2/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.9.2/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.9.2/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.9.2/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -959,8 +959,8 @@ These steps are applicable for 1.8.0 and 1.8.1 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-8-2
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.8.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -975,8 +975,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-8-0
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.8.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1024,8 +1024,8 @@ These steps are applicable for 1.7.0 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-8-0
-trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-download.sh
-trendz-download-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.8.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-download.sh
+trendz-download-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1040,8 +1040,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-8-0
-trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-installation.sh
-trendz-installation-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.8.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-8-0-ubuntu,Ubuntu,shell,resources/1.8.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-ubuntu-installation.sh
+trendz-installation-1-8-0-centos,CentOS,shell,resources/1.8.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.8.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1105,8 +1105,8 @@ net start trendz
 **Since Trendz Analytics 1.7.0 only PostgreSQL database is supported**  
  - During upgrade all data would be migrated form in-memory database into PostgreSQL
  - Please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-   - [PostgreSQL Installation on Ubuntu](/docs/trendz/install/ubuntu/#step-5-configure-trendz-database)
-   - [PostgreSQL Installation on CentOS/RHEL](/docs/trendz/install/rhel/#step-5-configure-trendz-database)
+   - [PostgreSQL Installation on Ubuntu](/thingsboard-learning/docs/trendz/install/ubuntu/#step-5-configure-trendz-database)
+   - [PostgreSQL Installation on CentOS/RHEL](/thingsboard-learning/docs/trendz/install/rhel/#step-5-configure-trendz-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_1_postgreSQL_linux %}
@@ -1114,8 +1114,8 @@ net start trendz
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-7-0
-trendz-download-1-7-0-ubuntu,Ubuntu,shell,resources/1.7.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.7.0/trendz-ubuntu-download.sh
-trendz-download-1-7-0-centos,CentOS,shell,resources/1.7.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.7.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-7-0-ubuntu,Ubuntu,shell,resources/1.7.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.7.0/trendz-ubuntu-download.sh
+trendz-download-1-7-0-centos,CentOS,shell,resources/1.7.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.7.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Backup Trendz Analytics configuration files and database
@@ -1141,8 +1141,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-7-0
-trendz-installation-1-7-0-ubuntu,Ubuntu,shell,resources/1.7.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.7.0/trendz-ubuntu-installation.sh
-trendz-installation-1-7-0-centos,CentOS,shell,resources/1.7.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.7.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-7-0-ubuntu,Ubuntu,shell,resources/1.7.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.7.0/trendz-ubuntu-installation.sh
+trendz-installation-1-7-0-centos,CentOS,shell,resources/1.7.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.7.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1177,7 +1177,7 @@ sudo service trendz start
 **Since Trendz Analytics 1.7.0 only PostgreSQL database is supported**  
  - During upgrade all data would be migrated form in-memory database into PostgreSQL
  - Please install PostgreSQL database before proceeding upgrade procedure using the following guide:
-   - [PostgreSQL Installation on Windows](/docs/trendz/install/windows/#step-5-configure-trendz-database)
+   - [PostgreSQL Installation on Windows](/thingsboard-learning/docs/trendz/install/windows/#step-5-configure-trendz-database)
 
 {% endcapture %}
 {% include templates/info-banner.md content=tb_3_0_1_postgreSQL_linux %}
@@ -1273,8 +1273,8 @@ These steps are applicable for 1.5.0 and 1.5.1 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-6-0
-trendz-download-1-6-0-ubuntu,Ubuntu,shell,resources/1.6.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.6.0/trendz-ubuntu-download.sh
-trendz-download-1-6-0-centos,CentOS,shell,resources/1.6.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.6.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-6-0-ubuntu,Ubuntu,shell,resources/1.6.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.6.0/trendz-ubuntu-download.sh
+trendz-download-1-6-0-centos,CentOS,shell,resources/1.6.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.6.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1289,8 +1289,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-6-0
-trendz-installation-1-6-0-ubuntu,Ubuntu,shell,resources/1.6.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.6.0/trendz-ubuntu-installation.sh
-trendz-installation-1-6-0-centos,CentOS,shell,resources/1.6.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.6.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-6-0-ubuntu,Ubuntu,shell,resources/1.6.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.6.0/trendz-ubuntu-installation.sh
+trendz-installation-1-6-0-centos,CentOS,shell,resources/1.6.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.6.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1341,8 +1341,8 @@ These steps are applicable for 1.5.0 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-5-1
-trendz-download-1-5-1-ubuntu,Ubuntu,shell,resources/1.5.1/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.5.1/trendz-ubuntu-download.sh
-trendz-download-1-5-1-centos,CentOS,shell,resources/1.5.1/trendz-centos-download.sh,/docs/user-guide/install/resources/1.5.1/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-5-1-ubuntu,Ubuntu,shell,resources/1.5.1/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.1/trendz-ubuntu-download.sh
+trendz-download-1-5-1-centos,CentOS,shell,resources/1.5.1/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.1/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1357,8 +1357,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-5-1
-trendz-installation-1-5-1-ubuntu,Ubuntu,shell,resources/1.5.1/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.5.1/trendz-ubuntu-installation.sh
-trendz-installation-1-5-1-centos,CentOS,shell,resources/1.5.1/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.5.1/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-5-1-ubuntu,Ubuntu,shell,resources/1.5.1/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.1/trendz-ubuntu-installation.sh
+trendz-installation-1-5-1-centos,CentOS,shell,resources/1.5.1/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.1/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1407,8 +1407,8 @@ These steps are applicable for 1.4.1 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-5-0
-trendz-download-1-5-0-ubuntu,Ubuntu,shell,resources/1.5.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.5.0/trendz-ubuntu-download.sh
-trendz-download-1-5-0-centos,CentOS,shell,resources/1.5.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.5.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-5-0-ubuntu,Ubuntu,shell,resources/1.5.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.0/trendz-ubuntu-download.sh
+trendz-download-1-5-0-centos,CentOS,shell,resources/1.5.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1422,8 +1422,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-5-0
-trendz-installation-1-5-0-ubuntu,Ubuntu,shell,resources/1.5.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.5.0/trendz-ubuntu-installation.sh
-trendz-installation-1-5-0-centos,CentOS,shell,resources/1.5.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.5.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-5-0-ubuntu,Ubuntu,shell,resources/1.5.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.0/trendz-ubuntu-installation.sh
+trendz-installation-1-5-0-centos,CentOS,shell,resources/1.5.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.5.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1492,8 +1492,8 @@ These steps are applicable for 1.4.0 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-4-1
-trendz-download-1-4-1-ubuntu,Ubuntu,shell,resources/1.4.1/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.4.1/trendz-ubuntu-download.sh
-trendz-download-1-4-1-centos,CentOS,shell,resources/1.4.1/trendz-centos-download.sh,/docs/user-guide/install/resources/1.4.1/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-4-1-ubuntu,Ubuntu,shell,resources/1.4.1/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.1/trendz-ubuntu-download.sh
+trendz-download-1-4-1-centos,CentOS,shell,resources/1.4.1/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.1/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1507,8 +1507,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-4-1
-trendz-installation-1-4-1-ubuntu,Ubuntu,shell,resources/1.4.1/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.4.1/trendz-ubuntu-installation.sh
-trendz-installation-1-4-1-centos,CentOS,shell,resources/1.4.1/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.4.1/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-4-1-ubuntu,Ubuntu,shell,resources/1.4.1/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.1/trendz-ubuntu-installation.sh
+trendz-installation-1-4-1-centos,CentOS,shell,resources/1.4.1/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.1/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  
@@ -1552,8 +1552,8 @@ These steps are applicable for 1.3.1 Trendz Analytics version.
 #### Trendz Analytics package download
 
 {% capture tabspec %}trendz-download-1-4-0
-trendz-download-1-4-0-ubuntu,Ubuntu,shell,resources/1.4.0/trendz-ubuntu-download.sh,/docs/user-guide/install/resources/1.4.0/trendz-ubuntu-download.sh
-trendz-download-1-4-0-centos,CentOS,shell,resources/1.4.0/trendz-centos-download.sh,/docs/user-guide/install/resources/1.4.0/trendz-centos-download.sh{% endcapture %}  
+trendz-download-1-4-0-ubuntu,Ubuntu,shell,resources/1.4.0/trendz-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.0/trendz-ubuntu-download.sh
+trendz-download-1-4-0-centos,CentOS,shell,resources/1.4.0/trendz-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.0/trendz-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 #### Trendz Analytics service upgrade
@@ -1567,8 +1567,8 @@ sudo service trendz stop
 * Install latest Trendz Analytics service 
 
 {% capture tabspec %}trendz-installation-1-4-0
-trendz-installation-1-4-0-ubuntu,Ubuntu,shell,resources/1.4.0/trendz-ubuntu-installation.sh,/docs/user-guide/install/resources/1.4.0/trendz-ubuntu-installation.sh
-trendz-installation-1-4-0-centos,CentOS,shell,resources/1.4.0/trendz-centos-installation.sh,/docs/user-guide/install/resources/1.4.0/trendz-centos-installation.sh{% endcapture %}  
+trendz-installation-1-4-0-ubuntu,Ubuntu,shell,resources/1.4.0/trendz-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.0/trendz-ubuntu-installation.sh
+trendz-installation-1-4-0-centos,CentOS,shell,resources/1.4.0/trendz-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/1.4.0/trendz-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 **NOTE:** Package installer will ask you to merge your trendz configuration. It is preferred to use **merge option** to make sure that all your previous parameters will not be overwritten.  

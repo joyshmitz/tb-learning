@@ -114,7 +114,7 @@ You can use payload type based on your device capabilities and business cases.
 ## Create converter and integration templates
 
 Converter and integration templates are created only on the **ThingsBoard Professional Edition**.
-So please use [**ThingsBoard Cloud**](https://thingsboard.cloud/signup) or [**install**](/docs/user-guide/install/pe/installation-options/) your own platform instance to log in as Tenant administrator.
+So please use [**ThingsBoard Cloud**](https://thingsboard.cloud/signup) or [**install**](/thingsboard-learning/docs/user-guide/install/pe/installation-options/) your own platform instance to log in as Tenant administrator.
 
 Follow the steps below to add the **MQTT integration**:
 

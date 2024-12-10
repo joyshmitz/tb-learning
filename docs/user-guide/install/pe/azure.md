@@ -24,7 +24,7 @@ description: Installing ThingsBoard PE on Azure
                            <div class="deployment-cards">
                                 <div class="deployment-cards-container">
                                    <div class="deployment-card-block text">
-                                       <a href="/docs/user-guide/install/pe/cluster/azure-from-markeplace/">
+                                       <a href="/thingsboard-learning/docs/user-guide/install/pe/cluster/azure-from-markeplace/">
                                            <span>
                                                <div class="deployment-logo">
                                                    <img width="" src="/images/install/cloud/azure-vm.svg" title="Installing ThingsBoard PE from Azure Marketplace" alt="Azure Marketplace">
@@ -34,7 +34,7 @@ description: Installing ThingsBoard PE on Azure
                                        </a>
                                    </div>
                                    <div class="deployment-card-block text">
-                                       <a href="/docs/user-guide/install/pe/cluster/azure-aks-setup/">
+                                       <a href="/thingsboard-learning/docs/user-guide/install/pe/cluster/azure-aks-setup/">
                                            <span>
                                                <div class="deployment-logo">
                                                    <img width="" src="/images/install/cloud/azure-aks.svg" title="ThingsBoard setup with Kubernetes on Azure AKS" alt="Azure AKS">

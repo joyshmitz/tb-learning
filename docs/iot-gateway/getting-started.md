@@ -14,14 +14,14 @@ legacy and third-party systems with ThingsBoard.
 This guide covers initial IoT Gateway installation and configuration, we will do the following things:
 - Create a new gateway device using [ThingsBoard IoT Gateways dashboard](#prerequisites);
 - Launch the gateway using Docker command;
-- Configure different connector types ([MQTT](/docs/iot-gateway/config/mqtt/), [OPC-UA](/docs/iot-gateway/config/opc-ua/), [Modbus](/docs/iot-gateway/config/modbus/)) in order to connect to a local demo servers and read data from them;
+- Configure different connector types ([MQTT](/thingsboard-learning/docs/iot-gateway/config/mqtt/), [OPC-UA](/thingsboard-learning/docs/iot-gateway/config/opc-ua/), [Modbus](/thingsboard-learning/docs/iot-gateway/config/modbus/)) in order to connect to a local demo servers and read data from them;
 - Check received device data on ThingsBoard.
 
 ## Prerequisites
 
-- Before initiating the Gateway setup, ensure that the ThingsBoard server is up and running. The simplest approach is to utilize the [Live Demo](https://demo.thingsboard.io) or [ThingsBoard Cloud](https://thingsboard.cloud). Alternatively, you can install ThingsBoard manually by following the steps outlined in the [Installation Guide](/docs/user-guide/install/installation-options/).
+- Before initiating the Gateway setup, ensure that the ThingsBoard server is up and running. The simplest approach is to utilize the [Live Demo](https://demo.thingsboard.io) or [ThingsBoard Cloud](https://thingsboard.cloud). Alternatively, you can install ThingsBoard manually by following the steps outlined in the [Installation Guide](/thingsboard-learning/docs/user-guide/install/installation-options/).
 - Before moving forward, ensure Docker is installed and properly configured on your machine. If you haven't installed Docker yet, you can download it from the [official Docker website](https://docs.docker.com/engine/install/) and follow their installation guide for your specific operating system. 
-- If you don't have a dashboard installed, you can download Gateway widget bundle [JSON file here](/docs/iot-gateway/resources/thingsboard-gateway-widget-bundle.json){:target="_blank" download="thingsboard-gateway-widget-bundle.json"} and ThingsBoard IoT Gateways dashboard [JSON file here](/docs/iot-gateway/resources/thingsboard-iot-gateways.json){:target="_blank" download="thingsboard-iot-gateways.json"}. Use this [guide](#optional-import-gateway-widgets-bundle-and-dashboard) to import gateway widgets bundle and dashboard.
+- If you don't have a dashboard installed, you can download Gateway widget bundle [JSON file here](/thingsboard-learning/docs/iot-gateway/resources/thingsboard-gateway-widget-bundle.json){:target="_blank" download="thingsboard-gateway-widget-bundle.json"} and ThingsBoard IoT Gateways dashboard [JSON file here](/thingsboard-learning/docs/iot-gateway/resources/thingsboard-iot-gateways.json){:target="_blank" download="thingsboard-iot-gateways.json"}. Use this [guide](#optional-import-gateway-widgets-bundle-and-dashboard) to import gateway widgets bundle and dashboard.
 
 ## Step 1. Create new gateway device on ThingsBoard
 
@@ -118,23 +118,23 @@ To review the data uploaded from your gateway, use the following steps:
 
 After the successful installation and configuration of your first connector, you can configure other connectors to 
 connect to different devices. You can find more information about connectors in the following articles:  
- - [**MQTT** connector](/docs/iot-gateway/config/mqtt/)
- - [**OPC-UA** connector](/docs/iot-gateway/config/opc-ua/)
- - [**Modbus** connector](/docs/iot-gateway/config/modbus/)
- - [**BLE** connector](/docs/iot-gateway/config/ble/)
- - [**Request** connector](/docs/iot-gateway/config/request/)
- - [**REST** connector](/docs/iot-gateway/config/rest/)
- - [**CAN** connector](/docs/iot-gateway/config/can/)
- - [**FTP** connector](/docs/iot-gateway/config/ftp/)
- - [**Socket** connector](/docs/iot-gateway/config/socket/)
- - [**XMPP** connector](/docs/iot-gateway/config/xmpp/)
- - [**BACnet** connector](/docs/iot-gateway/config/bacnet/)
- - [**OCPP** connector](/docs/iot-gateway/config/ocpp/)
- - [**ODBC** connector](/docs/iot-gateway/config/odbc/)
- - [**SNMP** connector](/docs/iot-gateway/config/snmp/)
- - [**Custom** connector](/docs/iot-gateway/custom/)
+ - [**MQTT** connector](/thingsboard-learning/docs/iot-gateway/config/mqtt/)
+ - [**OPC-UA** connector](/thingsboard-learning/docs/iot-gateway/config/opc-ua/)
+ - [**Modbus** connector](/thingsboard-learning/docs/iot-gateway/config/modbus/)
+ - [**BLE** connector](/thingsboard-learning/docs/iot-gateway/config/ble/)
+ - [**Request** connector](/thingsboard-learning/docs/iot-gateway/config/request/)
+ - [**REST** connector](/thingsboard-learning/docs/iot-gateway/config/rest/)
+ - [**CAN** connector](/thingsboard-learning/docs/iot-gateway/config/can/)
+ - [**FTP** connector](/thingsboard-learning/docs/iot-gateway/config/ftp/)
+ - [**Socket** connector](/thingsboard-learning/docs/iot-gateway/config/socket/)
+ - [**XMPP** connector](/thingsboard-learning/docs/iot-gateway/config/xmpp/)
+ - [**BACnet** connector](/thingsboard-learning/docs/iot-gateway/config/bacnet/)
+ - [**OCPP** connector](/thingsboard-learning/docs/iot-gateway/config/ocpp/)
+ - [**ODBC** connector](/thingsboard-learning/docs/iot-gateway/config/odbc/)
+ - [**SNMP** connector](/thingsboard-learning/docs/iot-gateway/config/snmp/)
+ - [**Custom** connector](/thingsboard-learning/docs/iot-gateway/custom/)
 
-More about *ThingsBoard IoT Gateways* Dashboard, you can [read here](/docs/iot-gateway/guides/how-to-enable-remote-configuration/).
+More about *ThingsBoard IoT Gateways* Dashboard, you can [read here](/thingsboard-learning/docs/iot-gateway/guides/how-to-enable-remote-configuration/).
 
 ## (Optional) Import gateway widgets bundle and dashboard
 
@@ -176,8 +176,8 @@ To import ThingsBoard IoT Gateways dashboard, follow these steps:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -36,7 +36,7 @@ rdsEndpointUrl:
 {% assign tbServicesFile = "tb-node.yml" %}
 
 This guide will help you to setup ThingsBoard in monolith mode using AWS EKS. 
-See [monolithic](/docs/reference/monolithic/) architecture page for more details about how it works. 
+See [monolithic](/thingsboard-learning/docs/reference/monolithic/) architecture page for more details about how it works. 
 The advantage of monolithic deployment via K8S comparing to Docker Compose is that in case of AWS instance outage, 
 K8S will restart the service on another instance. We will use Amazon RDS for managed PostgreSQL.
 

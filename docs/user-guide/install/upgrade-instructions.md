@@ -7,7 +7,7 @@ description: ThingsBoard IoT platform upgrade instructions
 
 ---
 
-<h3>In order to update ThingsBoard PE please follow <a style="pointer-events: all;" href="/docs/user-guide/install/pe/upgrade-instructions/">these instructions</a></h3>
+<h3>In order to update ThingsBoard PE please follow <a style="pointer-events: all;" href="/thingsboard-learning/docs/user-guide/install/pe/upgrade-instructions/">these instructions</a></h3>
 
 <ul id="markdown-toc">
     <li>
@@ -121,7 +121,7 @@ description: ThingsBoard IoT platform upgrade instructions
       </ul>
     </li>
     <li>
-    <a href="/docs/user-guide/install/old-upgrade-instructions/" id="markdown-toc-upgrading-to-240">Older versions</a>
+    <a href="/thingsboard-learning/docs/user-guide/install/old-upgrade-instructions/" id="markdown-toc-upgrading-to-240">Older versions</a>
     </li> 
 </ul>
 
@@ -133,15 +133,15 @@ description: ThingsBoard IoT platform upgrade instructions
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.8. In order to upgrade to 3.8.1 you need to [**upgrade to 3.8 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-38).
+These upgrade steps are applicable for ThingsBoard version 3.8. In order to upgrade to 3.8.1 you need to [**upgrade to 3.8 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-38).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-8-1
-thingsboard-download-3-8-1-ubuntu,Ubuntu,shell,resources/3.8.1/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.8.1/thingsboard-ubuntu-download.sh
-thingsboard-download-3-8-1-centos,CentOS,shell,resources/3.8.1/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.8.1/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-8-1-ubuntu,Ubuntu,shell,resources/3.8.1/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8.1/thingsboard-ubuntu-download.sh
+thingsboard-download-3-8-1-centos,CentOS,shell,resources/3.8.1/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8.1/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -154,8 +154,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-8-1
-thingsboard-installation-3-8-1-ubuntu,Ubuntu,shell,resources/3.8.1/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.8.1/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-8-1-centos,CentOS,shell,resources/3.8.1/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.8.1/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-8-1-ubuntu,Ubuntu,shell,resources/3.8.1/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8.1/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-8-1-centos,CentOS,shell,resources/3.8.1/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8.1/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -177,7 +177,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.8. In order to upgrade to 3.8.1 you need to [**upgrade to 3.8 first**](/docs/user-guide/install/upgrade-instructions/#windows-38).
+These upgrade steps are applicable for ThingsBoard version 3.8. In order to upgrade to 3.8.1 you need to [**upgrade to 3.8 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-38).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -222,21 +222,21 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.7. In order to upgrade to 3.8 you need to [**upgrade to 3.7 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-37).
+These upgrade steps are applicable for ThingsBoard version 3.7. In order to upgrade to 3.8 you need to [**upgrade to 3.7 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-37).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### Install PostgreSQL contrib package (For CentOS only) 
 
 {% capture tabspec %}install-postgres-contrib-3-8
-install-postgres-contrib-3-8-centos,CentOS,shell,resources/3.8/install-postgres-contrib.sh,/docs/user-guide/install/resources/3.8/install-postgres-contrib.sh{% endcapture %}
+install-postgres-contrib-3-8-centos,CentOS,shell,resources/3.8/install-postgres-contrib.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8/install-postgres-contrib.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-8
-thingsboard-download-3-8-ubuntu,Ubuntu,shell,resources/3.8/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.8/thingsboard-ubuntu-download.sh
-thingsboard-download-3-8-centos,CentOS,shell,resources/3.8/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.8/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-8-ubuntu,Ubuntu,shell,resources/3.8/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8/thingsboard-ubuntu-download.sh
+thingsboard-download-3-8-centos,CentOS,shell,resources/3.8/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -249,8 +249,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-8
-thingsboard-installation-3-8-ubuntu,Ubuntu,shell,resources/3.8/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.8/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-8-centos,CentOS,shell,resources/3.8/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.8/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-8-ubuntu,Ubuntu,shell,resources/3.8/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-8-centos,CentOS,shell,resources/3.8/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.8/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -279,7 +279,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.7. In order to upgrade to 3.8 you need to [**upgrade to 3.7 first**](/docs/user-guide/install/upgrade-instructions/#windows-37).
+These upgrade steps are applicable for ThingsBoard version 3.7. In order to upgrade to 3.8 you need to [**upgrade to 3.7 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-37).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -332,7 +332,7 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.4. In order to upgrade to 3.7 you need to [**upgrade to 3.6.4 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-364).
+These upgrade steps are applicable for ThingsBoard version 3.6.4. In order to upgrade to 3.7 you need to [**upgrade to 3.6.4 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-364).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -341,8 +341,8 @@ These upgrade steps are applicable for ThingsBoard version 3.6.4. In order to up
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-7
-thingsboard-download-3-7-ubuntu,Ubuntu,shell,resources/3.7/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.7/thingsboard-ubuntu-download.sh
-thingsboard-download-3-7-centos,CentOS,shell,resources/3.7/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.7/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-7-ubuntu,Ubuntu,shell,resources/3.7/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.7/thingsboard-ubuntu-download.sh
+thingsboard-download-3-7-centos,CentOS,shell,resources/3.7/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.7/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -355,8 +355,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-7
-thingsboard-installation-3-7-ubuntu,Ubuntu,shell,resources/3.7/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.7/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-7-centos,CentOS,shell,resources/3.7/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.7/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-7-ubuntu,Ubuntu,shell,resources/3.7/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.7/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-7-centos,CentOS,shell,resources/3.7/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.7/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -378,7 +378,7 @@ sudo /usr/share/thingsboard/bin/install/upgrade.sh --fromVersion=3.6.4
 {% capture cassandra-370 %}
 **In case Cassandra is installed**, ensure that a proper **JAVA_HOME** parameter is set for *cassandra.in.sh* include file. As of 3.7.0 release, latest stable Cassandra version does not support Java 17 yet.
 
-In case action is required, you can refer to *"you will need to install Java..."* section of [**Cassandra installation guide**](/docs/user-guide/install/ubuntu/?ubuntuThingsboardDatabase=hybrid#cassandra-installation). 
+In case action is required, you can refer to *"you will need to install Java..."* section of [**Cassandra installation guide**](/thingsboard-learning/docs/user-guide/install/ubuntu/?ubuntuThingsboardDatabase=hybrid#cassandra-installation). 
 {% endcapture %}
 {% include templates/info-banner.md content=cassandra-370 %}
 
@@ -392,7 +392,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.4. In order to upgrade to 3.7 you need to [**upgrade to 3.6.4 first**](/docs/user-guide/install/upgrade-instructions/#windows-364).
+These upgrade steps are applicable for ThingsBoard version 3.6.4. In order to upgrade to 3.7 you need to [**upgrade to 3.6.4 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-364).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -446,15 +446,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.3. In order to upgrade to 3.6.4 you need to [**upgrade to 3.6.3 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-363).
+These upgrade steps are applicable for ThingsBoard version 3.6.3. In order to upgrade to 3.6.4 you need to [**upgrade to 3.6.3 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-363).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-6-4
-thingsboard-download-3-6-4-ubuntu,Ubuntu,shell,resources/3.6.4/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.6.4/thingsboard-ubuntu-download.sh
-thingsboard-download-3-6-4-centos,CentOS,shell,resources/3.6.4/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.6.4/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-6-4-ubuntu,Ubuntu,shell,resources/3.6.4/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.4/thingsboard-ubuntu-download.sh
+thingsboard-download-3-6-4-centos,CentOS,shell,resources/3.6.4/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.4/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -467,8 +467,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-6-4
-thingsboard-installation-3-6-4-ubuntu,Ubuntu,shell,resources/3.6.4/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.6.4/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-6-4-centos,CentOS,shell,resources/3.6.4/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.6.4/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-6-4-ubuntu,Ubuntu,shell,resources/3.6.4/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.4/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-6-4-centos,CentOS,shell,resources/3.6.4/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.4/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -497,7 +497,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.3. In order to upgrade to 3.6.4 you need to [**upgrade to 3.6.3 first**](/docs/user-guide/install/upgrade-instructions/#windows-363).
+These upgrade steps are applicable for ThingsBoard version 3.6.3. In order to upgrade to 3.6.4 you need to [**upgrade to 3.6.3 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-363).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -549,15 +549,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.2. In order to upgrade to 3.6.3 you need to [**upgrade to 3.6.2 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-362).
+These upgrade steps are applicable for ThingsBoard version 3.6.2. In order to upgrade to 3.6.3 you need to [**upgrade to 3.6.2 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-362).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-6-3
-thingsboard-download-3-6-3-ubuntu,Ubuntu,shell,resources/3.6.3/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.6.3/thingsboard-ubuntu-download.sh
-thingsboard-download-3-6-3-centos,CentOS,shell,resources/3.6.3/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.6.3/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-6-3-ubuntu,Ubuntu,shell,resources/3.6.3/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.3/thingsboard-ubuntu-download.sh
+thingsboard-download-3-6-3-centos,CentOS,shell,resources/3.6.3/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.3/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -570,8 +570,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-6-3
-thingsboard-installation-3-6-3-ubuntu,Ubuntu,shell,resources/3.6.3/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.6.3/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-6-3-centos,CentOS,shell,resources/3.6.3/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.6.3/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-6-3-ubuntu,Ubuntu,shell,resources/3.6.3/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.3/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-6-3-centos,CentOS,shell,resources/3.6.3/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.3/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -600,7 +600,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.2. In order to upgrade to 3.6.3 you need to [**upgrade to 3.6.2 first**](/docs/user-guide/install/upgrade-instructions/#windows-362).
+These upgrade steps are applicable for ThingsBoard version 3.6.2. In order to upgrade to 3.6.3 you need to [**upgrade to 3.6.2 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-362).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -652,15 +652,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.1. In order to upgrade to 3.6.2 you need to [**upgrade to 3.6.1 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-361).
+These upgrade steps are applicable for ThingsBoard version 3.6.1. In order to upgrade to 3.6.2 you need to [**upgrade to 3.6.1 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-361).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-6-2
-thingsboard-download-3-6-2-ubuntu,Ubuntu,shell,resources/3.6.2/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.6.2/thingsboard-ubuntu-download.sh
-thingsboard-download-3-6-2-centos,CentOS,shell,resources/3.6.2/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.6.2/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-6-2-ubuntu,Ubuntu,shell,resources/3.6.2/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.2/thingsboard-ubuntu-download.sh
+thingsboard-download-3-6-2-centos,CentOS,shell,resources/3.6.2/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.2/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -673,8 +673,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-6-2
-thingsboard-installation-3-6-2-ubuntu,Ubuntu,shell,resources/3.6.2/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.6.2/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-6-2-centos,CentOS,shell,resources/3.6.2/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.6.2/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-6-2-ubuntu,Ubuntu,shell,resources/3.6.2/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.2/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-6-2-centos,CentOS,shell,resources/3.6.2/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.2/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -703,7 +703,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6.1. In order to upgrade to 3.6.2 you need to [**upgrade to 3.6.1 first**](/docs/user-guide/install/upgrade-instructions/#windows-361).
+These upgrade steps are applicable for ThingsBoard version 3.6.1. In order to upgrade to 3.6.2 you need to [**upgrade to 3.6.1 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-361).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -754,15 +754,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6. In order to upgrade to 3.6.1 you need to [**upgrade to 3.6 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-36).
+These upgrade steps are applicable for ThingsBoard version 3.6. In order to upgrade to 3.6.1 you need to [**upgrade to 3.6 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-36).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-6-1
-thingsboard-download-3-6-1-ubuntu,Ubuntu,shell,resources/3.6.1/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.6.1/thingsboard-ubuntu-download.sh
-thingsboard-download-3-6-1-centos,CentOS,shell,resources/3.6.1/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.6.1/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-6-1-ubuntu,Ubuntu,shell,resources/3.6.1/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.1/thingsboard-ubuntu-download.sh
+thingsboard-download-3-6-1-centos,CentOS,shell,resources/3.6.1/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.1/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -775,8 +775,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-6-1
-thingsboard-installation-3-6-1-ubuntu,Ubuntu,shell,resources/3.6.1/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.6.1/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-6-1-centos,CentOS,shell,resources/3.6.1/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.6.1/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-6-1-ubuntu,Ubuntu,shell,resources/3.6.1/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.1/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-6-1-centos,CentOS,shell,resources/3.6.1/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6.1/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -805,7 +805,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.6. In order to upgrade to 3.6.1 you need to [**upgrade to 3.6 first**](/docs/user-guide/install/upgrade-instructions/#windows-36).
+These upgrade steps are applicable for ThingsBoard version 3.6. In order to upgrade to 3.6.1 you need to [**upgrade to 3.6 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-36).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -856,15 +856,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.5.1. In order to upgrade to 3.6 you need to [**upgrade to 3.5.1 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-351).
+These upgrade steps are applicable for ThingsBoard version 3.5.1. In order to upgrade to 3.6 you need to [**upgrade to 3.5.1 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-351).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-6
-thingsboard-download-3-6-ubuntu,Ubuntu,shell,resources/3.6/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.6/thingsboard-ubuntu-download.sh
-thingsboard-download-3-6-centos,CentOS,shell,resources/3.6/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.6/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-6-ubuntu,Ubuntu,shell,resources/3.6/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6/thingsboard-ubuntu-download.sh
+thingsboard-download-3-6-centos,CentOS,shell,resources/3.6/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -877,8 +877,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-5
-thingsboard-installation-3-6-ubuntu,Ubuntu,shell,resources/3.6/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.6/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-6-centos,CentOS,shell,resources/3.6/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.6/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-6-ubuntu,Ubuntu,shell,resources/3.6/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-6-centos,CentOS,shell,resources/3.6/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.6/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -907,7 +907,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.5.1. In order to upgrade to 3.6 you need to [**upgrade to 3.5.1 first**](/docs/user-guide/install/upgrade-instructions/#windows-351).
+These upgrade steps are applicable for ThingsBoard version 3.5.1. In order to upgrade to 3.6 you need to [**upgrade to 3.5.1 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-351).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -958,15 +958,15 @@ net start thingsboard
 {% capture difference %}
 **NOTE**:
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.5. In order to upgrade to 3.5.1 you need to [**upgrade to 3.5 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-35).
+These upgrade steps are applicable for ThingsBoard version 3.5. In order to upgrade to 3.5.1 you need to [**upgrade to 3.5 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-35).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-5-1
-thingsboard-download-3-5-1-ubuntu,Ubuntu,shell,resources/3.5.1/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.5.1/thingsboard-ubuntu-download.sh
-thingsboard-download-3-5-1-centos,CentOS,shell,resources/3.5.1/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.5.1/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-5-1-ubuntu,Ubuntu,shell,resources/3.5.1/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5.1/thingsboard-ubuntu-download.sh
+thingsboard-download-3-5-1-centos,CentOS,shell,resources/3.5.1/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5.1/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -979,8 +979,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-5-1
-thingsboard-installation-3-5-1-ubuntu,Ubuntu,shell,resources/3.5.1/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.5.1/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-5-1-centos,CentOS,shell,resources/3.5.1/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.5.1/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-5-1-ubuntu,Ubuntu,shell,resources/3.5.1/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5.1/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-5-1-centos,CentOS,shell,resources/3.5.1/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5.1/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -1009,7 +1009,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.5. In order to upgrade to 3.5.1 you need to [**upgrade to 3.5 first**](/docs/user-guide/install/upgrade-instructions/#windows-35).
+These upgrade steps are applicable for ThingsBoard version 3.5. In order to upgrade to 3.5.1 you need to [**upgrade to 3.5 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-35).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -1060,7 +1060,7 @@ net start thingsboard
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.4. In order to upgrade to 3.5 you need to [**upgrade to 3.4.4 first**](/docs/user-guide/install/upgrade-instructions/#ubuntucentos-344).
+These upgrade steps are applicable for ThingsBoard version 3.4.4. In order to upgrade to 3.5 you need to [**upgrade to 3.4.4 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#ubuntucentos-344).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 
@@ -1069,8 +1069,8 @@ These upgrade steps are applicable for ThingsBoard version 3.4.4. In order to up
 #### ThingsBoard package download
 
 {% capture tabspec %}thingsboard-download-3-5
-thingsboard-download-3-5-ubuntu,Ubuntu,shell,resources/3.5/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/3.5/thingsboard-ubuntu-download.sh
-thingsboard-download-3-5-centos,CentOS,shell,resources/3.5/thingsboard-centos-download.sh,/docs/user-guide/install/resources/3.5/thingsboard-centos-download.sh{% endcapture %}
+thingsboard-download-3-5-ubuntu,Ubuntu,shell,resources/3.5/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5/thingsboard-ubuntu-download.sh
+thingsboard-download-3-5-centos,CentOS,shell,resources/3.5/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5/thingsboard-centos-download.sh{% endcapture %}
 {% include tabs.html %}
 
 #### ThingsBoard service upgrade
@@ -1083,8 +1083,8 @@ sudo service thingsboard stop
 {: .copy-code}
 
 {% capture tabspec %}thingsboard-installation-3-5
-thingsboard-installation-3-5-ubuntu,Ubuntu,shell,resources/3.5/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/3.5/thingsboard-ubuntu-installation.sh
-thingsboard-installation-3-5-centos,CentOS,shell,resources/3.5/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/3.5/thingsboard-centos-installation.sh{% endcapture %}
+thingsboard-installation-3-5-ubuntu,Ubuntu,shell,resources/3.5/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5/thingsboard-ubuntu-installation.sh
+thingsboard-installation-3-5-centos,CentOS,shell,resources/3.5/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/3.5/thingsboard-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 {% capture difference %}
@@ -1113,7 +1113,7 @@ sudo service thingsboard start
 {% capture difference %}
 **NOTE:**
 <br>
-These upgrade steps are applicable for ThingsBoard version 3.4.4. In order to upgrade to 3.5 you need to [**upgrade to 3.4.4 first**](/docs/user-guide/install/upgrade-instructions/#windows-344).
+These upgrade steps are applicable for ThingsBoard version 3.4.4. In order to upgrade to 3.5 you need to [**upgrade to 3.4.4 first**](/thingsboard-learning/docs/user-guide/install/upgrade-instructions/#windows-344).
 {% endcapture %}
 {% include templates/info-banner.md content=difference %}
 

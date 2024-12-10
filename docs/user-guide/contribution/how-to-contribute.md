@@ -19,9 +19,9 @@ Before you start any implementation please wait from the ThingsBoard team to com
 
 To build and run ThingsBoard instance make sure that you have **Java** and **Maven** installed onto your system.
 
-Please refer to [**Building from sources**](/docs/user-guide/install/building-from-source) section where [**Java**](/docs/user-guide/install/building-from-source/#java) and [**Maven**](/docs/user-guide/install/building-from-source/#maven) install processes are described.
+Please refer to [**Building from sources**](/thingsboard-learning/docs/user-guide/install/building-from-source) section where [**Java**](/thingsboard-learning/docs/user-guide/install/building-from-source/#java) and [**Maven**](/thingsboard-learning/docs/user-guide/install/building-from-source/#maven) install processes are described.
 
-To run integration and black-box tests **docker** and **docker-compose** required, please, refer to the [Running tests](/docs/user-guide/install/building-from-source/#tips-and-tricks) section.
+To run integration and black-box tests **docker** and **docker-compose** required, please, refer to the [Running tests](/thingsboard-learning/docs/user-guide/install/building-from-source/#tips-and-tricks) section.
 
 #### Fork and build ThingsBoard repository
 
@@ -69,8 +69,8 @@ Once PostgreSQL is installed you may want to create a new user or set the passwo
 
 Please refer to appropriate section where you find instructions on how to install cassandra:
 
- - [Cassandra installation on **Linux**](/docs/user-guide/install/linux/#cassandra)
- - [Cassandra installation on **Windows**](/docs/user-guide/install/windows/#cassandra)
+ - [Cassandra installation on **Linux**](/thingsboard-learning/docs/user-guide/install/linux/#cassandra)
+ - [Cassandra installation on **Windows**](/thingsboard-learning/docs/user-guide/install/windows/#cassandra)
 
 Edit ThingsBoard configuration file: 
 
@@ -87,7 +87,7 @@ database:
 ```
 
 **NOTE:** If your Cassandra server is installed on the remote machine or it is bind to custom interface/port, you need to specify it in thingsboard.yml as well.
-Please, refer to the [**configuration guide**](/docs/user-guide/install/config/) for the detailed description of **thingsboard.yml** file and what properties are used for cassandra connection configuration.
+Please, refer to the [**configuration guide**](/thingsboard-learning/docs/user-guide/install/config/) for the detailed description of **thingsboard.yml** file and what properties are used for cassandra connection configuration.
 
 After the thingsboard.yml file was updated, please rebuild the application module so that the updated thingsboard.yml gets populated to the target directory:
 
@@ -193,9 +193,9 @@ Be patient, pull request may take several days to review.
 
 #### See also
 
-- [Rule Node Development](/docs/user-guide/contribution/rule-node-development/) guide that describes how to create your own rule nodes.
+- [Rule Node Development](/thingsboard-learning/docs/user-guide/contribution/rule-node-development/) guide that describes how to create your own rule nodes.
 
-- [Widgets Development Guide](/docs/user-guide/contribution/widgets-development/) guide that describes how to create your own widgets.
+- [Widgets Development Guide](/thingsboard-learning/docs/user-guide/contribution/widgets-development/) guide that describes how to create your own widgets.
 
 ## Next steps
 

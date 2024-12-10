@@ -10,7 +10,7 @@ title: Device Attributes Filter
 
 This component allows filtering incoming messages by attributes of the device. 
 This filter is very useful if you want to apply the rule only to the certain sub-set of your device. 
-Filter expression is a javascript expression and basically defines this sub-set. You are able to use any [attribute types](/docs/user-guide/attributes#attribute-types).
+Filter expression is a javascript expression and basically defines this sub-set. You are able to use any [attribute types](/thingsboard-learning/docs/user-guide/attributes#attribute-types).
 
 ## Configuration
 

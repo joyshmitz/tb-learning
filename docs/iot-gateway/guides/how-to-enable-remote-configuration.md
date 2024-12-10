@@ -11,12 +11,12 @@ description:  IoT Gateway Remote Configuration
 This guide overviews all sub-dashboards of Gateway Dashboard for remote configuration.
 
 For purpose of this guide, we will use following things:
-1. Locally installed instance of ThingsBoard platform (How to install you can [read here](/docs/user-guide/install/installation-options/)).
-2. ThingsBoard IoT Gateway (How to install you can [read here](/docs/iot-gateway/installation/)).
+1. Locally installed instance of ThingsBoard platform (How to install you can [read here](/thingsboard-learning/docs/user-guide/install/installation-options/)).
+2. ThingsBoard IoT Gateway (How to install you can [read here](/thingsboard-learning/docs/iot-gateway/installation/)).
 
 Resources (OPTIONAL):
-1. [Gateway Dashboard](/docs/iot-gateway/resources/thingsboard-gateways-dashboard.json){:target="_blank" download="thingsboard-gateways-dashboard.json"}
-2. [Gateway Widget Bundle](/docs/iot-gateway/resources/thingsboard-gateway-widget-bundle.json){:target="_blank" download="thingsboard-gateway-widget-bundle.json"}
+1. [Gateway Dashboard](/thingsboard-learning/docs/iot-gateway/resources/thingsboard-gateways-dashboard.json){:target="_blank" download="thingsboard-gateways-dashboard.json"}
+2. [Gateway Widget Bundle](/thingsboard-learning/docs/iot-gateway/resources/thingsboard-gateway-widget-bundle.json){:target="_blank" download="thingsboard-gateway-widget-bundle.json"}
 
 {% capture info %}
 <div>
@@ -146,7 +146,7 @@ The dashboard consists of two main sections:
    - Configuration status - displays whether the remote configuration is synchronized with the local configuration;
    - Status of the connector - if it is "green" - there are no errors, and the connector is working correctly. If it is "red" - the connector is not working correctly;
    - Actions:
-     - RPC - dashboard for sending [RPC through gateway to connector](/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods/);
+     - RPC - dashboard for sending [RPC through gateway to connector](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods/);
      - Logs - dashboard with connector logs;
      - Delete connectors.
 - Connector configuration - fields for configuring the connector are displayed here, namely:
@@ -213,7 +213,7 @@ to the Gateway RPC sending dashboard.
 
 The dashboard consists of 3 widgets:
 - Service RPC - for sending RPC and viewing the result of command execution:
-   - Command - [service gateway RPC](/docs/iot-gateway/guides/how-to-use-gateway-rpc-methods/) (Ping, Stats, Devices, Update, Version, Restart, Reboot);
+   - Command - [service gateway RPC](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-gateway-rpc-methods/) (Ping, Stats, Devices, Update, Version, Restart, Reboot);
    - Timeout - command execution time;
    - Result - the result of executing the sent command.
 - RPS Logs - displays gateway logs when processing the sent RPC;
@@ -223,8 +223,8 @@ The dashboard consists of 3 widgets:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

@@ -14,7 +14,7 @@ RPC plugin is responsible for:
 
  - providing REST API to send RPC request from server-side applications to devices;
  - pushing RPC request to devices via one of available protocols: 
- [MQTT](/docs/reference/mqtt-api/#rpc-api), [CoAP](/docs/reference/coap-api/#rpc-api) or [HTTP](/docs/reference/http-api/#rpc-api);  
+ [MQTT](/thingsboard-learning/docs/reference/mqtt-api/#rpc-api), [CoAP](/thingsboard-learning/docs/reference/coap-api/#rpc-api) or [HTTP](/thingsboard-learning/docs/reference/http-api/#rpc-api);  
  
 By default, this plugin is configured on the system level by a system administrator. 
 You are able to configure your own instance of the plugin on tenant level.
@@ -26,7 +26,7 @@ You can specify default RPC timeout for plugin instance in the plugin configurat
 
 ## Server-side API
 
-RPC plugin API description is available in corresponding [rpc](/docs/user-guide/rpc/#server-side-rpc-api) guides. 
+RPC plugin API description is available in corresponding [rpc](/thingsboard-learning/docs/user-guide/rpc/#server-side-rpc-api) guides. 
 
 ## Example
 

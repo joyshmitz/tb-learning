@@ -7,7 +7,7 @@ notitle: "true"
 
 <div class="getting-started-title">Choose your version</div>
 <div class="getting-started-content row justify-content-center">
-    <a class="getting-started-card col-md-6 col-lg-6 col-xl-6 mb-4" href="/docs/getting-started-guides/helloworld/">
+    <a class="getting-started-card col-md-6 col-lg-6 col-xl-6 mb-4" href="/thingsboard-learning/docs/getting-started-guides/helloworld/">
         <div class="getting-started-square">
             <div class="getting-started-logo-container ce">
                 <div class="getting-started-logo"></div>
@@ -22,7 +22,7 @@ notitle: "true"
             </div>
         </div>    
     </a>
-    <a class="getting-started-card col-md-6 col-lg-6 col-xl-6" href="/docs/getting-started-guides/helloworld-pe/">
+    <a class="getting-started-card col-md-6 col-lg-6 col-xl-6" href="/thingsboard-learning/docs/getting-started-guides/helloworld-pe/">
         <div class="getting-started-square">
             <div class="getting-started-logo-container pe">
                 <div class="getting-started-logo"></div>

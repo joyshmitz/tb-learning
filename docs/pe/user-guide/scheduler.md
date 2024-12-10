@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: Scheduler
 description: Scheduler Guide
-redirect_from: "/docs/user-guide/scheduler/"
+redirect_from: "/thingsboard-learning/docs/user-guide/scheduler/"
 
 ---
 

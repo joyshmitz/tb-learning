@@ -196,7 +196,7 @@ Minor release with the following features, improvements, and bug fixes.
 
 * Core:
 
-  * [Performance improvements](/docs/mqtt-broker/reference/3m-throughput-single-node-performance-test/) for message processing. See:
+  * [Performance improvements](/thingsboard-learning/docs/mqtt-broker/reference/3m-throughput-single-node-performance-test/) for message processing. See:
   [#e0c66d3052](https://github.com/thingsboard/tbmq/commit/e0c66d3052), [#03409f7f18](https://github.com/thingsboard/tbmq/commit/03409f7f18), [#a1dd722deb](https://github.com/thingsboard/tbmq/commit/a1dd722deb), 
   [#3af40bb504](https://github.com/thingsboard/tbmq/commit/3af40bb504), [#55ff71bea8](https://github.com/thingsboard/tbmq/commit/55ff71bea8), 
   [#5f11148025](https://github.com/thingsboard/tbmq/commit/5f11148025), [#79db26751c](https://github.com/thingsboard/tbmq/commit/79db26751c) commits;

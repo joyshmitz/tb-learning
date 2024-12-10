@@ -14,7 +14,7 @@ This guide describes how to install ThingsBoard Community Edition on DigitalOcea
 
 ### Step 4. Use regular installation instruction for Ubuntu
 
-Please navigate to the ThingsBoard [**installation instruction**](/docs/user-guide/install/ubuntu/) 
+Please navigate to the ThingsBoard [**installation instruction**](/thingsboard-learning/docs/user-guide/install/ubuntu/) 
 for Ubuntu and complete the installation steps.
 
 **Note:** Use your droplet IP address instead of "localhost" to access the instance WEB UI.

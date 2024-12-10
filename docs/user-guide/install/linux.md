@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Installing ThingsBoard on Linux
 description: Installing ThingsBoard on Linux
-redirect_to: "/docs/user-guide/install/ubuntu"
+redirect_to: "/thingsboard-learning/docs/user-guide/install/ubuntu"
 
 ---
 
@@ -31,8 +31,8 @@ The solution is actively tested on both [OpenJDK](http://openjdk.java.net/) and 
 Follow this instructions to install OpenJDK 11:
 
 {% capture tabspec %}java-installation
-A,Ubuntu,shell,resources/java-ubuntu-installation.sh,/docs/user-guide/install/resources/java-ubuntu-installation.sh
-B,CentOS,shell,resources/java-centos-installation.sh,/docs/user-guide/install/resources/java-centos-installation.sh{% endcapture %}  
+A,Ubuntu,shell,resources/java-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/java-ubuntu-installation.sh
+B,CentOS,shell,resources/java-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/java-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}   
 
 Please don't forget to configure your operating system to use OpenJDK 11 by default. 
@@ -53,8 +53,8 @@ See corresponding instructions:
 Instructions listed below will help you to install PostgreSQL.
 
 {% capture tabspec %}postgresql-installation
-A,Ubuntu,shell,resources/postgresql-ubuntu-installation.sh,/docs/user-guide/install/resources/postgresql-ubuntu-installation.sh
-B,CentOS,shell,resources/postgresql-centos-installation.sh,/docs/user-guide/install/resources/postgresql-centos-installation.sh{% endcapture %}  
+A,Ubuntu,shell,resources/postgresql-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/postgresql-ubuntu-installation.sh
+B,CentOS,shell,resources/postgresql-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/postgresql-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}   
 
 
@@ -69,24 +69,24 @@ B,CentOS,shell,resources/postgresql-centos-installation.sh,/docs/user-guide/inst
 Instructions listed below will help you to install Cassandra.
 
 {% capture tabspec %}cassandra-installation
-A,Ubuntu,shell,resources/cassandra-ubuntu-installation.sh,/docs/user-guide/install/resources/cassandra-ubuntu-installation.sh
-B,CentOS,shell,resources/cassandra-centos-installation.sh,/docs/user-guide/install/resources/cassandra-centos-installation.sh{% endcapture %}  
+A,Ubuntu,shell,resources/cassandra-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/cassandra-ubuntu-installation.sh
+B,CentOS,shell,resources/cassandra-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/cassandra-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 ### ThingsBoard service installation
 
-Download installation package or [build it from source](/docs/user-guide/install/building-from-source).
+Download installation package or [build it from source](/thingsboard-learning/docs/user-guide/install/building-from-source).
 
 {% capture tabspec %}thingsboard-download
-A,Ubuntu,shell,resources/thingsboard-ubuntu-download.sh,/docs/user-guide/install/resources/thingsboard-ubuntu-download.sh
-B,CentOS,shell,resources/thingsboard-centos-download.sh,/docs/user-guide/install/resources/thingsboard-centos-download.sh{% endcapture %}  
+A,Ubuntu,shell,resources/thingsboard-ubuntu-download.sh,/thingsboard-learning/docs/user-guide/install/resources/thingsboard-ubuntu-download.sh
+B,CentOS,shell,resources/thingsboard-centos-download.sh,/thingsboard-learning/docs/user-guide/install/resources/thingsboard-centos-download.sh{% endcapture %}  
 {% include tabs.html %}
 
 Install ThingsBoard as a service
 
 {% capture tabspec %}thingsboard-installation
-A,Ubuntu,shell,resources/thingsboard-ubuntu-installation.sh,/docs/user-guide/install/resources/thingsboard-ubuntu-installation.sh
-B,CentOS,shell,resources/thingsboard-centos-installation.sh,/docs/user-guide/install/resources/thingsboard-centos-installation.sh{% endcapture %}  
+A,Ubuntu,shell,resources/thingsboard-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/thingsboard-ubuntu-installation.sh
+B,CentOS,shell,resources/thingsboard-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/thingsboard-centos-installation.sh{% endcapture %}  
 {% include tabs.html %}
 
 ### Configure ThingsBoard to use the external database

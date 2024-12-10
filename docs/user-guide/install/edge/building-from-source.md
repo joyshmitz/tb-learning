@@ -17,15 +17,15 @@ This section contains installation instructions for build tools.
 
 ##### Java
 
-ThingsBoard Edge is build using Java 17. You can use [following instructions](/docs/user-guide/install/linux#java) to install Java 17.
+ThingsBoard Edge is build using Java 17. You can use [following instructions](/thingsboard-learning/docs/user-guide/install/linux#java) to install Java 17.
 
 ##### Maven
 
 ThingsBoard build requires Maven 3.1.0+.
 
 {% capture tabspec %}maven-installation
-A,Ubuntu,shell,resources/maven-ubuntu-installation.sh,/docs/user-guide/install/resources/maven-ubuntu-installation.sh
-B,CentOS,shell,resources/maven-centos-installation.sh,/docs/user-guide/install/resources/maven-centos-installation.sh{% endcapture %}
+A,Ubuntu,shell,resources/maven-ubuntu-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/maven-ubuntu-installation.sh
+B,CentOS,shell,resources/maven-centos-installation.sh,/thingsboard-learning/docs/user-guide/install/resources/maven-centos-installation.sh{% endcapture %}
 {% include tabs.html %}
 
 **Please note** that maven installation may set Java 7 as a default JVM on certain Linux machines. 

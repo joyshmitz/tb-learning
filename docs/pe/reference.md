@@ -2,7 +2,7 @@
 layout: docwithnav-pe
 title: ThingsBoard architecture
 description: ThingsBoard architecture
-redirect_from: "/docs/pe/user-guide/rule-engine-2-0/architecture/"
+redirect_from: "/thingsboard-learning/docs/pe/user-guide/rule-engine-2-0/architecture/"
 
 ---
 

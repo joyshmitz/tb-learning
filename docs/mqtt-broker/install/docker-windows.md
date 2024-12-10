@@ -9,7 +9,7 @@ description: Installing TBMQ using Docker (Windows)
 {:toc}
 
 This guide will help you to install and start standalone TBMQ using Docker on Windows.
-If you are looking for a cluster installation instruction, please visit [cluster setup page](/docs/mqtt-broker/install/cluster/docker-compose-setup/).
+If you are looking for a cluster installation instruction, please visit [cluster setup page](/thingsboard-learning/docs/mqtt-broker/install/cluster/docker-compose-setup/).
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ docker compose start
 
 ### Upgrading
 
-Review the [release notes](/docs/mqtt-broker/releases/) and [upgrade instruction](/docs/mqtt-broker/install/upgrade-instructions/) 
+Review the [release notes](/thingsboard-learning/docs/mqtt-broker/releases/) and [upgrade instruction](/thingsboard-learning/docs/mqtt-broker/install/upgrade-instructions/) 
 for detailed information on the latest changes.
 
 #### Backup and restore (Optional)

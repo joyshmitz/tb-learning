@@ -325,4 +325,4 @@ cassandra-disk-usage:
 ---
 
 {% include get-hosts-name.html %}
-{% include /docs/reference/performance-aws-instances.md %}
+{% include /thingsboard-learning/docs/reference/performance-aws-instances.md %}

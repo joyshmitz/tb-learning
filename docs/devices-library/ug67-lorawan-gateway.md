@@ -13,4 +13,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/ug67-lorawan-gateway.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/ug67-lorawan-gateway.md %}

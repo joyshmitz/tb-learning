@@ -10,7 +10,7 @@ description: ThingsBoard IoT Platform hardware samples for Nettra RTU devices.
 
 ## Samples
 
- - [Temperature upload over MQTT using Nettra RTU](/docs/samples/nettrartu+/rtu_temp_sensor/)
+ - [Temperature upload over MQTT using Nettra RTU](/thingsboard-learning/docs/samples/nettrartu+/rtu_temp_sensor/)
 
 ## Documentation
 

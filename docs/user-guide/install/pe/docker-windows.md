@@ -4,7 +4,7 @@ assignees:
 - ashvayka
 title: Installing ThingsBoard PE using Docker (Windows)
 description: Installing ThingsBoard PE IoT Platform using Docker (Windows)
-redirect_from: "/docs/pe/user-guide/install/docker-windows/"
+redirect_from: "/thingsboard-learning/docs/pe/user-guide/install/docker-windows/"
 ---
 
 * TOC
@@ -13,7 +13,7 @@ redirect_from: "/docs/pe/user-guide/install/docker-windows/"
 
 This guide will help you to install and start ThingsBoard Professional Edition (PE) using Docker on Windows. 
 This guide covers standalone ThingsBoard PE installation.
-If you are looking for a cluster installation instruction, please visit [cluster setup page](/docs/user-guide/install/pe/cluster-setup/).  
+If you are looking for a cluster installation instruction, please visit [cluster setup page](/thingsboard-learning/docs/user-guide/install/pe/cluster-setup/).  
 
 ## Prerequisites
 

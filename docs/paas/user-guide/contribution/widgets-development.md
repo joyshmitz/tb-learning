@@ -8,4 +8,4 @@ title: Widgets Development Guide
 
 {% assign docsPrefix = "paas/" %}
 {% include get-hosts-name.html docsPrefix=docsPrefix %}
-{% include /docs/user-guide/contribution/widgets-development.md %}
+{% include /thingsboard-learning/docs/user-guide/contribution/widgets-development.md %}

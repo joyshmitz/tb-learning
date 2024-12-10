@@ -15,7 +15,7 @@ ThingsBoard training sessions are educational events that are delivered to your 
 - Addressing practical questions related to your use cases.
 - Minimizing time-to-market for your IoT product or solution.
 
-ThingsBoard training sessions are on-demand online events for up to 8 people. On-site training sessions are also available. [Contact us](/docs/contact-us/) for more details.
+ThingsBoard training sessions are on-demand online events for up to 8 people. On-site training sessions are also available. [Contact us](/thingsboard-learning/docs/contact-us/) for more details.
 
 <br>
 
@@ -226,6 +226,6 @@ ThingsBoard training sessions are on-demand online events for up to 8 people. On
 </div>
 
 <div class="bottom">
-    <a id="Serv_Trainings_ContactUs" href="/docs/contact-us/" class="contact-button gtm_button">Contact Us</a>
+    <a id="Serv_Trainings_ContactUs" href="/thingsboard-learning/docs/contact-us/" class="contact-button gtm_button">Contact Us</a>
     <p>Contact us to join the ThingsBoard training courses</p>
 </div>

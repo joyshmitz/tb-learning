@@ -40,7 +40,7 @@ defaultActivePricingSection: thingsboard-pe
                             <h2>Community support</h2>
                             <div class="pricing-square-description">
                                 <p> <strong>Community</strong> <strong>support</strong> is free-of-charge option. It is a volonteering initiative, provided by our team. Please, be aware that support is one of ThingsBoard Inc. business fields. Although our engineers (as many of our customers know) successfully handle user's requests in their free time. Community support doesn't mean any obligation for ThingsBoard Inc. We encourage you to:<br>
-                               <a href="/docs/">read documentation</a>;<br>
+                               <a href="/thingsboard-learning/docs/">read documentation</a>;<br>
                                subscribe to our <a href="https://www.youtube.com/c/thingsboard" target ="blank">YouTube channel</a>.<br>
                                and time fater time took an eye on <a href="https://www.youtube.com/watch?v=M0CaascgDmg&list=PLYEKB_XwLCZJ6T8RPLTjRwMw0eoabpEKO" target="blank">the free Education course</a> updates.
                                 </p>
@@ -49,7 +49,7 @@ defaultActivePricingSection: thingsboard-pe
                                 <p>Customer may also rely on answers from ThingsBoard <a href="https://github.com/thingsboard/thingsboard/issues" target="blank">community on GitHub</a> (issues page), send their queries to <a href="https://groups.google.com/forum/#!forum/thingsboard" target="blank">Q&A forum</a> and start <a href="https://stackoverflow.com/questions/tagged/thingsboard" target="blank">Stack Overflow</a> themes.
                                 </p>  
                                 <div class="row justify-content-center">
-                                    <a id="Serv_Support_CS_HelpMe" class="btn-blue btn-pricing gtm_button" href="/docs/contact-us/">
+                                    <a id="Serv_Support_CS_HelpMe" class="btn-blue btn-pricing gtm_button" href="/thingsboard-learning/docs/contact-us/">
                                         Help me!
                                     </a>
                                 </div>
@@ -103,7 +103,7 @@ defaultActivePricingSection: thingsboard-pe
                                 <span>/ month</span>
                             </h4>
                             <div class="row justify-content-center">
-                                <a id="Serv_Support_PS_Essential" class="btn-blue btn-pricing gtm_button" href="/docs/contact-us/">
+                                <a id="Serv_Support_PS_Essential" class="btn-blue btn-pricing gtm_button" href="/thingsboard-learning/docs/contact-us/">
                                     Order
                                 </a>
                             </div>
@@ -136,7 +136,7 @@ defaultActivePricingSection: thingsboard-pe
                                 <span>/ month</span>
                             </h4>
                             <div class="row justify-content-center">
-                                <a id="Serv_Support_PS_Premium" class="btn-blue btn-pricing gtm_button" href="/docs/contact-us/">
+                                <a id="Serv_Support_PS_Premium" class="btn-blue btn-pricing gtm_button" href="/thingsboard-learning/docs/contact-us/">
                                     Order
                                 </a>
                             </div>
@@ -169,7 +169,7 @@ defaultActivePricingSection: thingsboard-pe
                                 <span>/ month</span>
                             </h4>
                             <div class="row justify-content-center">
-                                <a id="Serv_Support_PS_Ultimate" class="btn-blue btn-pricing gtm_button" href="/docs/contact-us/">
+                                <a id="Serv_Support_PS_Ultimate" class="btn-blue btn-pricing gtm_button" href="/thingsboard-learning/docs/contact-us/">
                                     Order
                                 </a>
                             </div>

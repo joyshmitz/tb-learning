@@ -810,10 +810,10 @@ Major release with the following features and bug fixes:
 
 * Core & Rule Engine
   
-  * [#7911](https://github.com/thingsboard/thingsboard/pull/7911) [Notification system](/docs/user-guide/notifications/) by @ViacheslavKlimov
-  * [#7935](https://github.com/thingsboard/thingsboard/pull/7935) [Device provisioning](/docs/user-guide/certificates/?ubuntuThingsboardX509=x509Chain) using X509 certificate chains by @AndriiLandiak
-  * [#8090](https://github.com/thingsboard/thingsboard/pull/8090) [Alarm assignment](/docs/user-guide/alarms/#how-to-assign-alarm-to-user) feature by @imbeacon    
-  * [#7762](https://github.com/thingsboard/thingsboard/pull/7762) [Alarm comments](/docs/user-guide/alarms/#how-to-find-alarm-comments-and-add-your-own) feature by @dashevchenko
+  * [#7911](https://github.com/thingsboard/thingsboard/pull/7911) [Notification system](/thingsboard-learning/docs/user-guide/notifications/) by @ViacheslavKlimov
+  * [#7935](https://github.com/thingsboard/thingsboard/pull/7935) [Device provisioning](/thingsboard-learning/docs/user-guide/certificates/?ubuntuThingsboardX509=x509Chain) using X509 certificate chains by @AndriiLandiak
+  * [#8090](https://github.com/thingsboard/thingsboard/pull/8090) [Alarm assignment](/thingsboard-learning/docs/user-guide/alarms/#how-to-assign-alarm-to-user) feature by @imbeacon    
+  * [#7762](https://github.com/thingsboard/thingsboard/pull/7762) [Alarm comments](/thingsboard-learning/docs/user-guide/alarms/#how-to-find-alarm-comments-and-add-your-own) feature by @dashevchenko
 
 * UI
   
@@ -1155,7 +1155,7 @@ Minor release with the following features and bug fixes:
 **Minor** release with the following improvements and bug fixes:
 
 * Core:
-  * Improved performance and stability of the [Device State Service](https://thingsboard.io/docs/user-guide/device-connectivity-status/);
+  * Improved performance and stability of the [Device State Service](https://thingsboard.io/thingsboard-learning/docs/user-guide/device-connectivity-status/);
   * [#6983](https://github.com/thingsboard/thingsboard/pull/6983) Fixed start up failure due to Spring circular dependencies;
   * [#6923](https://github.com/thingsboard/thingsboard/pull/6923) Replaced deprecated StringUtils usages with in-repository implementation;
   * [#6959](https://github.com/thingsboard/thingsboard/pull/6959) Fixed auto-convertion of string values that start with '0' to double in EntityDataAdapter;
@@ -1193,9 +1193,9 @@ Major release with the following features and bug fixes:
 **Major Improvements**
 
 * Core & Rule Engine:
-  * [#6534](https://github.com/thingsboard/thingsboard/pull/6534) Configuration of Rule Engine queues via Tenant Profiles. See documentation [here](/docs/user-guide/rule-engine-2-5/queues/);
-  * [#6070](https://github.com/thingsboard/thingsboard/issues/6070) 2FA support. See documentation [here](/docs/user-guide/two-factor-authentication/).
-  * [#6759](https://github.com/thingsboard/thingsboard/pull/6759) Version Control (Git integration). See documentation [here](/docs/user-guide/version-control/).
+  * [#6534](https://github.com/thingsboard/thingsboard/pull/6534) Configuration of Rule Engine queues via Tenant Profiles. See documentation [here](/thingsboard-learning/docs/user-guide/rule-engine-2-5/queues/);
+  * [#6070](https://github.com/thingsboard/thingsboard/issues/6070) 2FA support. See documentation [here](/thingsboard-learning/docs/user-guide/two-factor-authentication/).
+  * [#6759](https://github.com/thingsboard/thingsboard/pull/6759) Version Control (Git integration). See documentation [here](/thingsboard-learning/docs/user-guide/version-control/).
   * [#6893](https://github.com/thingsboard/thingsboard/pull/6893) Refactor JS-Executor microservice to typescript;  
 * UI:
   * [#6334](https://github.com/thingsboard/thingsboard/issues/6334) Support of the latest values in the time-series widgets;
@@ -1889,21 +1889,21 @@ Minor release with the following improvements and bug fixes:
 
 * Migration to JDK 11;
 * Rule Engine:
-    * Added ["calculate delta"](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#calculate-delta) rule node;
-    * Added "current customer" and "current tenant" dynamic source types to DeviceProfile key filter. See examples [6](/docs/user-guide/device-profiles/#example-6-advanced-thresholds) and [7](/docs/user-guide/device-profiles/#example-7-dynamic-thresholds-based-on-the-tenant-or-customer-attributes);
-    * Added kafka consumer-groups statistics. See rule engine [troubleshooting](/docs/user-guide/rule-engine-2-0/overview/#troubleshooting) for more info;
-    * Attributes cache. See [Performance enhancement](/docs/user-guide/attributes/#performance-enhancement);
+    * Added ["calculate delta"](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#calculate-delta) rule node;
+    * Added "current customer" and "current tenant" dynamic source types to DeviceProfile key filter. See examples [6](/thingsboard-learning/docs/user-guide/device-profiles/#example-6-advanced-thresholds) and [7](/thingsboard-learning/docs/user-guide/device-profiles/#example-7-dynamic-thresholds-based-on-the-tenant-or-customer-attributes);
+    * Added kafka consumer-groups statistics. See rule engine [troubleshooting](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/#troubleshooting) for more info;
+    * Attributes cache. See [Performance enhancement](/thingsboard-learning/docs/user-guide/attributes/#performance-enhancement);
 * UI:
-    * Added ["Entity Count"](/docs/user-guide/dashboards/#2-widget-data-source-types) datasource for widgets;
-    * Added "Entity Type" alias. See usage in the "Entity count data source" example [here](/docs/user-guide/dashboards/#2-widget-data-source-types);
-    * Added support of common intervals and time zones to the [time window](/docs/user-guide/dashboards/#time-window) selector;
+    * Added ["Entity Count"](/thingsboard-learning/docs/user-guide/dashboards/#2-widget-data-source-types) datasource for widgets;
+    * Added "Entity Type" alias. See usage in the "Entity count data source" example [here](/thingsboard-learning/docs/user-guide/dashboards/#2-widget-data-source-types);
+    * Added support of common intervals and time zones to the [time window](/thingsboard-learning/docs/user-guide/dashboards/#time-window) selector;
     * Ability to set up a home dashboard for users instead of default "Home" view;
-    * Improved ["add widget"](/docs/user-guide/dashboards/#adding-widget-to-the-dashboard) dialog. Added description and preview images for widgets and widget bundles;
-    * Added column visibility and [row style](/docs/user-guide/ui/entity-table-widget/#6-row-style-function) functions for table widgets;
+    * Improved ["add widget"](/thingsboard-learning/docs/user-guide/dashboards/#adding-widget-to-the-dashboard) dialog. Added description and preview images for widgets and widget bundles;
+    * Added column visibility and [row style](/thingsboard-learning/docs/user-guide/ui/entity-table-widget/#6-row-style-function) functions for table widgets;
     * UI: Improved dashboard load performance by optimizing widget header template.
 * Transport:
-    * Support of [Protobuf](/docs/user-guide/device-profiles/#coap-device-type-default) for CoAP transport;
-    * Support of [Efento](/docs/user-guide/device-profiles/#coap-device-type-efento-nb-iot) devices for CoAP transport;
+    * Support of [Protobuf](/thingsboard-learning/docs/user-guide/device-profiles/#coap-device-type-default) for CoAP transport;
+    * Support of [Efento](/thingsboard-learning/docs/user-guide/device-profiles/#coap-device-type-efento-nb-iot) devices for CoAP transport;
 
 **Improvements**
 
@@ -1995,7 +1995,7 @@ Main features:
 
 * Update custom menu: Introduce dashboardId parameter to embed dashboard instead of using iframe;
 * Azure Event Hub Integration is updated to use new SDK;
-* Added new version of ["Alarms Count Node"](/docs/pe/user-guide/rule-engine-2-0/analytics-nodes/#alarms-count-node).
+* Added new version of ["Alarms Count Node"](/thingsboard-learning/docs/pe/user-guide/rule-engine-2-0/analytics-nodes/#alarms-count-node).
 * Added "Duplicate to group entities by group name" rule node;
 * Added ability to aggregate data on each message in the "Aggregate stream node".
 * Add ability to aggregate data weekly from Sunday to Saturday in the "Aggregate stream node".
@@ -2131,17 +2131,17 @@ We have also added features to track tenant API usage.
 
 **Major Improvements**
 
- * [Tenant Profiles](/docs/user-guide/tenant-profiles/) to manage API and Rate Limits;
- * [Device Profiles](/docs/user-guide/device-profiles/) to configure default rule chain and queue, set transport configuration and define [Alarm Rules](/docs/user-guide/device-profiles/#alarm-rules);
- * Added support of custom [MQTT Topics](/docs/user-guide/device-profiles/#mqtt-device-topic-filters) and basic [MQTT credentials](/docs/user-guide/basic-mqtt/) as alternative to access token;
- * Added support of custom device payload schema using [protocol buffers](/docs/user-guide/device-profiles/#mqtt-device-payload) for MQTT transport;
- * [Device provisioning](/docs/user-guide/device-provisioning/) is now available via device profiles;
- * [SMS Provider](/docs/user-guide/ui/sms-provider-settings) and [Send SMS](/docs/user-guide/rule-engine-2-0/external-nodes/#send-sms-node) rule node;
- * UI for [OAuth2](/docs/user-guide/oauth-2-support/) settings.
+ * [Tenant Profiles](/thingsboard-learning/docs/user-guide/tenant-profiles/) to manage API and Rate Limits;
+ * [Device Profiles](/thingsboard-learning/docs/user-guide/device-profiles/) to configure default rule chain and queue, set transport configuration and define [Alarm Rules](/thingsboard-learning/docs/user-guide/device-profiles/#alarm-rules);
+ * Added support of custom [MQTT Topics](/thingsboard-learning/docs/user-guide/device-profiles/#mqtt-device-topic-filters) and basic [MQTT credentials](/thingsboard-learning/docs/user-guide/basic-mqtt/) as alternative to access token;
+ * Added support of custom device payload schema using [protocol buffers](/thingsboard-learning/docs/user-guide/device-profiles/#mqtt-device-payload) for MQTT transport;
+ * [Device provisioning](/thingsboard-learning/docs/user-guide/device-provisioning/) is now available via device profiles;
+ * [SMS Provider](/thingsboard-learning/docs/user-guide/ui/sms-provider-settings) and [Send SMS](/thingsboard-learning/docs/user-guide/rule-engine-2-0/external-nodes/#send-sms-node) rule node;
+ * UI for [OAuth2](/thingsboard-learning/docs/user-guide/oauth-2-support/) settings.
  
 **Minor Improvements**
 
- * Added [Api Usage](/docs/user-guide/tenant-profiles/#api-usage-dashboard) dashboard;
+ * Added [Api Usage](/thingsboard-learning/docs/user-guide/tenant-profiles/#api-usage-dashboard) dashboard;
  * Added "orderBy" request parameter for telemetry controller;
  * Added queueName to enqueueForTellNext in TbSendRPCRequestNode;
  * Added protection from the circular reference across different rule chains; 
@@ -2769,8 +2769,8 @@ Minor release with the following improvements.
 
 Main features:
 
-- Added [Bulk Provisioning](/docs/user-guide/bulk-provisioning/) of devices/assets using CSV files;
-- Added [Claiming devices](/docs/user-guide/claiming-devices/) feature;
+- Added [Bulk Provisioning](/thingsboard-learning/docs/user-guide/bulk-provisioning/) of devices/assets using CSV files;
+- Added [Claiming devices](/thingsboard-learning/docs/user-guide/claiming-devices/) feature;
 - UI: Ability to reorder datakey chips via Drag&Drop in widget editor;
 - UI: Combined attributes and timeseries datakeys for latest values widget in widget editor;
 
@@ -2817,7 +2817,7 @@ Everything from TB CE v2.4.0 with the following improvements.
 
 Main features:
 
-- Added [Self-registration](/docs/user-guide/self-registration/) feature;
+- Added [Self-registration](/thingsboard-learning/docs/user-guide/self-registration/) feature;
 
 Additional features:
 
@@ -2886,8 +2886,8 @@ Everything from TB CE v2.3.1 with the following improvements.
 
 Main features:
 
-- Introduced [Change Owner](/docs/user-guide/rbac/) operation;
-- Introduced [Custom Menu](/docs/user-guide/custom-menu/) feature;
+- Introduced [Change Owner](/thingsboard-learning/docs/user-guide/rbac/) operation;
+- Introduced [Custom Menu](/thingsboard-learning/docs/user-guide/custom-menu/) feature;
 
 Additional features:
 
@@ -2960,7 +2960,7 @@ Everything from TB CE v2.3+ the following improvements.
 
 Main features:
 
-- [Advanced RBAC for IoT](/docs/user-guide/rbac/) to be able to define user groups and set permissions in relation to entity groups (devices/assets/dashboards, etc);
+- [Advanced RBAC for IoT](/thingsboard-learning/docs/user-guide/rbac/) to be able to define user groups and set permissions in relation to entity groups (devices/assets/dashboards, etc);
 
 Additional features:
 
@@ -2985,16 +2985,16 @@ Minor release with the following improvements.
 Main features:
 
  - Introduced support of a **microservices** architecture and deployment options. 
-   See [microservices](/docs/reference/msa/) architecture page and [deployment](https://github.com/thingsboard/thingsboard/blob/master/docker/README.md) tips for more details;
+   See [microservices](/thingsboard-learning/docs/reference/msa/) architecture page and [deployment](https://github.com/thingsboard/thingsboard/blob/master/docker/README.md) tips for more details;
  - Improved **docker images** to be able to launch ThingsBoard with a single command. 
-   See [Linux or MacOS](/docs/user-guide/install/docker/) and [Windows](/docs/user-guide/install/docker-windows/) installation pages; 
- - Added [**Entity Views**](/docs/user-guide/entity-views/) feature to allow to 
+   See [Linux or MacOS](/thingsboard-learning/docs/user-guide/install/docker/) and [Windows](/thingsboard-learning/docs/user-guide/install/docker-windows/) installation pages; 
+ - Added [**Entity Views**](/thingsboard-learning/docs/user-guide/entity-views/) feature to allow to 
  limit the degree of exposure of the Device or Asset telemetry and attributes to the Customers;
- - Added ThingsBoard [**JavaScript Executor**](/docs/reference/msa/#javascript-executor-microservices) microservice to isolate execution of rule engine scripts from the main rule engine components and flow;
- - Added ThingsBoard [**Web UI**](/docs/reference/msa/#web-ui-microservices) microservice to isolate static content hosting from the REST and Websocket APIs;
- - Added ThingsBoard [**MQTT, HTTP and CoAP**](/docs/reference/msa/#transport-microservices) transport microservices to isolate communication with devices from the main ThingsBoard services;
- - Added support of [Kafka](/docs/reference/msa/#kafka) to store device telemetry before it is processed with ThingsBoard Rule Engine;
- - Introduced [Rate Limits](/docs/user-guide/api-limits/) for REST, Websocket and Device APIsl
+ - Added ThingsBoard [**JavaScript Executor**](/thingsboard-learning/docs/reference/msa/#javascript-executor-microservices) microservice to isolate execution of rule engine scripts from the main rule engine components and flow;
+ - Added ThingsBoard [**Web UI**](/thingsboard-learning/docs/reference/msa/#web-ui-microservices) microservice to isolate static content hosting from the REST and Websocket APIs;
+ - Added ThingsBoard [**MQTT, HTTP and CoAP**](/thingsboard-learning/docs/reference/msa/#transport-microservices) transport microservices to isolate communication with devices from the main ThingsBoard services;
+ - Added support of [Kafka](/thingsboard-learning/docs/reference/msa/#kafka) to store device telemetry before it is processed with ThingsBoard Rule Engine;
+ - Introduced [Rate Limits](/thingsboard-learning/docs/user-guide/api-limits/) for REST, Websocket and Device APIsl
  - Framework for [**black-box testing**](https://github.com/thingsboard/thingsboard/tree/master/msa/black-box-tests) of ThingsBoard by automatically launching ThingsBoard cluster using docker-compose and running API tests;
  - Added input widgets bundle. 
 
@@ -3012,7 +3012,7 @@ Additional features:
  - Updated Italian locale;
  - Improved logging;
  - Introduced package-lock.json for msa packages with correct dependencies;
- - Introduced new Cassandra and PostgreSQL based [**AMIs**](/docs/user-guide/install/aws/).
+ - Introduced new Cassandra and PostgreSQL based [**AMIs**](/thingsboard-learning/docs/user-guide/install/aws/).
 
 Websockets:
 
@@ -3023,8 +3023,8 @@ Websockets:
 
 New Rule nodes:
 
- - [**Originator Telemetry**](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-telemetry) 
- rule node to allow using [multiple previous telemetry records](/docs/user-guide/rule-engine-2-0/tutorials/telemetry-delta-validation/) in the rule engine;
+ - [**Originator Telemetry**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-telemetry) 
+ rule node to allow using [multiple previous telemetry records](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/telemetry-delta-validation/) in the rule engine;
  - Create relation node;
  - Assign to customer node; 
  - Message count node;

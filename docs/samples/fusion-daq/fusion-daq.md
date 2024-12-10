@@ -45,7 +45,7 @@ Open your [ThingsBoard Cloud server](https://thingsboard.cloud/) in browser and 
 
 Go to "**Device groups**" tab -> "**All**" and click "plus" button to add a new device.
 
-Enter device name, select existing or create a new [device profile](https://thingsboard.io/docs/user-guide/device-profiles/) and click on "Add" button.
+Enter device name, select existing or create a new [device profile](https://thingsboard.io/thingsboard-learning/docs/user-guide/device-profiles/) and click on "Add" button.
 
 ![image](/images/samples/fusion-daq/fusion-daq-mi-8-create-device-1.png)
 
@@ -56,7 +56,7 @@ Your device has been created. Open its details and copy auto-generated **access 
 ### Configure MI-8
 
 Once you have an access token you can configure the MI-8. All MI-8 DAQs are configured through a file in the root directory of their SD card named config.json.
-An example of this JSON file can be downloaded from [this link](/docs/samples/fusion-daq/resources/config.json).
+An example of this JSON file can be downloaded from [this link](/thingsboard-learning/docs/samples/fusion-daq/resources/config.json).
 The [MI-8 User manual](https://fusiondaq.com/wp-content/uploads/2023/01/LTEdaq_OperatingManual-1.pdf) contains detailed information for making changes to this file, but for this example we will focus on the name and push fields.
 These are the fields which describe how to connect to ThingsBoard or any other service.
 

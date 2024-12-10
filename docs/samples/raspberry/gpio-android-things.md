@@ -12,7 +12,7 @@ description: ThingsBoard IoT Platform sample for Raspberry Pi GPIO control over 
 {% include templates/what-is-thingsboard.md %}
 
 This sample application will allow you to control GPIO of your Raspberry Pi device using ThingsBoard RPC widgets. We will observe GPIO control using LEDs connected to the pins.
-The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/docs/user-guide/rpc/).
+The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/).
 
 Raspberry Pi will use simple Android Things application that will connect to ThingsBoard server via [MQTT](https://en.wikipedia.org/wiki/MQTT) and listen to RPC commands.
 Current GPIO state and GPIO control widget is visualized using built-in customizable dashboard. 
@@ -75,8 +75,8 @@ Open **GpioControlActivity.java** file located at **app/src/main/java/org/things
 You will need to modify **THINGSBOARD_HOST** constant to match your ThingsBoard server installation IP address or hostname.
 Use "demo.thingsboard.io" if you are using [live demo](https://demo.thingsboard.io/) server.
 
-The value of **ACCESS_TOKEN** constant corresponds to sample Raspberry Pi device in pre-provisioned [demo data](/docs/samples/demo-account/#tenant-devices).
-If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "Raspberry Pi Demo Device".
+The value of **ACCESS_TOKEN** constant corresponds to sample Raspberry Pi device in pre-provisioned [demo data](/thingsboard-learning/docs/samples/demo-account/#tenant-devices).
+If you are using [live demo](https://demo.thingsboard.io/) server - [get the access token](/thingsboard-learning/docs/user-guide/ui/devices/#manage-device-credentials) for pre-provisioned "Raspberry Pi Demo Device".
 
 ### Running the application
 
@@ -107,7 +107,7 @@ adb shell am start -n "org.thingsboard.sample.gpiocontrol/org.thingsboard.sample
 
 ## Data visualization
 
-In order to simplify this guide, we have included "Raspberry PI GPIO Demo Dashboard" to the [demo data](/docs/samples/demo-account/#dashboards) that is available in each ThingsBoard installation. 
+In order to simplify this guide, we have included "Raspberry PI GPIO Demo Dashboard" to the [demo data](/thingsboard-learning/docs/samples/demo-account/#dashboards) that is available in each ThingsBoard installation. 
 Of course, you can modify this dashboard: tune, add, delete widgets, etc.
 You can access this dashboard by logging in as a tenant administrator.
 
@@ -121,7 +121,7 @@ In case of live-demo server:
  - login: your live-demo username (email)
  - password: your live-demo password
  
-See **[live-demo](/docs/user-guide/live-demo/)** page for more details how to get your account.
+See **[live-demo](/thingsboard-learning/docs/user-guide/live-demo/)** page for more details how to get your account.
  
 Once logged in, open **Dashboards->Raspberry PI GPIO Demo Dashboard** page. You should observe demo dashboard with GPIO control and status panel for your device. 
 Now you can switch status of GPIOs using control panel. As a result, you will see LEDs status change on the device and on the status panel.
@@ -132,13 +132,13 @@ Below is the screenshot of the "Raspberry PI GPIO Demo Dashboard".
  
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
  
 {% include templates/feedback.md %}
   

@@ -112,7 +112,7 @@ The procedure of adding CNAME record to DNS database depending on your DNS servi
 * [GoDaddy](https://www.godaddy.com/help/add-a-cname-record-19236){:target="_blank"}
 * [Cloudflare](https://community.cloudflare.com/t/how-do-i-add-a-cname-record/59){:target="_blank"}
 * [ClouDNS](https://www.cloudns.net/wiki/article/13/){:target="_blank"}
-* [Google Cloud DNS](https://cloud.google.com/dns/docs/records){:target="_blank"}
+* [Google Cloud DNS](https://cloud.google.com/dns/thingsboard-learning/docs/records){:target="_blank"}
 * [Name.com](https://www.name.com/support/articles/115004895548-adding-a-cname-record){:target="_blank"}
 * [easyDNS](https://kb.easydns.com/knowledge/how-to-make-a-dns-entry/){:target="_blank"}
 * [DNSimple](https://support.dnsimple.com/articles/manage-cname-record/#adding-a-cname-record){:target="_blank"}  
@@ -177,4 +177,4 @@ mydomain.thingsboard.online. 3600 IN	CNAME	thingsboard.cloud
 ...
 ```
 
-If all the things are correct, but some issue still persists - please [Contact us](https://thingsboard.io/docs/contact-us/) for further support.
+If all the things are correct, but some issue still persists - please [Contact us](https://thingsboard.io/thingsboard-learning/docs/contact-us/) for further support.

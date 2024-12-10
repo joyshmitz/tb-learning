@@ -14,4 +14,4 @@ deviceImageFileName: orange-pi-plus-2e.jpg
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/orange-pi-plus-2e.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/orange-pi-plus-2e.md %}

@@ -251,7 +251,7 @@ Once converter and integration templates are created, we can assign Integration 
 
 #### Installing and running external TCP Integration
 
-Please refer to the [Remote Integration guide](/docs/pe/edge/user-guide/integrations/remote-integrations) and install TCP Integration service locally or on separate machine.
+Please refer to the [Remote Integration guide](/thingsboard-learning/docs/pe/edge/user-guide/integrations/remote-integrations) and install TCP Integration service locally or on separate machine.
 
 Please use **Integration key** and **Integration secret** from the above section for your TCP Integration configuration.
 

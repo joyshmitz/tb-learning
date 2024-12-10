@@ -12,4 +12,4 @@ docsTag: paas-eu
 {:toc}
 
 {% include get-hosts-name.html docsTag=page.docsTag %}
-{% include /docs/devices-library/guides/orangepi-2g-iot.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/orangepi-2g-iot.md %}

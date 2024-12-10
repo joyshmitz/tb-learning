@@ -128,7 +128,7 @@ Any message read from the **tbmq.msg.all** topic meant for a specific Applicatio
 A separate thread (Kafka consumer) is assigned to each Application. 
 These threads retrieve messages from the corresponding Kafka topics and deliver them to the respective clients. 
 This approach significantly improves performance by ensuring efficient message delivery.
-Additionally, the nature of the Kafka consumer group makes the [MQTT 5 shared subscription](/docs/mqtt-broker/user-guide/shared-subscriptions/#application-client-type) feature extremely efficient for Application clients.
+Additionally, the nature of the Kafka consumer group makes the [MQTT 5 shared subscription](/thingsboard-learning/docs/mqtt-broker/user-guide/shared-subscriptions/#application-client-type) feature extremely efficient for Application clients.
 
 Application clients can handle a large volume of received messages, reaching millions per second.
 It is important to note that APPLICATION clients can only be classified as [persistent](#persistent-client).
@@ -139,7 +139,7 @@ You can refer to the following environment variables to adjust these settings:
 * MQTT_PERSISTENT_SESSION_DEVICE_PERSISTED_MESSAGES_LIMIT;
 * MQTT_PERSISTENT_SESSION_DEVICE_PERSISTED_MESSAGES_TTL.
 
-For more detailed information, please refer to the configurations provided in the following [documentation](/docs/mqtt-broker/install/config/).
+For more detailed information, please refer to the configurations provided in the following [documentation](/thingsboard-learning/docs/mqtt-broker/install/config/).
 
 #### Kafka topics
 

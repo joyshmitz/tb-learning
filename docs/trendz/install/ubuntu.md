@@ -158,7 +158,7 @@ to validate credentials.
 
 ### Step 8. Install Trendz Python executor
 For writing custom Python models and transformation script you need to install Python libraries on the server where Trendz is installed. 
-Alternative option is to run executor as a docker container, you can find how to do that in [install instructions for Docker](/docs/trendz/install/docker/#standalone-python-executor-service).
+Alternative option is to run executor as a docker container, you can find how to do that in [install instructions for Docker](/thingsboard-learning/docs/trendz/install/docker/#standalone-python-executor-service).
 But in this section we will write how to install Python libraries directly on the server with Trendz.
 
 * Install Python3
@@ -230,7 +230,7 @@ https://new-trendz-domain.com
 
 **Fresh installation on new server**
 
-Please follow this [guide](/docs/user-guide/install/pe/add-haproxy-ubuntu) to install HAProxy and generate valid SSL certificate using Let's Encrypt.
+Please follow this [guide](/thingsboard-learning/docs/user-guide/install/pe/add-haproxy-ubuntu) to install HAProxy and generate valid SSL certificate using Let's Encrypt.
 
 ### Step 10. Host ThingsBoard and Trendz on the same domain
 ThingsBoard and Trendz can share same domain name. In this case ThingsBoard web page would be loaded using following link:

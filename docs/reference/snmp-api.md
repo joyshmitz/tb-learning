@@ -4,7 +4,7 @@ assignees:
 - ashvayka 
 title: SNMP Device API Reference
 description: Supported SNMP API Reference for IoT Devices
-redirect_from: "/docs/reference/snmp-api"
+redirect_from: "/thingsboard-learning/docs/reference/snmp-api"
 
 deviceProfileConfiguring1:
     0:

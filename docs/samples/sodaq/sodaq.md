@@ -21,7 +21,7 @@ We assume you have at least one of SODAQ NB-IoT Trackers in your lab that is alr
 We also assume you already have a ThingsBoard PE server or free demo account.
 Otherwise, you can register for a 30-days free demo account here: [thingsboard.cloud](https://thingsboard.cloud/signup).
 
-We expect you to have a very basic knowledge about ThingsBoard, so we do recommend to complete the [Getting Started](/docs/getting-started-guides/helloworld/) guide.
+We expect you to have a very basic knowledge about ThingsBoard, so we do recommend to complete the [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
 
 ## Integration overview
 
@@ -33,7 +33,7 @@ Besides configuring the integration, we will also set up ThingsBoard to decode i
 
 ## Step 1. Data Converter configuration
 
-In order to create an [Integration](/docs/user-guide/integrations), we should create the [Uplink Data Converter](/docs/user-guide/integrations/#uplink-data-converter) first.
+In order to create an [Integration](/thingsboard-learning/docs/user-guide/integrations), we should create the [Uplink Data Converter](/thingsboard-learning/docs/user-guide/integrations/#uplink-data-converter) first.
 The converter will decode incoming telemetry payload data from T-Mobile NB IoT that contains in encoded hex string to human readable, simplified ThingsBoard data format.
 
  - Input data from T-Mobile NB IoT Platform looks like this:
@@ -137,7 +137,7 @@ Few things to notice:
 
 - Go to **Data Converters** -> **Add new Data Converter** -> **Import Converter**
 
-- Import following json file: [**SODAQ Uplink data converter**](/docs/user-guide/resources/sodaq/sodaq-uplink-data-converter.json) (left click on the link and then 'Ctrl+S' to download)
+- Import following json file: [**SODAQ Uplink data converter**](/thingsboard-learning/docs/user-guide/resources/sodaq/sodaq-uplink-data-converter.json) (left click on the link and then 'Ctrl+S' to download)
 as described on the following screencast:
 
 <img data-gifffer="/images/samples/sodaq/import-and-test-converter.gif" alt="Import and test converter">
@@ -200,7 +200,7 @@ For this we will need to copy HTTP endpoint URL from the **SODAQ** Integration.
 
 ![image](/images/samples/sodaq/http-endpoint-url.png)
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/telemetry-data.json) with telemetry data and execute the following command:
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/telemetry-data.json) with telemetry data and execute the following command:
 
 {% highlight bash %}
 curl -v -X POST -d @telemetry-data.json $HTTP_ENDPOINT_URL --header "Content-Type:application/json"
@@ -234,7 +234,7 @@ The idea is to forward all incoming telemetry, once it is saved to the database,
 This rule chain lookup individual alarm threshold parameters for each tracker. User is able to configure those parameters in the dashboard.
 
 <br>
-Download the attached json [**file**](/docs/user-guide/resources/sodaq/tracker-alarms.json) for the **Tracker Alarms** chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/resources/sodaq/tracker-alarms.json) for the **Tracker Alarms** chain.
 <br>
 <br>The following screencast will show how to import and configure rule chains:
 
@@ -243,7 +243,7 @@ Download the attached json [**file**](/docs/user-guide/resources/sodaq/tracker-a
 
 ## Step 7: Demo dashboard import
 
-Download and import attached json [**file**](/docs/user-guide/resources/sodaq/sodaq-dashboard.json) with a dashboard from this tutorial.
+Download and import attached json [**file**](/thingsboard-learning/docs/user-guide/resources/sodaq/sodaq-dashboard.json) with a dashboard from this tutorial.
 
 <br>The following screencast will show how to import the dashboard:
 
@@ -273,16 +273,16 @@ Obviously, those headers should match for data flow to work properly.
 
 In this section, we explain the purpose of each node in this tutorial:
 
- - Node A: [**Originator attributes**](/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-attributes) node.
+ - Node A: [**Originator attributes**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/enrichment-nodes/#originator-attributes) node.
    - This node add Message Originator Attributes (client\shared\server scope) and Latest Telemetry value into Message Metadata.
 
- - Node **B, C, D, E**: [**Filter Script**](/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) nodes.
-   - These nodes with different threshold test scripts. The particular script will return ** true ** if the condition is executed, otherwise, it will return ** false ** ".- Node B: [**Create alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
- - Node **F, H, G, L**: [**Create alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) nodes.
+ - Node **B, C, D, E**: [**Filter Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#script-filter-node) nodes.
+   - These nodes with different threshold test scripts. The particular script will return ** true ** if the condition is executed, otherwise, it will return ** false ** ".- Node B: [**Create alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
+ - Node **F, H, G, L**: [**Create alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) nodes.
    - Creates or Updates an alarm if the specific published telemetry is not at expected range (filter script node returns True).
- - Node **G, I, K, M**: [**Clear alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
+ - Node **G, I, K, M**: [**Clear alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
    - Clears alarm if it exists in case if the specific published telemetry is in an expected range (filter script node returns False).
- - Node **O**: [**Rule Chain**](/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
+ - Node **O**: [**Rule Chain**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
    - Forwards incoming Message to specified Rule Chain **Create & Clear Alarms**.
 
 <br>
@@ -303,7 +303,7 @@ In this tutorial, we modified our **Root Rule Chain** and also created Rule Chai
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/resources/sodaq/tracker-alarms.json) for the **Tracker Alarms** chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/resources/sodaq/tracker-alarms.json) for the **Tracker Alarms** chain.
 <br>
 <br>
 

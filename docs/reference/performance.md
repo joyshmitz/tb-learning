@@ -22,7 +22,7 @@ ThingsBoard performance leverages three main projects:
  - Actor System for high-performance coordination of messages between millions of devices.
  - Kafka (or RabbitMQ, AWS SQS, Azure Event Hub, Google PubSub) - as a scalable message queue 
  
-We also use [Zookeeper](https://zookeeper.apache.org/) for coordination and [gRPC](http://www.grpc.io/) in cluster mode. See [platform architecture](/docs/reference/) for more details.
+We also use [Zookeeper](https://zookeeper.apache.org/) for coordination and [gRPC](http://www.grpc.io/) in cluster mode. See [platform architecture](/thingsboard-learning/docs/reference/) for more details.
 
 ## Data flow and test tools
  
@@ -41,7 +41,7 @@ This functionality provides reliable data delivery and persistence.
 
 We have used [Gatling](http://gatling.io/) load testing framework that is also based on Akka and Netty. 
 Gatling is able to simulate 10K MQTT clients using 5-10% of a 2-core CPU. 
-See our separate [article](/docs/reference/performance-tools) about how we improved unofficial Gatling MQTT plugin to support our use case.
+See our separate [article](/thingsboard-learning/docs/reference/performance-tools) about how we improved unofficial Gatling MQTT plugin to support our use case.
 
 ## Performance improvement steps
 
@@ -49,7 +49,7 @@ See our separate [article](/docs/reference/performance-tools) about how we impro
 
 The results of first performance tests on the modern 4-core laptop with SSD were quite poor. The platform was able to process only 200 messages per second.
 The root cause and a main performance bottle-neck were quite obvious and easy to find. 
-It appears that the processing was not 100% asynchronous and we were executing blocking API call of Cassandra driver inside the [Telemetry Service](/docs/user-guide/telemetry/) actor.
+It appears that the processing was not 100% asynchronous and we were executing blocking API call of Cassandra driver inside the [Telemetry Service](/thingsboard-learning/docs/user-guide/telemetry/) actor.
 Quick refactoring of the service implementation resulted in more than 10X performance improvement and we received approximately 2500 published messages per second from 1000 devices.
 
 ### Step 2. Connection pooling
@@ -180,7 +180,7 @@ Based on the data from two simultaneous test runs we have reached **30 000 publi
 
 ## How to repeat the tests
 
-We have prepared several AWS AMIs for anyone who is interested in replication of these tests. See separate [documentation page](/docs/reference/performance-tests) with detailed instructions.
+We have prepared several AWS AMIs for anyone who is interested in replication of these tests. See separate [documentation page](/thingsboard-learning/docs/reference/performance-tests) with detailed instructions.
 
 ## Conclusion
 

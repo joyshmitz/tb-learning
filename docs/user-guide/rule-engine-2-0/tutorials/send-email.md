@@ -11,7 +11,7 @@ This tutorial is to show you how to send an email to the user using the Rule Eng
 
 ## Use case
 
-In this tutorial we will implement the use case from the tutorial: [create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#use-case):
+In this tutorial we will implement the use case from the tutorial: [create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/#use-case):
 
 Let's assume your device is using DHT22 sensor to collect and push temperature readings to ThingsBoard.
 DHT22 sensor is good for -40 to 80°C temperature readings.We want to generate Alarms if temperature is out of good range and send the email when the alarm was created.
@@ -27,27 +27,27 @@ In this tutorial we will configure ThingsBoard Rule Engine to:
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
-  * [Create & Clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
+  * [Create & Clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/) guide.
 
 ## Message flow
 
 In this section, we explain the purpose of each node in this tutorial:
 
-- Node A: [**Transform Script**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node) node.
+- Node A: [**Transform Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#script-transformation-node) node.
   - This node will use for saving current temperature in the Message Metadata.
-- Node B: [**To Email**](/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) node.
+- Node B: [**To Email**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/transformation-nodes/#to-email-node) node.
   - this node builds actual email from the configured template.
-- Node C: [**Send Email**](/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) node.
+- Node C: [**Send Email**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/external-nodes/#send-email-node) node.
   - this node will actually send email from the inbound message using system SMTP settings.
 
 <br>
 
 ## Configure Rule Chains
 
-In this tutorial, we used Rule Chains from [create & clear alarms](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms) tutorial.
-We modified Rule Chain **Create & Clear Alarms** by adding nodes that was described above in the section [Message flow](/docs/user-guide/rule-engine-2-0/tutorials/send-email/#message-flow)<br>
+In this tutorial, we used Rule Chains from [create & clear alarms](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms) tutorial.
+We modified Rule Chain **Create & Clear Alarms** by adding nodes that was described above in the section [Message flow](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/#message-flow)<br>
  and renamed this rule chain to: **Create/Clear Alarm & Send Email**.
 
 <br>The following screenshots show how the above Rule Chains should look like:
@@ -62,7 +62,7 @@ We modified Rule Chain **Create & Clear Alarms** by adding nodes that was descri
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/create_clear_alarm___send_email.json) for the **Create/Clear Alarm & Send Email** rule chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/create_clear_alarm___send_email.json) for the **Create/Clear Alarm & Send Email** rule chain.
 
 The following section shows you how to modify this rule chain from scratch.
 <br>
@@ -179,7 +179,7 @@ If you can't access to the account of the System administrator you could configu
 <br>
 
 ## Post telemetry and verify
-For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api). For this we will need to
+For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api). For this we will need to
 copy device access token from then device **Thermostat Home**.
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/email v2/copy-token.png)
@@ -214,11 +214,11 @@ Please refer to the first link under the **See Also** section to see how to do t
 
 ## See Also
 
-- [Send email to customer](/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/) guide.
+- [Send email to customer](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/) guide.
 
-- [Create Alarm when the Device is offline](/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/) guide.
+- [Create Alarm when the Device is offline](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/) guide.
 
-- [Create alarm with details](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/) guide.
+- [Create alarm with details](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/) guide.
 
 ## Next steps
 

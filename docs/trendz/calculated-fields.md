@@ -42,7 +42,7 @@ The Function tab is where you configure parameters that affect data calculations
 
 ***AGGREGATION:*** Method for data aggregation, including options like AVG, SUM, LATEST, MIN, MAX, COUNT, UNIQ, etc.
 
-Aggregation function applied to a grouped dataset. Find more details about [Aggregation in this article](/docs/trendz/telemetry-aggregation/)
+Aggregation function applied to a grouped dataset. Find more details about [Aggregation in this article](/thingsboard-learning/docs/trendz/telemetry-aggregation/)
 
 ***Fill Gap:*** Handles missing telemetry data with different methods, which are selected in the TIME UNIT and STRATEGY settings.
 
@@ -51,8 +51,8 @@ Aggregation function applied to a grouped dataset. Find more details about [Aggr
 * *Dynamic Strategy:* Loads new data since the last calculation.
 * *Fixed Strategy:* Uses a predefined time range for each execution.
 
-For details on writing functions for [Calculated Fields](/docs/trendz/calculated-fields/#examples), refer to the corresponding documentation section.
-Choose to work with aggregated or raw data by enabling [batch mode](/docs/trendz/batch-calculated-fields/)  as needed.
+For details on writing functions for [Calculated Fields](/thingsboard-learning/docs/trendz/calculated-fields/#examples), refer to the corresponding documentation section.
+Choose to work with aggregated or raw data by enabling [batch mode](/thingsboard-learning/docs/trendz/batch-calculated-fields/)  as needed.
 
 ![image](/images/trendz/calculated-function-tab.png)
 
@@ -166,7 +166,7 @@ During the saving process, you have the option to "Enable" the calculated field.
 
 ![image](/images/trendz/calculated-enable.png)
 
-For more details, refer to the [Save Metric to ThingsBoard](/docs/trendz/save-calculated-to-thingsboard/) section.
+For more details, refer to the [Save Metric to ThingsBoard](/thingsboard-learning/docs/trendz/save-calculated-to-thingsboard/) section.
 
 **Modifying and Re-Saving Calculations**
 

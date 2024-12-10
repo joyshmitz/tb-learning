@@ -172,11 +172,11 @@
 ## Додаткові матеріали
 
 ### Документація
-- [ThingsBoard Documentation](https://thingsboard.io/docs/)
+- [ThingsBoard Documentation](https://thingsboard.io/thingsboard-learning/docs/)
 - [Sparkplug B Specification](https://www.eclipse.org/tahu/spec/Sparkplug%20Topic%20Namespace%20and%20State%20ManagementV2.2-with%20appendix%20B%20format%20-%20Eclipse.pdf)
 - [MQTT Essentials](https://www.hivemq.com/mqtt-essentials/)
 
 ### Корисні посилання
 - [Industrial IoT Solutions](https://thingsboard.io/industries/manufacturing/)
-- [IoT Gateway](https://thingsboard.io/docs/iot-gateway/)
-- [Rule Engine](https://thingsboard.io/docs/user-guide/rule-engine-2-0/overview/)
+- [IoT Gateway](https://thingsboard.io/thingsboard-learning/docs/iot-gateway/)
+- [Rule Engine](https://thingsboard.io/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/)

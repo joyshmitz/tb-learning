@@ -9,7 +9,7 @@ description: FTP protocol support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you to get familiar with FTP Connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this Connector. 
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this Connector. 
 The purpose of this Connector is to connect to an external FTP server and get data from files from specific paths. 
 The connector is also able to push data to FTP server files based on the updates/commands from ThingsBoard.
 
@@ -316,7 +316,7 @@ Let's look at how we can configure this section for different file extensions:
 
 
 This configuration section is optional.
-ThingsBoard allows the provisioning of device attributes and fetches some of them from the device application. You can treat this as a remote configuration for devices, enabling them to request shared attributes from ThingsBoard. See [user guide](/docs/user-guide/attributes/) for more details.
+ThingsBoard allows the provisioning of device attributes and fetches some of them from the device application. You can treat this as a remote configuration for devices, enabling them to request shared attributes from ThingsBoard. See [user guide](/thingsboard-learning/docs/user-guide/attributes/) for more details.
 
 The “attributeRequests” configuration allows you to configure the format of the corresponding attribute data that will be written to the specific files.
 
@@ -426,8 +426,8 @@ Your response should contain the data you wrote to the file as in the image belo
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

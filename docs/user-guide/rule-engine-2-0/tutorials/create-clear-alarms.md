@@ -22,8 +22,8 @@ In this tutorial we will configure ThingsBoard Rule Engine to
 
 We assume you have completed the following guides and reviewed the articles listed below:
 
-  * [Getting Started](/docs/getting-started-guides/helloworld/) guide.
-  * [Rule Engine Overview](/docs/user-guide/rule-engine-2-0/overview/).
+  * [Getting Started](/thingsboard-learning/docs/getting-started-guides/helloworld/) guide.
+  * [Rule Engine Overview](/thingsboard-learning/docs/user-guide/rule-engine-2-0/overview/).
 
 ## Adding the device
 
@@ -37,13 +37,13 @@ Add Device entity in ThingsBoard. Its name is **Thermostat Home** and its type i
 
 In this section, we explain the purpose of each node in this tutorial:
 
-- Node A: [**Filter Script**](/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node.
+- Node A: [**Filter Script**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/filter-nodes/#check-relation-filter-node) node.
   - This node with temperature threshold check script will verify: "if the temperature is in the expected interval, the script will return False, otherwise True will be returned".
-- Node B: [**Create alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
+- Node B: [**Create alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#create-alarm-node) node.
   - Creates or Updates an  alarm if the published temperature is not at expected time range (filter script node returns True).
-- Node C: [**Clear alarm**](/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
+- Node C: [**Clear alarm**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/action-nodes/#clear-alarm-node) node.
   - Clears alarm if it exists in case if the published temperature is in expected time range (script node returns False).
-- Node D: [**Rule Chain**](/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
+- Node D: [**Rule Chain**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/flow-nodes/#rule-chain-node) node.
   - Forwards incoming Message to specified Rule Chain **Create & Clear Alarms**.
 
 <br>
@@ -64,7 +64,7 @@ In this tutorial, we modified our **Root Rule Chain** and also created Rule Chai
 
 <br>
 
-Download the attached json [**file**](/docs/user-guide/rule-engine-2-0/tutorials/resources/create___clear_alarms.json) for the **Create & Clear Alarms** rule chain.
+Download the attached json [**file**](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/resources/create___clear_alarms.json) for the **Create & Clear Alarms** rule chain.
 Create Node D as shown on the image above in the root rule chain to forward telemetry to the imported rule chain.
 <br>
 <br>
@@ -143,7 +143,7 @@ The following screenshot shows how the final **Root Rule Chain** should look lik
 
 ## How to verify the Rule Chain and Post telemetry
 
-For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/docs/reference/http-api/#telemetry-upload-api). For this we will need to
+For posting device telemetry we will use the Rest APIs, [Telemetry upload APIs](/thingsboard-learning/docs/reference/http-api/#telemetry-upload-api). For this we will need to
 copy device access token from the device **Thermometer**.
 
 ![image](/images/user-guide/rule-engine-2-0/tutorials/delta-validation/access-token.png)
@@ -195,13 +195,13 @@ Please refer to the links from the second to the fourth under the **See Also** s
 
 ## See Also
 
-- [Validate incoming telemetry](/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
+- [Validate incoming telemetry](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/) tutorial - for more information about how to validate an incoming telemetry using the Script Filter node.
 
-- [Create & Clear Alarms: alarm details:](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#modify-the-required-nodes) guide - to learn how to configure Alarm Details function in Alarm nodes.
+- [Create & Clear Alarms: alarm details:](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#modify-the-required-nodes) guide - to learn how to configure Alarm Details function in Alarm nodes.
 
-- [Create & Clear Alarms: configure dashboard](/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#configure-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
+- [Create & Clear Alarms: configure dashboard](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/#configure-dashboard) guide - to learn how to add an Alarm widget to the dashboard.
 
-- [Send Email](/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
+- [Send Email](/thingsboard-learning/docs/user-guide/rule-engine-2-0/tutorials/send-email/) tutorial.
 
 ## Next steps
 

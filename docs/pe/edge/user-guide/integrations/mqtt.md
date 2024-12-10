@@ -106,7 +106,7 @@ In case of downlink message, MQTT integration converts it to the device-suitable
 In this tutorial, we will use:
 
 - **ThingsBoard Professional Edition** instance — [thingsboard.cloud](https://thingsboard.cloud);
-- The instance of [ThingsBoard PE Edge](/docs/user-guide/install/pe/edge/installation-options/) installed locally;
+- The instance of [ThingsBoard PE Edge](/thingsboard-learning/docs/user-guide/install/pe/edge/installation-options/) installed locally;
 - MQTT broker, accessible by **ThingsBoard Edge** instance — broker.hivemq.com (port 1883);
 - *mosquitto_pub* and *mosquitto_sub* MQTT clients to send and receive messages.
 
@@ -118,7 +118,7 @@ We will send a message with temperature readings in a simple format: **`{"value"
 ## Create converter and integration templates
 
 Converter and integration templates are created only on the **ThingsBoard Professional Edition**.
-So please use [**ThingsBoard Cloud**](https://thingsboard.cloud/signup) or [**install**](/docs/user-guide/install/pe/installation-options/) your own platform instance to log in as Tenant administrator.
+So please use [**ThingsBoard Cloud**](https://thingsboard.cloud/signup) or [**install**](/thingsboard-learning/docs/user-guide/install/pe/installation-options/) your own platform instance to log in as Tenant administrator.
 
 Follow the steps below to add the **MQTT integration**:
 
@@ -183,7 +183,7 @@ tb-edge/mqtt-integration-tutorial/sensors/+/temperature
 
 We can send a downlink message to the device from Rule chain using the rule node.
 To be able to send downlink over integration we need to modify '**Edge Root Rule chain**' on the **ThingsBoard PE**.
-We'll need to add two rule nodes: ['originator fields'](/docs/pe/user-guide/rule-engine-2-0/enrichment-nodes/#originator-fields) and ['integration downlink'](/docs/pe/user-guide/rule-engine-2-0/action-nodes/#integration-downlink-node) nodes.
+We'll need to add two rule nodes: ['originator fields'](/thingsboard-learning/docs/pe/user-guide/rule-engine-2-0/enrichment-nodes/#originator-fields) and ['integration downlink'](/thingsboard-learning/docs/pe/user-guide/rule-engine-2-0/action-nodes/#integration-downlink-node) nodes.
 
 {% include images-gallery.html imageCollection="downlink-rule" showListImageTitles="true" %}
 

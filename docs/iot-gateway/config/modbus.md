@@ -15,7 +15,7 @@ generated after installing the new version and running Gateway in the new_modbus
 {% include templates/info-banner.md content=difference %}
 
 This guide will help you to get familiar with Modbus connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this connector.
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this connector.
 The connector configuration file will be described below.
 
 <b>Example of Modbus Connector config file.</b>
@@ -527,7 +527,7 @@ In response, you should receive the previously recorded value - "25".
 Also, every telemetry and attribute parameter has built-in GET and SET RPC methods out of the box, so you don’t need to configure
 it manually. To use them, make sure you set all required parameters (in the case of Modbus Connector, these are the following:
 **type**, **functionCode**, **objectsCount**, **address**). 
-See [the guide](/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
+See [the guide](/thingsboard-learning/docs/iot-gateway/guides/how-to-use-get-set-rpc-methods).
 
 ## Section "slave": description and configuration parameters
 Starting with version 3.0, Gateway can run as a Modbus slave. In order to configure Gateway as a Modbus slave,
@@ -703,9 +703,9 @@ A list and description of the supported data types for reading/writing data.
 
 Explore guides related to main ThingsBoard features:
 
- - [Connect Modbus device](/docs/iot-gateway/guides/how-to-connect-modbus-device/) - how to connect Modbus device using ThingsBoard IoT Gateway
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Connect Modbus device](/thingsboard-learning/docs/iot-gateway/guides/how-to-connect-modbus-device/) - how to connect Modbus device using ThingsBoard IoT Gateway
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

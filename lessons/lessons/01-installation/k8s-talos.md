@@ -283,10 +283,10 @@ kubectl exec -it $(kubectl get pod -l app=postgresql -n thingsboard -o name) \
 
 ## Корисні посилання
 - [Документація Talos Linux](https://www.talos.dev/latest/introduction/what-is-talos/)
-- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Kubernetes Documentation](https://kubernetes.io/thingsboard-learning/docs/home/)
 - [ThingsBoard Helm Charts](https://github.com/thingsboard/thingsboard-helm-chart)
 - [Nginx Ingress Controller](https://kubernetes.github.io/ingress-nginx/)
-- [Cert Manager Documentation](https://cert-manager.io/docs/)
+- [Cert Manager Documentation](https://cert-manager.io/thingsboard-learning/docs/)
 
 ### 7. Безпека кластера
 

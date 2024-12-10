@@ -14,4 +14,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/lenovo-leez-sbc-p710.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/lenovo-leez-sbc-p710.md %}

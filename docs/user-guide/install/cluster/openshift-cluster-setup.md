@@ -41,7 +41,7 @@ oc new-project thingsboard
 ## Step 1. Review the architecture page
 
 Starting ThingsBoard v2.2, it is possible to install ThingsBoard cluster using new microservices architecture and docker containers. 
-See [**microservices**](/docs/reference/msa/) architecture page for more details.
+See [**microservices**](/thingsboard-learning/docs/reference/msa/) architecture page for more details.
 
 ## Step 2. Clone ThingsBoard CE Kubernetes scripts repository
 
@@ -175,7 +175,7 @@ In case when database upgrade is needed, execute the following commands:
 
 Where:
 
-- `FROM_VERSION` - from which version upgrade should be started. See [Upgrade Instructions](/docs/user-guide/install/upgrade-instructions) for valid `fromVersion` values. Note, that you have to upgrade versions one by one (for example 3.6.1 -> 3.6.2 -> 3.6.3 etc). 
+- `FROM_VERSION` - from which version upgrade should be started. See [Upgrade Instructions](/thingsboard-learning/docs/user-guide/install/upgrade-instructions) for valid `fromVersion` values. Note, that you have to upgrade versions one by one (for example 3.6.1 -> 3.6.2 -> 3.6.3 etc). 
 
 ## Next steps
 

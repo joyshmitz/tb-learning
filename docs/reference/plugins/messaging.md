@@ -25,9 +25,9 @@ You can specify following configuration parameters:
 ## Device RPC API
 
 The plugin handles two rpc methods: *getDevices* and *sendMsg*.
-The examples listed below will be based on [demo account](/docs/samples/demo-account/) and [MQTT](/docs/reference/mqtt-api/#client-side-rpc) protocol. 
+The examples listed below will be based on [demo account](/thingsboard-learning/docs/samples/demo-account/) and [MQTT](/thingsboard-learning/docs/reference/mqtt-api/#client-side-rpc) protocol. 
 Please note that you are able to use other protocols - 
-[CoAP](/docs/reference/coap-api/#client-side-rpc) and [HTTP](/docs/reference/http-api/#client-side-rpc).
+[CoAP](/thingsboard-learning/docs/reference/coap-api/#client-side-rpc) and [HTTP](/thingsboard-learning/docs/reference/http-api/#client-side-rpc).
  
 ##### Get Device List API
 
@@ -35,9 +35,9 @@ In order to send a message to other devices, you will need to know their identif
 A device can request a list of other devices that belong to the same customer using *getDevices* RPC call.
 
 {% capture tabspec %}mqtt-get-device-list
-A,mqtt-get-device-list.sh,shell,resources/mqtt-get-device-list.sh,/docs/reference/plugins/resources/mqtt-get-device-list.sh
-B,mqtt-get-device-list.js,javascript,resources/mqtt-get-device-list.js,/docs/reference/plugins/resources/mqtt-get-device-list.js
-C,response.json,javascript,resources/mqtt-get-device-list.json,/docs/reference/plugins/resources/mqtt-get-device-list.json{% endcapture %}
+A,mqtt-get-device-list.sh,shell,resources/mqtt-get-device-list.sh,/thingsboard-learning/docs/reference/plugins/resources/mqtt-get-device-list.sh
+B,mqtt-get-device-list.js,javascript,resources/mqtt-get-device-list.js,/thingsboard-learning/docs/reference/plugins/resources/mqtt-get-device-list.js
+C,response.json,javascript,resources/mqtt-get-device-list.json,/thingsboard-learning/docs/reference/plugins/resources/mqtt-get-device-list.json{% endcapture %}
 {% include tabs.html %}
 
 ##### Send Message API
@@ -47,8 +47,8 @@ A device can send a message to other device that belongs to the same customer us
 The example below will attempt to send a message from device "Test Device A1" to device "Test Device A2". 
 
 {% capture tabspec %}mqtt-send-msg-fail
-A,mqtt-send-msg.sh,shell,resources/mqtt-send-msg.sh,/docs/reference/plugins/resources/mqtt-send-msg.sh
-B,mqtt-send-msg.js,javascript,resources/mqtt-send-msg.js,/docs/reference/plugins/resources/mqtt-send-msg.js{% endcapture %}
+A,mqtt-send-msg.sh,shell,resources/mqtt-send-msg.sh,/thingsboard-learning/docs/reference/plugins/resources/mqtt-send-msg.sh
+B,mqtt-send-msg.js,javascript,resources/mqtt-send-msg.js,/thingsboard-learning/docs/reference/plugins/resources/mqtt-send-msg.js{% endcapture %}
 {% include tabs.html %}
 
 As a result, you should receive the following error:
@@ -59,8 +59,8 @@ As a result, you should receive the following error:
 
 Let's launch emulator of target device and send message again:
 {% capture tabspec %}mqtt-receive-msg
-A,mqtt-receive-msg.sh,shell,resources/mqtt-receive-msg.sh,/docs/reference/plugins/resources/mqtt-receive-msg.sh
-B,mqtt-receive-msg.js,javascript,resources/mqtt-receive-msg.js,/docs/reference/plugins/resources/mqtt-receive-msg.js{% endcapture %}
+A,mqtt-receive-msg.sh,shell,resources/mqtt-receive-msg.sh,/thingsboard-learning/docs/reference/plugins/resources/mqtt-receive-msg.sh
+B,mqtt-receive-msg.js,javascript,resources/mqtt-receive-msg.js,/thingsboard-learning/docs/reference/plugins/resources/mqtt-receive-msg.js{% endcapture %}
 {% include tabs.html %}
 
 As a result, you should receive following response from device:
@@ -69,7 +69,7 @@ As a result, you should receive following response from device:
 {"status":"ok"}
 ```
 
-**Note** that target device id, access tokens, request and response bodies are hardcoded into scripts and correspond to the [demo devices](/docs/samples/demo-account/#tenant-devices).   
+**Note** that target device id, access tokens, request and response bodies are hardcoded into scripts and correspond to the [demo devices](/thingsboard-learning/docs/samples/demo-account/#tenant-devices).   
 
 ## Example
 

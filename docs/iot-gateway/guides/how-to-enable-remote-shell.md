@@ -11,8 +11,8 @@ description: How to enable remote shell feature on ThingsBoard IoT Gateway
 This guide will help you to enable remote shell feature and control operation system with ThingsBoard IoT Gateway from your ThingsBoard platform instance.  
 
 For purpose of this guide, we will use following things:
-1. Instance of ThingsBoard platform (How to install you can [read here](/docs/user-guide/install/installation-options/)). For this guide we will use [thingsboard.cloud](https://thingsboard.cloud)
-2. Installed and configured ThingsBoard IoT Gateway (How to install you can [read here](/docs/iot-gateway/installation/)).
+1. Instance of ThingsBoard platform (How to install you can [read here](/thingsboard-learning/docs/user-guide/install/installation-options/)). For this guide we will use [thingsboard.cloud](https://thingsboard.cloud)
+2. Installed and configured ThingsBoard IoT Gateway (How to install you can [read here](/thingsboard-learning/docs/iot-gateway/installation/)).
 
 ## Step 1. Remote shell activation
 
@@ -96,8 +96,8 @@ To do this we use following steps:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

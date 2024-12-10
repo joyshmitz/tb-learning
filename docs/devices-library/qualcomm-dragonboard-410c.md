@@ -14,4 +14,4 @@ deviceImageFileName: qualcomm-dragonboard-410c.png
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/qualcomm-dragonboard-410c.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/qualcomm-dragonboard-410c.md %}

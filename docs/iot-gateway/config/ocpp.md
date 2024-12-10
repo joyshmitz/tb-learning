@@ -9,7 +9,7 @@ description: OCPP protocol support for ThingsBoard IoT Gateway
 {:toc}
 
 This guide will help you get familiar with OCPP Connector configuration for ThingsBoard IoT Gateway.
-Use [general configuration](/docs/iot-gateway/configuration/) to enable this Connector.
+Use [general configuration](/thingsboard-learning/docs/iot-gateway/configuration/) to enable this Connector.
 The purpose of this connector is to communicate between Charge Point and Central System using OCPP protocol.
 
 We will describe the connector configuration file below.
@@ -242,7 +242,7 @@ This subsection in configuration file looks like:
 
 This configuration section is optional. ThingsBoard allows the provisioning of device attributes and fetches some of them from 
 the device application. You can treat this as a remote configuration for devices, enabling them to request 
-shared attributes from ThingsBoard. See [user guide](/docs/reference/mqtt-api/#attributes-api) for more details.
+shared attributes from ThingsBoard. See [user guide](/thingsboard-learning/docs/reference/mqtt-api/#attributes-api) for more details.
 
 The “attributeUpdates” configuration allows you to configure the format of the corresponding attribute data that will be 
 sent to the Charge Point.
@@ -292,8 +292,8 @@ This subsection in configuration file looks like:
 
 Explore guides related to main ThingsBoard features:
 
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.

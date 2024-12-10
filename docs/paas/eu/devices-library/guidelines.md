@@ -10,4 +10,4 @@ title: How to add your device to Device Library?
 {% assign docsTag = "paas-eu" %}
 
 {% include get-hosts-name.html docsTag=docsTag %}
-{% include /docs/devices-library/guidelines.md %}
+{% include /thingsboard-learning/docs/devices-library/guidelines.md %}

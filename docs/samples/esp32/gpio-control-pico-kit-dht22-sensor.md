@@ -14,7 +14,7 @@ hidetoc: "true"
 
 [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview) is a series of low-cost, low-power system-on-a-chip microcontrollers with integrated self-contained Wi-Fi and dual-mode Bluetooth. ESP32 is a successor of ESP8266 chip.
 
-This sample application will allow you to control GPIO of your ESP32 device using ThingsBoard web UI and display humidity/temperature data from DHT22 sensor. We will observe GPIO control using LEDs connected to the pins. The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/docs/user-guide/rpc/) and ThingsBoard [Telemetry](/docs/user-guide/telemetry/).
+This sample application will allow you to control GPIO of your ESP32 device using ThingsBoard web UI and display humidity/temperature data from DHT22 sensor. We will observe GPIO control using LEDs connected to the pins. The purpose of this application is to demonstrate ThingsBoard [RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) and ThingsBoard [Telemetry](/thingsboard-learning/docs/user-guide/telemetry/).
 
 The application that is running on ESP32 is written using ThingsBoard Arduino SDK which is quite simple and easy to understand.
 
@@ -88,8 +88,8 @@ Copy auto-generated access token from the "Access token" field. Please save this
 
 ## Provision your dashboard
 
-Download the dashboard file using this [**link**](/docs/samples/esp32/resources/esp32-dht22-temp-and-gpio-dashboard.json).
-Use import/export [**instructions**](/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
+Download the dashboard file using this [**link**](/thingsboard-learning/docs/samples/esp32/resources/esp32-dht22-temp-and-gpio-dashboard.json).
+Use import/export [**instructions**](/thingsboard-learning/docs/user-guide/ui/dashboards/#dashboard-importexport) to import the dashboard to your ThingsBoard instance.
 
 ## Creating ESP32 firmware
 
@@ -167,7 +167,7 @@ Download and open **esp32-dht-gpio.ino** sketch.
 - `THINGSBOARD_SERVER` - ThingsBoard HOST/IP address that is accessible within your wifi network. Specify `demo.thingsboard.io` if you are using [live demo](https://demo.thingsboard.io/) server.
 
 {% capture tabspec %}arduino-sketch
-esp32-dht-gpio,esp32-dht-gpio.ino,c,resources/esp32-dht-gpio.ino,/docs/samples/esp32/resources/esp32-dht-gpio.ino{% endcapture %}
+esp32-dht-gpio,esp32-dht-gpio.ino,c,resources/esp32-dht-gpio.ino,/thingsboard-learning/docs/samples/esp32/resources/esp32-dht-gpio.ino{% endcapture %}
 {% include tabs.html %}
 
 ## Troubleshooting
@@ -188,7 +188,7 @@ In case of live-demo server:
  - login: your live-demo username (email)
  - password: your live-demo password
 
-See **[live-demo](/docs/user-guide/live-demo/)** page for more details how to get your account.
+See **[live-demo](/thingsboard-learning/docs/user-guide/live-demo/)** page for more details how to get your account.
 
 Go to **"Devices"** section and locate **"ESP32 Pico Device"**, open device details and switch to **"Latest telemetry"** tab.
 If all is configured correctly you should be able to see latest values of *"temperature"* and *"humidity"* in the table.
@@ -204,13 +204,13 @@ You can switch status of GPIOs using control panel. As a result, you will see LE
 
 ## See also
 
-Browse other [samples](/docs/samples) or explore guides related to main ThingsBoard features:
+Browse other [samples](/thingsboard-learning/docs/samples) or explore guides related to main ThingsBoard features:
 
- - [Device attributes](/docs/user-guide/attributes/) - how to use device attributes.
- - [Telemetry data collection](/docs/user-guide/telemetry/) - how to collect telemetry data.
- - [Using RPC capabilities](/docs/user-guide/rpc/) - how to send commands to/from devices.
- - [Rule Engine](/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
- - [Data Visualization](/docs/user-guide/visualization/) - how to visualize collected data.
+ - [Device attributes](/thingsboard-learning/docs/user-guide/attributes/) - how to use device attributes.
+ - [Telemetry data collection](/thingsboard-learning/docs/user-guide/telemetry/) - how to collect telemetry data.
+ - [Using RPC capabilities](/thingsboard-learning/docs/user-guide/rpc/) - how to send commands to/from devices.
+ - [Rule Engine](/thingsboard-learning/docs/user-guide/rule-engine/) - how to use rule engine to analyze data from devices.
+ - [Data Visualization](/thingsboard-learning/docs/user-guide/visualization/) - how to visualize collected data.
 
 {% include templates/feedback.md %}
 

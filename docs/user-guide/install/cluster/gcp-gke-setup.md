@@ -12,5 +12,5 @@ description: ThingsBoard IoT platform setup with Kubernetes in Google Kubernetes
 
 Here you can find scripts for different deployment scenarios using GCP infrastructure:
 
-- [**monolith**](/docs/user-guide/install/cluster/gcp-monolith-setup/) - simplistic deployment of ThingsBoard monolith
-- [**microservices**](/docs/user-guide/install/cluster/gcp-microservices-setup/) - deployment of ThingsBoard microservices
+- [**monolith**](/thingsboard-learning/docs/user-guide/install/cluster/gcp-monolith-setup/) - simplistic deployment of ThingsBoard monolith
+- [**microservices**](/thingsboard-learning/docs/user-guide/install/cluster/gcp-microservices-setup/) - deployment of ThingsBoard microservices

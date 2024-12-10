@@ -13,4 +13,4 @@ docsPrefix: pe/
 {:toc}
 
 {% include get-hosts-name.html %}
-{% include /docs/devices-library/guides/ws202-pir-and-light-sensor.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/ws202-pir-and-light-sensor.md %}

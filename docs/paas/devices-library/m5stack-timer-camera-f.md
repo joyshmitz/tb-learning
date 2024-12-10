@@ -13,4 +13,4 @@ docsPrefix: paas/
 {:toc}
 
 {% include get-hosts-name.html docsPrefix=page.docsPrefix %}
-{% include /docs/devices-library/guides/m5stack-timer-camera-f.md %}
+{% include /thingsboard-learning/docs/devices-library/guides/m5stack-timer-camera-f.md %}

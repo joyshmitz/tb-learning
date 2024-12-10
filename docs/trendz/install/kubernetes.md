@@ -14,7 +14,7 @@ This guide describes how to setup Trendz Analytics cluster with Kubernetes and M
 ### Prerequisites
  
 You need to have a Kubernetes cluster, and the `kubectl` command-line tool must be configured to communicate with your cluster.
-If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/docs/setup/learning-environment/minikube/).
+If you don't have Minikube installed, please follow [these instructions](https://kubernetes.io/thingsboard-learning/docs/setup/learning-environment/minikube/).
 
 Configure your cluster by designating a node for the Trendz instance and labeling it with a custom label. Utilize affinity settings to instruct Kubernetes to deploy the Trendz instance on the specified node. 
 Ensure that the node meets specific CPU and RAM requirements, with the typical usage being around 4 CPU and 8GB RAM. While you can set your own limits, we advise adhering to or exceeding the recommended specifications mentioned earlier.

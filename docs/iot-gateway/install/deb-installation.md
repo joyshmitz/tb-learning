@@ -2,7 +2,7 @@
 layout: docwithnav-gw
 title: Install ThingsBoard IoT Gateway as package.
 redirect_from: 
- - "/docs/iot-gateway/install/rpi/"
+ - "/thingsboard-learning/docs/iot-gateway/install/rpi/"
 ---
 
 This guide will help you to install ThingsBoard IoT Gateway on Ubuntu 18.04 LTS / Ubuntu 20.04 LTS.
@@ -53,7 +53,7 @@ You may notice some errors in the output. However, it is expected, since gateway
 
 ### Step 4. Configure the gateway 
 
-Now you can go to [**configuration guide**](/docs/iot-gateway/configuration/) to configure the gateway. In order for the changes to be saved, we need to restart the gateway.
+Now you can go to [**configuration guide**](/thingsboard-learning/docs/iot-gateway/configuration/) to configure the gateway. In order for the changes to be saved, we need to restart the gateway.
 
 ```bash
 systemctl restart thingsboard-gateway
